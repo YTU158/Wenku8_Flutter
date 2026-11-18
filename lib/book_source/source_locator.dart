@@ -1,1 +1,25 @@
-Ly8vIExpZ2h0d2VpZ2h0IHNlcnZpY2UgbG9jYXRvciBmb3IgY3VzdG9tIGJvb2stc291cmNlIHNlcnZpY2VzLgovLy8KLy8vIEF2b2lkcyB0aHJlYWRpbmcgbmV3IG9iamVjdHMgdGhyb3VnaCBldmVyeSB3aWRnZXQgY29uc3RydWN0b3IuIFNldCBvbmNlIGF0Ci8vLyBzdGFydHVwIGluIG1haW4oKTsgcmVhZCBmcm9tIHRoZSBzZXR0aW5ncyBlbnRyeSBwb2ludC4KbGlicmFyeTsKCmltcG9ydCAnYm9va19zb3VyY2Vfc3RvcmUuZGFydCc7CmltcG9ydCAnY3VzdG9tX3NvdXJjZV9yZXBvc2l0b3J5LmRhcnQnOwoKY2xhc3MgU291cmNlTG9jYXRvciB7CiAgc3RhdGljIEJvb2tTb3VyY2VTdG9yZT8gX3N0b3JlOwogIHN0YXRpYyBDdXN0b21Tb3VyY2VSZXBvc2l0b3J5PyBfcmVwb3NpdG9yeTsKCiAgc3RhdGljIHZvaWQgaW5zdGFsbCh7CiAgICByZXF1aXJlZCBCb29rU291cmNlU3RvcmUgc3RvcmUsCiAgICByZXF1aXJlZCBDdXN0b21Tb3VyY2VSZXBvc2l0b3J5IHJlcG9zaXRvcnksCiAgfSkgewogICAgX3N0b3JlID0gc3RvcmU7CiAgICBfcmVwb3NpdG9yeSA9IHJlcG9zaXRvcnk7CiAgfQoKICBzdGF0aWMgQm9va1NvdXJjZVN0b3JlPyBnZXQgc3RvcmUgPT4gX3N0b3JlOwogIHN0YXRpYyBDdXN0b21Tb3VyY2VSZXBvc2l0b3J5PyBnZXQgcmVwb3NpdG9yeSA9PiBfcmVwb3NpdG9yeTsKICBzdGF0aWMgYm9vbCBnZXQgYXZhaWxhYmxlID0+IF9zdG9yZSAhPSBudWxsOwp9Cg==
+/// Lightweight service locator for custom book-source services.
+///
+/// Avoids threading new objects through every widget constructor. Set once at
+/// startup in main(); read from the settings entry point.
+library;
+
+import 'book_source_store.dart';
+import 'custom_source_repository.dart';
+
+class SourceLocator {
+  static BookSourceStore? _store;
+  static CustomSourceRepository? _repository;
+
+  static void install({
+    required BookSourceStore store,
+    required CustomSourceRepository repository,
+  }) {
+    _store = store;
+    _repository = repository;
+  }
+
+  static BookSourceStore? get store => _store;
+  static CustomSourceRepository? get repository => _repository;
+  static bool get available => _store != null;
+}

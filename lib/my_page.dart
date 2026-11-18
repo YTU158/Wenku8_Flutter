@@ -1,1 +1,250 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvY3VwZXJ0aW5vLmRhcnQnOw0KaW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7DQoNCmltcG9ydCAnYXBwX2ludGVyYWN0aW9ucy5kYXJ0JzsNCmltcG9ydCAnYXBwX3VpLmRhcnQnOw0KaW1wb3J0ICdib29rbWFya19saWJyYXJ5X3BhZ2UuZGFydCc7DQppbXBvcnQgJ2NhdGFsb2cuZGFydCc7DQppbXBvcnQgJ2ZlYXR1cmVfcGFnZXMuZGFydCc7DQppbXBvcnQgJ2xpYnJhcnlfc3RhdGUuZGFydCc7DQppbXBvcnQgJ29mZmxpbmVfcmVwb3NpdG9yeS5kYXJ0JzsNCmltcG9ydCAncGFnZXMuZGFydCcgc2hvdyBTZXR0aW5nc1BhZ2U7DQppbXBvcnQgJ2Jvb2tfc291cmNlL2Jvb2tfc291cmNlX3BhZ2UuZGFydCc7DQppbXBvcnQgJ2Jvb2tfc291cmNlL3NvdXJjZV9sb2NhdG9yLmRhcnQnOw0KaW1wb3J0ICd1aV9ub3RpZmllcnMuZGFydCc7DQppbXBvcnQgJ3VwZGF0ZXMvYXBwX3VwZGF0ZXMuZGFydCc7DQppbXBvcnQgJ3VwZGF0ZXMvdXBkYXRlX3BhZ2UuZGFydCc7DQppbXBvcnQgJ3dlbmt1X2ZlYXR1cmVzLmRhcnQnOw0KDQpjbGFzcyBNeVBhZ2UgZXh0ZW5kcyBTdGF0ZWxlc3NXaWRnZXQgew0KICBjb25zdCBNeVBhZ2Uoew0KICAgIHN1cGVyLmtleSwNCiAgICByZXF1aXJlZCB0aGlzLnN0YXRlLA0KICAgIHJlcXVpcmVkIHRoaXMucmVwb3NpdG9yeSwNCiAgICB0aGlzLnNob3dIZWFkZXIgPSB0cnVlLA0KICB9KTsNCiAgZmluYWwgTGlicmFyeVN0YXRlIHN0YXRlOw0KICBmaW5hbCBOb3ZlbFJlcG9zaXRvcnkgcmVwb3NpdG9yeTsNCiAgZmluYWwgYm9vbCBzaG93SGVhZGVyOw0KDQogIFdpZGdldCBidWlsZEhlYWRlcihCdWlsZENvbnRleHQgY29udGV4dCkgPT4gY29uc3QgQWxpZ24oDQogICAgYWxpZ25tZW50OiBBbGlnbm1lbnQuY2VudGVyTGVmdCwNCiAgICBjaGlsZDogQXJjaGl2ZU1hc3RoZWFkKHRpdGxlOiAn5oiR55qEJywgY29kZTogJzA0IC8gUEVSU09OQUwgQVJDSElWRScpLA0KICApOw0KDQogIEBvdmVycmlkZQ0KICBXaWRnZXQgYnVpbGQoQnVpbGRDb250ZXh0IGNvbnRleHQpIHsNCiAgICBmaW5hbCBmZWF0dXJlcyA9IFdlbmt1RmVhdHVyZXNTY29wZS5tYXliZU9mKGNvbnRleHQpOw0KICAgIGZpbmFsIHVwZGF0ZXMgPSBBcHBVcGRhdGVzU2NvcGUubWF5YmVPZihjb250ZXh0KTsNCiAgICByZXR1cm4gR2xhc3NIZWFkZXJMYXlvdXQoDQogICAgICBzaG93SGVhZGVyOiBzaG93SGVhZGVyLA0KICAgICAgaGVhZGVyOiBidWlsZEhlYWRlcihjb250ZXh0KSwNCiAgICAgIGJvZHk6IEFsaWduKA0KICAgICAgICBhbGlnbm1lbnQ6IEFsaWdubWVudC50b3BDZW50ZXIsDQogICAgICAgIGNoaWxkOiBDb25zdHJhaW5lZEJveCgNCiAgICAgICAgICBjb25zdHJhaW50czogY29uc3QgQm94Q29uc3RyYWludHMobWF4V2lkdGg6IDc2MCksDQogICAgICAgICAgY2hpbGQ6IExpc3RWaWV3KA0KICAgICAgICAgICAga2V5OiBjb25zdCBQYWdlU3RvcmFnZUtleSgnbXktcGFnZScpLA0KICAgICAgICAgICAgcGFkZGluZzogZmVhdHVyZVBhZGRpbmcoDQogICAgICAgICAgICAgIGNvbnRleHQsDQogICAgICAgICAgICApLmNvcHlXaXRoKGJvdHRvbTogTWVkaWFRdWVyeS5wYWRkaW5nT2YoY29udGV4dCkuYm90dG9tICsgMTIwKSwNCiAgICAgICAgICAgIGNoaWxkcmVuOiBbDQogICAgICAgICAgICAgIEFuaW1hdGVkQnVpbGRlcigNCiAgICAgICAgICAgICAgICBhbmltYXRpb246IExpc3RlbmFibGUubWVyZ2UoWw0KICAgICAgICAgICAgICAgICAgZmVhdHVyZXM/LmFjY291bnQgPz8gc3RhdGUuYm9va21hcmtDaGFuZ2VzLA0KICAgICAgICAgICAgICAgICAgP2ZlYXR1cmVzPy5zaGVsZlN5bmMsDQogICAgICAgICAgICAgICAgXSksDQogICAgICAgICAgICAgICAgYnVpbGRlcjogKGNvbnRleHQsIF8pIHsNCiAgICAgICAgICAgICAgICAgIGZpbmFsIGFjY291bnQgPSBmZWF0dXJlcz8uYWNjb3VudDsNCiAgICAgICAgICAgICAgICAgIGZpbmFsIHByb2ZpbGUgPSBhY2NvdW50Py5wcm9maWxlOw0KICAgICAgICAgICAgICAgICAgcmV0dXJuIENvbnRlbnRQYW5lbCgNCiAgICAgICAgICAgICAgICAgICAga2V5OiBjb25zdCBWYWx1ZUtleSgnbXktYWNjb3VudCcpLA0KICAgICAgICAgICAgICAgICAgICBvblRhcDogYWNjb3VudCA9PSBudWxsDQogICAgICAgICAgICAgICAgICAgICAgICA/IG51bGwNCiAgICAgICAgICAgICAgICAgICAgICAgIDogKCkgPT4gcHVzaE5vdmVsUGFnZTx2b2lkPigNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdlbmt1QWNjb3VudFBhZ2UoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY2NvdW50OiBhY2NvdW50LA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGU6IHN0YXRlLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVwb3NpdG9yeTogcmVwb3NpdG9yeSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlZHVjZU1vdGlvbjogc3RhdGUucmVkdWNlTW90aW9uLA0KICAgICAgICAgICAgICAgICAgICAgICAgICApLA0KICAgICAgICAgICAgICAgICAgICBjaGlsZDogUm93KA0KICAgICAgICAgICAgICAgICAgICAgIGNoaWxkcmVuOiBbDQogICAgICAgICAgICAgICAgICAgICAgICBDbGlwUlJlY3QoDQogICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogQm9yZGVyUmFkaXVzLmNpcmN1bGFyKDE2KSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgY2hpbGQ6IGFjY291bnQ/LmF1dGhlbnRpY2F0ZWQgPT0gdHJ1ZQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyBTaXplZEJveCgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNTYsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiA1NiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGlsZDogYWNjb3VudD8uYXZhdGFyID09IG51bGwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyBjb25zdCBJY29uKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ3VwZXJ0aW5vSWNvbnMucGVyc29uX2Nyb3BfY2lyY2xlLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogNDAsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IEltYWdlLm1lbW9yeSgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFjY291bnQhLmF2YXRhciEsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaXQ6IEJveEZpdC5jb3ZlciwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhY2hlV2lkdGg6DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKDU2ICoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1lZGlhUXVlcnkuZGV2aWNlUGl4ZWxSYXRpb09mKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNlaWwoKSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yQnVpbGRlcjogKF8sIF8sIF8pID0+IGNvbnN0IEljb24oDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEN1cGVydGlub0ljb25zLnBlcnNvbl9jcm9wX2NpcmNsZSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogNDAsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogSW1hZ2UuYXNzZXQoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2Fzc2V0cy9icmFuZGluZy9hcHAtaWNvbi5wbmcnLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA1NiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDU2LA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhY2hlV2lkdGg6DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICg1NiAqDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWVkaWFRdWVyeS5kZXZpY2VQaXhlbFJhdGlvT2YoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY2VpbCgpLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhY2hlSGVpZ2h0Og0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoNTYgKg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1lZGlhUXVlcnkuZGV2aWNlUGl4ZWxSYXRpb09mKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNlaWwoKSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgICAgICAgICAgICAgICksDQogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBTaXplZEJveCh3aWR0aDogMTYpLA0KICAgICAgICAgICAgICAgICAgICAgICAgRXhwYW5kZWQoDQogICAgICAgICAgICAgICAgICAgICAgICAgIGNoaWxkOiBDb2x1bW4oDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3Jvc3NBeGlzQWxpZ25tZW50OiBDcm9zc0F4aXNBbGlnbm1lbnQuc3RhcnQsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hpbGRyZW46IFsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcFRleHQoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFjY291bnQ/LmF1dGhlbnRpY2F0ZWQgPT0gdHJ1ZQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyBwcm9maWxlPy5kaXNwbGF5TmFtZSA/PyAn5paH5bqT6LSm5Y+3Jw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAn55m75b2V5paH5bqT6LSm5Y+3JywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU6IGNvbnN0IFRleHRTdHlsZSgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMjAsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodDogRm9udFdlaWdodC53NjAwLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogNyksDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBUZXh0KA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY2NvdW50Py5hdXRoZW50aWNhdGVkID09IHRydWUNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gcHJvZmlsZSA9PSBudWxsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICfotKblj7flt7Lov57mjqUnDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6ICcke3Byb2ZpbGUuc2NvcmV9IOenr+WIhiDCtyAke3Byb2ZpbGUucmFua30ke2ZlYXR1cmVzPy5zaGVsZlN5bmMgPT0gbnVsbA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyAnJw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiBmZWF0dXJlcyEuc2hlbGZTeW5jIS5zeW5jaW5nDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICdcbuS5puaetuato+WcqOWQjOatpScNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogZmVhdHVyZXMuc2hlbGZTeW5jIS5lcnJvciAhPSBudWxsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICdcbuS5puaetuW+heWQjOatpSDCtyAke2ZlYXR1cmVzLnNoZWxmU3luYyEuZXJyb3J9Jw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiBmZWF0dXJlcy5zaGVsZlN5bmMhLnN5bmNlZEF0ICE9IG51bGwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gJ1xu5Lmm5p625bey5LiO5paH5bqT5ZCM5q2lJw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAnJ30nDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6ICfovbvlsI/or7TmloflupPotKblj7cgwrcg5LqR5Lmm5p625LiO5q+P5pel562+5YiwJywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU6IFRleHRTdHlsZSgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAxLjYsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IFRoZW1lLm9mKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sDQogICAgICAgICAgICAgICAgICAgICAgICAgICksDQogICAgICAgICAgICAgICAgICAgICAgICApLA0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgU2l6ZWRCb3god2lkdGg6IDgpLA0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgSWNvbihDdXBlcnRpbm9JY29ucy5jaGV2cm9uX3JpZ2h0LCBzaXplOiAxNCksDQogICAgICAgICAgICAgICAgICAgICAgXSwNCiAgICAgICAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgICAgICAgICk7DQogICAgICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgICAgY29uc3QgU2l6ZWRCb3goaGVpZ2h0OiAyNCksDQogICAgICAgICAgICAgIEFjdGl2ZUxpc3RlbmFibGVCdWlsZGVyKA0KICAgICAgICAgICAgICAgIGxpc3RlbmFibGU6IHN0YXRlLmJvb2ttYXJrQ2hhbmdlcywNCiAgICAgICAgICAgICAgICBidWlsZGVyOiAoY29udGV4dCkgew0KICAgICAgICAgICAgICAgICAgZmluYWwgY291bnQgPSBsaWJyYXJ5Qm9va21hcmtzKA0KICAgICAgICAgICAgICAgICAgICBzdGF0ZSwNCiAgICAgICAgICAgICAgICAgICAgYm9va3M6IHJlcG9zaXRvcnkgaXMgT2ZmbGluZU5vdmVsUmVwb3NpdG9yeQ0KICAgICAgICAgICAgICAgICAgICAgICAgPyAocmVwb3NpdG9yeSBhcyBPZmZsaW5lTm92ZWxSZXBvc2l0b3J5KS5sb2NhbA0KICAgICAgICAgICAgICAgICAgICAgICAgOiBudWxsLA0KICAgICAgICAgICAgICAgICAgKS5sZW5ndGg7DQogICAgICAgICAgICAgICAgICByZXR1cm4gRmVhdHVyZUVudHJ5KA0KICAgICAgICAgICAgICAgICAgICBrZXk6IGNvbnN0IFZhbHVlS2V5KCdteS1ib29rbWFya3MnKSwNCiAgICAgICAgICAgICAgICAgICAgdGl0bGU6ICfkuabnrb4nLA0KICAgICAgICAgICAgICAgICAgICBzdWJ0aXRsZTogY291bnQgPT0gMCA/ICfmlLbol4/llpzmrKLnmoTlj6XlrZDkuI7pmIXor7vkvY3nva4nIDogJyRjb3VudCDmnaHkuabnrb7kuI7mkZjlvZUnLA0KICAgICAgICAgICAgICAgICAgICBpY29uOiBDdXBlcnRpbm9JY29ucy5ib29rbWFyaywNCiAgICAgICAgICAgICAgICAgICAgb25UYXA6ICgpID0+IHB1c2hOb3ZlbFBhZ2U8dm9pZD4oDQogICAgICAgICAgICAgICAgICAgICAgY29udGV4dCwNCiAgICAgICAgICAgICAgICAgICAgICBCb29rbWFya0xpYnJhcnlQYWdlKHN0YXRlOiBzdGF0ZSwgcmVwb3NpdG9yeTogcmVwb3NpdG9yeSksDQogICAgICAgICAgICAgICAgICAgICAgcmVkdWNlTW90aW9uOiBzdGF0ZS5yZWR1Y2VNb3Rpb24sDQogICAgICAgICAgICAgICAgICAgICksDQogICAgICAgICAgICAgICAgICApOw0KICAgICAgICAgICAgICAgIH0sDQogICAgICAgICAgICAgICksDQogICAgICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogMTQpLA0KICAgICAgICAgICAgICBGZWF0dXJlRW50cnkoDQogICAgICAgICAgICAgICAga2V5OiBjb25zdCBWYWx1ZUtleSgnbXktc2V0dGluZ3MnKSwNCiAgICAgICAgICAgICAgICB0aXRsZTogJ+iuvue9ricsDQogICAgICAgICAgICAgICAgc3VidGl0bGU6ICfpmIXor7vjgIHlpJbop4LjgIHmgKfog73kuI7mnKzlnLDmlbDmja4nLA0KICAgICAgICAgICAgICAgIGljb246IEN1cGVydGlub0ljb25zLnNldHRpbmdzLA0KICAgICAgICAgICAgICAgIG9uVGFwOiAoKSA9PiBwdXNoTm92ZWxQYWdlPHZvaWQ+KA0KICAgICAgICAgICAgICAgICAgY29udGV4dCwNCiAgICAgICAgICAgICAgICAgIEFyY2hpdmVGZWF0dXJlUGFnZSgNCiAgICAgICAgICAgICAgICAgICAgdGl0bGU6ICforr7nva4nLA0KICAgICAgICAgICAgICAgICAgICBjb2RlOiAnU1lTVEVNIC8gUFJFRkVSRU5DRVMnLA0KICAgICAgICAgICAgICAgICAgICBjaGlsZDogU2V0dGluZ3NQYWdlKA0KICAgICAgICAgICAgICAgICAgICAgIHN0YXRlOiBzdGF0ZSwNCiAgICAgICAgICAgICAgICAgICAgICByZXBvc2l0b3J5OiByZXBvc2l0b3J5LA0KICAgICAgICAgICAgICAgICAgICAgIHNob3dIZWFkZXI6IGZhbHNlLA0KICAgICAgICAgICAgICAgICAgICApLA0KICAgICAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgICAgICAgIHJlZHVjZU1vdGlvbjogc3RhdGUucmVkdWNlTW90aW9uLA0KICAgICAgICAgICAgICAgICksDQogICAgICAgICAgICAgICksDQogICAgICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogMTQpLA0KICAgICAgICAgICAgICBGZWF0dXJlRW50cnkoDQogICAgICAgICAgICAgICAga2V5OiBjb25zdCBWYWx1ZUtleSgnbXktYm9vay1zb3VyY2VzJyksDQogICAgICAgICAgICAgICAgdGl0bGU6ICfkuabmupDnrqHnkIYnLA0KICAgICAgICAgICAgICAgIHN1YnRpdGxlOiAn5a+85YWlIExlZ2FkbyDkuabmupDvvIzmianlsZXmkJzntKLmnaXmupAnLA0KICAgICAgICAgICAgICAgIGljb246IEljb25zLnNvdXJjZSwNCiAgICAgICAgICAgICAgICBvblRhcDogKCkgew0KICAgICAgICAgICAgICAgICAgZmluYWwgc3RvcmUgPSBTb3VyY2VMb2NhdG9yLnN0b3JlOw0KICAgICAgICAgICAgICAgICAgZmluYWwgY3VzdG9tUmVwbyA9IFNvdXJjZUxvY2F0b3IucmVwb3NpdG9yeTsNCiAgICAgICAgICAgICAgICAgIGlmIChzdG9yZSA9PSBudWxsIHx8IGN1c3RvbVJlcG8gPT0gbnVsbCkgew0KICAgICAgICAgICAgICAgICAgICBTY2FmZm9sZE1lc3Nlbmdlci5tYXliZU9mKGNvbnRleHQpPy5zaG93U25hY2tCYXIoDQogICAgICAgICAgICAgICAgICAgICAgY29uc3QgU25hY2tCYXIoY29udGVudDogVGV4dCgn5Lmm5rqQ5Yqf6IO95LiN5Y+v55SoJykpLA0KICAgICAgICAgICAgICAgICAgICApOw0KICAgICAgICAgICAgICAgICAgICByZXR1cm47DQogICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICBwdXNoTm92ZWxQYWdlPHZvaWQ+KA0KICAgICAgICAgICAgICAgICAgICBjb250ZXh0LA0KICAgICAgICAgICAgICAgICAgICBCb29rU291cmNlUGFnZShzdG9yZTogc3RvcmUsIHJlcG9zaXRvcnk6IGN1c3RvbVJlcG8pLA0KICAgICAgICAgICAgICAgICAgICByZWR1Y2VNb3Rpb246IHN0YXRlLnJlZHVjZU1vdGlvbiwNCiAgICAgICAgICAgICAgICAgICk7DQogICAgICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgICAgY29uc3QgU2l6ZWRCb3goaGVpZ2h0OiAxNCksDQogICAgICAgICAgICAgIEZlYXR1cmVFbnRyeSgNCiAgICAgICAgICAgICAgICBrZXk6IGNvbnN0IFZhbHVlS2V5KCdteS1hYm91dCcpLA0KICAgICAgICAgICAgICAgIHRpdGxlOiAn5YWz5LqOJywNCiAgICAgICAgICAgICAgICBzdWJ0aXRsZToNCiAgICAgICAgICAgICAgICAgICAgJ+eJiOacrCAke3VwZGF0ZXM/Lmluc3RhbGxlZD8udmVyc2lvbiA/PyBjdXJyZW50QXBwVmVyc2lvbn0ke3VwZGF0ZXM/LmF2YWlsYWJsZSA9PSB0cnVlID8gJyDCtyDmnInmlrDniYjmnKwnIDogJyd9JywNCiAgICAgICAgICAgICAgICBpY29uOiBDdXBlcnRpbm9JY29ucy5pbmZvX2NpcmNsZSwNCiAgICAgICAgICAgICAgICBvblRhcDogKCkgPT4gcHVzaE5vdmVsUGFnZTx2b2lkPigNCiAgICAgICAgICAgICAgICAgIGNvbnRleHQsDQogICAgICAgICAgICAgICAgICBBcHBVcGRhdGVQYWdlKHVwZGF0ZXM6IHVwZGF0ZXMpLA0KICAgICAgICAgICAgICAgICAgcmVkdWNlTW90aW9uOiBzdGF0ZS5yZWR1Y2VNb3Rpb24sDQogICAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgICAgKSwNCiAgICAgICAgICAgIF0sDQogICAgICAgICAgKSwNCiAgICAgICAgKSwNCiAgICAgICksDQogICAgKTsNCiAgfQ0KfQ0K
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+import 'app_interactions.dart';
+import 'app_ui.dart';
+import 'bookmark_library_page.dart';
+import 'catalog.dart';
+import 'feature_pages.dart';
+import 'library_state.dart';
+import 'offline_repository.dart';
+import 'pages.dart' show SettingsPage;
+import 'book_source/book_source_page.dart';
+import 'book_source/source_locator.dart';
+import 'ui_notifiers.dart';
+import 'updates/app_updates.dart';
+import 'updates/update_page.dart';
+import 'wenku_features.dart';
+
+class MyPage extends StatelessWidget {
+  const MyPage({
+    super.key,
+    required this.state,
+    required this.repository,
+    this.showHeader = true,
+  });
+  final LibraryState state;
+  final NovelRepository repository;
+  final bool showHeader;
+
+  Widget buildHeader(BuildContext context) => const Align(
+    alignment: Alignment.centerLeft,
+    child: ArchiveMasthead(title: '我的', code: '04 / PERSONAL ARCHIVE'),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    final features = WenkuFeaturesScope.maybeOf(context);
+    final updates = AppUpdatesScope.maybeOf(context);
+    return GlassHeaderLayout(
+      showHeader: showHeader,
+      header: buildHeader(context),
+      body: Align(
+        alignment: Alignment.topCenter,
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 760),
+          child: ListView(
+            key: const PageStorageKey('my-page'),
+            padding: featurePadding(
+              context,
+            ).copyWith(bottom: MediaQuery.paddingOf(context).bottom + 120),
+            children: [
+              AnimatedBuilder(
+                animation: Listenable.merge([
+                  features?.account ?? state.bookmarkChanges,
+                  ?features?.shelfSync,
+                ]),
+                builder: (context, _) {
+                  final account = features?.account;
+                  final profile = account?.profile;
+                  return ContentPanel(
+                    key: const ValueKey('my-account'),
+                    onTap: account == null
+                        ? null
+                        : () => pushNovelPage<void>(
+                            context,
+                            WenkuAccountPage(
+                              account: account,
+                              state: state,
+                              repository: repository,
+                            ),
+                            reduceMotion: state.reduceMotion,
+                          ),
+                    child: Row(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(16),
+                          child: account?.authenticated == true
+                              ? SizedBox(
+                                  width: 56,
+                                  height: 56,
+                                  child: account?.avatar == null
+                                      ? const Icon(
+                                          CupertinoIcons.person_crop_circle,
+                                          size: 40,
+                                        )
+                                      : Image.memory(
+                                          account!.avatar!,
+                                          fit: BoxFit.cover,
+                                          cacheWidth:
+                                              (56 *
+                                                      MediaQuery.devicePixelRatioOf(
+                                                        context,
+                                                      ))
+                                                  .ceil(),
+                                          errorBuilder: (_, _, _) => const Icon(
+                                            CupertinoIcons.person_crop_circle,
+                                            size: 40,
+                                          ),
+                                        ),
+                                )
+                              : Image.asset(
+                                  'assets/branding/app-icon.png',
+                                  width: 56,
+                                  height: 56,
+                                  cacheWidth:
+                                      (56 *
+                                              MediaQuery.devicePixelRatioOf(
+                                                context,
+                                              ))
+                                          .ceil(),
+                                  cacheHeight:
+                                      (56 *
+                                              MediaQuery.devicePixelRatioOf(
+                                                context,
+                                              ))
+                                          .ceil(),
+                                ),
+                        ),
+                        const SizedBox(width: 16),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              AppText(
+                                account?.authenticated == true
+                                    ? profile?.displayName ?? '文库账号'
+                                    : '登录文库账号',
+                                style: const TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                              const SizedBox(height: 7),
+                              AppText(
+                                account?.authenticated == true
+                                    ? profile == null
+                                          ? '账号已连接'
+                                          : '${profile.score} 积分 · ${profile.rank}${features?.shelfSync == null
+                                                ? ''
+                                                : features!.shelfSync!.syncing
+                                                ? '\n书架正在同步'
+                                                : features.shelfSync!.error != null
+                                                ? '\n书架待同步 · ${features.shelfSync!.error}'
+                                                : features.shelfSync!.syncedAt != null
+                                                ? '\n书架已与文库同步'
+                                                : ''}'
+                                    : '轻小说文库账号 · 云书架与每日签到',
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  height: 1.6,
+                                  color: Theme.of(
+                                    context,
+                                  ).colorScheme.onSurfaceVariant,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        const Icon(CupertinoIcons.chevron_right, size: 14),
+                      ],
+                    ),
+                  );
+                },
+              ),
+              const SizedBox(height: 24),
+              ActiveListenableBuilder(
+                listenable: state.bookmarkChanges,
+                builder: (context) {
+                  final count = libraryBookmarks(
+                    state,
+                    books: repository is OfflineNovelRepository
+                        ? (repository as OfflineNovelRepository).local
+                        : null,
+                  ).length;
+                  return FeatureEntry(
+                    key: const ValueKey('my-bookmarks'),
+                    title: '书签',
+                    subtitle: count == 0 ? '收藏喜欢的句子与阅读位置' : '$count 条书签与摘录',
+                    icon: CupertinoIcons.bookmark,
+                    onTap: () => pushNovelPage<void>(
+                      context,
+                      BookmarkLibraryPage(state: state, repository: repository),
+                      reduceMotion: state.reduceMotion,
+                    ),
+                  );
+                },
+              ),
+              const SizedBox(height: 14),
+              FeatureEntry(
+                key: const ValueKey('my-settings'),
+                title: '设置',
+                subtitle: '阅读、外观、性能与本地数据',
+                icon: CupertinoIcons.settings,
+                onTap: () => pushNovelPage<void>(
+                  context,
+                  ArchiveFeaturePage(
+                    title: '设置',
+                    code: 'SYSTEM / PREFERENCES',
+                    child: SettingsPage(
+                      state: state,
+                      repository: repository,
+                      showHeader: false,
+                    ),
+                  ),
+                  reduceMotion: state.reduceMotion,
+                ),
+              ),
+              const SizedBox(height: 14),
+              FeatureEntry(
+                key: const ValueKey('my-book-sources'),
+                title: '书源管理',
+                subtitle: '导入 Legado 书源，扩展搜索来源',
+                icon: Icons.source,
+                onTap: () {
+                  final store = SourceLocator.store;
+                  final customRepo = SourceLocator.repository;
+                  if (store == null || customRepo == null) {
+                    ScaffoldMessenger.maybeOf(context)?.showSnackBar(
+                      const SnackBar(content: Text('书源功能不可用')),
+                    );
+                    return;
+                  }
+                  pushNovelPage<void>(
+                    context,
+                    BookSourcePage(store: store, repository: customRepo),
+                    reduceMotion: state.reduceMotion,
+                  );
+                },
+              ),
+              const SizedBox(height: 14),
+              FeatureEntry(
+                key: const ValueKey('my-about'),
+                title: '关于',
+                subtitle:
+                    '版本 ${updates?.installed?.version ?? currentAppVersion}${updates?.available == true ? ' · 有新版本' : ''}',
+                icon: CupertinoIcons.info_circle,
+                onTap: () => pushNovelPage<void>(
+                  context,
+                  AppUpdatePage(updates: updates),
+                  reduceMotion: state.reduceMotion,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

@@ -1,1 +1,289 @@
-Ly8vIFBlcnNpc3RlbnQgc3RvcmUgZm9yIGN1c3RvbSBib29rIHNvdXJjZXMsIGJhY2tlZCBieSBzaGFyZWRfcHJlZmVyZW5jZXMuCi8vLwovLy8gU3RvcmVzIHRoZSByYXcgc291cmNlIEpTT04gKHZlcmJhdGltIExlZ2FkbyBmb3JtYXQpIHNvIGltcG9ydHMgcm91bmQtdHJpcAovLy8gd2l0aG91dCBsb3NzLiBBbHNvIHBlcnNpc3RzIHRoZSBVUkw8LT5pbnQgaWRlbnRpdHkgbWFwcGluZyBmb3Igc291cmNlIGJvb2tzCi8vLyBhbmQgY2hhcHRlcnMsIGJlY2F1c2UgTm92ZWwgdXNlcyBpbnRlZ2VyIElEcyB0aHJvdWdob3V0IHRoZSBhcHAuCmxpYnJhcnk7CgppbXBvcnQgJ2RhcnQ6Y29udmVydCc7CgppbXBvcnQgJ3BhY2thZ2U6c2hhcmVkX3ByZWZlcmVuY2VzL3NoYXJlZF9wcmVmZXJlbmNlcy5kYXJ0JzsKCmltcG9ydCAnYm9va19zb3VyY2VfbW9kZWwuZGFydCc7Cgpjb25zdCBfa1NvdXJjZXMgPSAnY3VzdG9tX2Jvb2tfc291cmNlc192MSc7CmNvbnN0IF9rQm9va0lkQ291bnRlciA9ICdjdXN0b21fYm9va19pZF9jb3VudGVyX3YxJzsKCi8vLyBCYXNlIG9mIHRoZSByZXNlcnZlZCBJRCByYW5nZSBmb3IgY3VzdG9tLXNvdXJjZSBib29rcy4KLy8vIDB4NTAwMDAwMDAgLi4gMHg1RkZGRkZGRiDigJQgYmVsb3cgbG9jYWwgYm9va3MgKDB4NjAwMDAwMDApIGFuZCBhYm92ZSB0aGUKLy8vIHNtYWxsIGludGVnZXIgSURzIHVzZWQgYnkgdGhlIG9mZmljaWFsIFdlbmt1OCBBUEkuCmNvbnN0IGludCBjdXN0b21Cb29rSWRTdGFydCA9IDB4NTAwMDAwMDA7CmNvbnN0IGludCBjdXN0b21Cb29rSWRFbmQgPSAweDYwMDAwMDAwOwoKYm9vbCBpc0N1c3RvbVNvdXJjZUJvb2soaW50IGlkKSA9PgogICAgaWQgPj0gY3VzdG9tQm9va0lkU3RhcnQgJiYgaWQgPCBjdXN0b21Cb29rSWRFbmQ7CgpjbGFzcyBCb29rU291cmNlU3RvcmUgewogIEJvb2tTb3VyY2VTdG9yZSh0aGlzLl9wcmVmcyk7CgogIGZpbmFsIFNoYXJlZFByZWZlcmVuY2VzIF9wcmVmczsKICBMaXN0PEJvb2tTb3VyY2U+PyBfY2FjaGU7CiAgTWFwPGludCwgX0lkZW50aXR5Pj8gX2lkZW50aXRpZXM7CgogIExpc3Q8Qm9va1NvdXJjZT4gZ2V0IHNvdXJjZXMgewogICAgZmluYWwgY2FjaGUgPSBfY2FjaGU7CiAgICBpZiAoY2FjaGUgIT0gbnVsbCkgcmV0dXJuIExpc3QudW5tb2RpZmlhYmxlKGNhY2hlKTsKICAgIGZpbmFsIHJhdyA9IF9wcmVmcy5nZXRTdHJpbmdMaXN0KF9rU291cmNlcykgPz8gY29uc3QgPFN0cmluZz5bXTsKICAgIGZpbmFsIGxvYWRlZCA9IDxCb29rU291cmNlPltdOwogICAgZm9yIChmaW5hbCBpdGVtIGluIHJhdykgewogICAgICB0cnkgewogICAgICAgIGZpbmFsIGRlY29kZWQgPSBqc29uRGVjb2RlKGl0ZW0pOwogICAgICAgIGlmIChkZWNvZGVkIGlzIE1hcDxTdHJpbmcsIGR5bmFtaWM+KSB7CiAgICAgICAgICBmaW5hbCBzb3VyY2UgPSBCb29rU291cmNlLmZyb21Kc29uKGRlY29kZWQpOwogICAgICAgICAgaWYgKHNvdXJjZS5pc1ZhbGlkKSBsb2FkZWQuYWRkKHNvdXJjZSk7CiAgICAgICAgfQogICAgICB9IGNhdGNoIChfKSB7fQogICAgfQogICAgbG9hZGVkLnNvcnQoKGEsIGIpID0+IGEuY3VzdG9tT3JkZXIuY29tcGFyZVRvKGIuY3VzdG9tT3JkZXIpKTsKICAgIF9jYWNoZSA9IGxvYWRlZDsKICAgIHJldHVybiBMaXN0LnVubW9kaWZpYWJsZShsb2FkZWQpOwogIH0KCiAgTGlzdDxCb29rU291cmNlPiBnZXQgZW5hYmxlZFNvdXJjZXMgPT4KICAgICAgc291cmNlcy53aGVyZSgocykgPT4gcy5lbmFibGVkKS50b0xpc3QoKTsKCiAgQm9va1NvdXJjZT8gc291cmNlKFN0cmluZyBrZXkpIHsKICAgIGZvciAoZmluYWwgcyBpbiBzb3VyY2VzKSB7CiAgICAgIGlmIChzLmtleSA9PSBrZXkpIHJldHVybiBzOwogICAgfQogICAgcmV0dXJuIG51bGw7CiAgfQoKICBGdXR1cmU8dm9pZD4gc2F2ZShMaXN0PEJvb2tTb3VyY2U+IGxpc3QpIGFzeW5jIHsKICAgIGZpbmFsIGVuY29kZWQgPSBsaXN0Lm1hcCgocykgPT4ganNvbkVuY29kZShzLnRvSnNvbigpKSkudG9MaXN0KCk7CiAgICBhd2FpdCBfcHJlZnMuc2V0U3RyaW5nTGlzdChfa1NvdXJjZXMsIGVuY29kZWQpOwogICAgX2NhY2hlID0gTGlzdDxCb29rU291cmNlPi5mcm9tKGxpc3QpOwogIH0KCiAgRnV0dXJlPHZvaWQ+IHVwc2VydChCb29rU291cmNlIHNvdXJjZSkgYXN5bmMgewogICAgaWYgKCFzb3VyY2UuaXNWYWxpZCkgcmV0dXJuOwogICAgZmluYWwgbmV4dCA9IDxCb29rU291cmNlPlsuLi5zb3VyY2VzLndoZXJlKChzKSA9PiBzLmtleSAhPSBzb3VyY2Uua2V5KSwgc291cmNlXQogICAgICAuLnNvcnQoKGEsIGIpID0+IGEuY3VzdG9tT3JkZXIuY29tcGFyZVRvKGIuY3VzdG9tT3JkZXIpKTsKICAgIGF3YWl0IHNhdmUobmV4dCk7CiAgfQoKICBGdXR1cmU8dm9pZD4gcmVtb3ZlKFN0cmluZyBrZXkpIGFzeW5jIHsKICAgIGF3YWl0IHNhdmUoc291cmNlcy53aGVyZSgocykgPT4gcy5rZXkgIT0ga2V5KS50b0xpc3QoKSk7CiAgfQoKICBGdXR1cmU8dm9pZD4gc2V0RW5hYmxlZChTdHJpbmcga2V5LCBib29sIGVuYWJsZWQpIGFzeW5jIHsKICAgIGZpbmFsIHNvdXJjZSA9IHNvdXJjZShrZXkpOwogICAgaWYgKHNvdXJjZSA9PSBudWxsKSByZXR1cm47CiAgICBhd2FpdCB1cHNlcnQoc291cmNlLmNvcHlXaXRoKGVuYWJsZWQ6IGVuYWJsZWQpKTsKICB9CgogIC8vLyBJbXBvcnQgYSBMZWdhZG8gZXhwb3J0OiBhIHNpbmdsZSBvYmplY3QsIGEgSlNPTiBhcnJheSwgb3IgYSBKU09OLWVuY29kZWQKICAvLy8gc3RyaW5nIGNvbnRhaW5pbmcgZWl0aGVyLiBSZXR1cm5zIHRoZSBudW1iZXIgb2YgdmFsaWQgc291cmNlcyBpbXBvcnRlZC4KICBGdXR1cmU8aW50PiBpbXBvcnRKc29uKFN0cmluZyB0ZXh0KSBhc3luYyB7CiAgICBmaW5hbCBwYXJzZWQgPSBfcGFyc2VTb3VyY2VzKHRleHQpOwogICAgaWYgKHBhcnNlZC5pc0VtcHR5KSByZXR1cm4gMDsKICAgIGZpbmFsIG1lcmdlZCA9IDxTdHJpbmcsIEJvb2tTb3VyY2U+e2ZvciAoZmluYWwgcyBpbiBzb3VyY2VzKSBzLmtleTogc307CiAgICBmb3IgKGZpbmFsIHMgaW4gcGFyc2VkKSB7CiAgICAgIG1lcmdlZFtzLmtleV0gPSBzOwogICAgfQogICAgYXdhaXQgc2F2ZShtZXJnZWQudmFsdWVzLnRvTGlzdCgpKTsKICAgIHJldHVybiBwYXJzZWQubGVuZ3RoOwogIH0KCiAgc3RhdGljIExpc3Q8Qm9va1NvdXJjZT4gX3BhcnNlU291cmNlcyhTdHJpbmcgdGV4dCkgewogICAgZmluYWwgdHJpbW1lZCA9IHRleHQudHJpbSgpOwogICAgaWYgKHRyaW1tZWQuaXNFbXB0eSkgcmV0dXJuIGNvbnN0IDxCb29rU291cmNlPltdOwogICAgZHluYW1pYyB2YWx1ZTsKICAgIHRyeSB7CiAgICAgIHZhbHVlID0ganNvbkRlY29kZSh0cmltbWVkKTsKICAgIH0gY2F0Y2ggKF8pIHsKICAgICAgcmV0dXJuIGNvbnN0IDxCb29rU291cmNlPltdOwogICAgfQogICAgLy8gU29tZXRpbWVzIHRoZSBwYXlsb2FkIGlzIGEgSlNPTiBzdHJpbmcgY29udGFpbmluZyBKU09OLgogICAgaWYgKHZhbHVlIGlzIFN0cmluZykgewogICAgICB0cnkgewogICAgICAgIHZhbHVlID0ganNvbkRlY29kZSh2YWx1ZSk7CiAgICAgIH0gY2F0Y2ggKF8pIHsKICAgICAgICByZXR1cm4gY29uc3QgPEJvb2tTb3VyY2U+W107CiAgICAgIH0KICAgIH0KICAgIGZpbmFsIGxpc3QgPSA8ZHluYW1pYz5bXTsKICAgIGlmICh2YWx1ZSBpcyBMaXN0KSB7CiAgICAgIGxpc3QuYWRkQWxsKHZhbHVlKTsKICAgIH0gZWxzZSBpZiAodmFsdWUgaXMgTWFwPFN0cmluZywgZHluYW1pYz4pIHsKICAgICAgaWYgKHZhbHVlLmNvbnRhaW5zS2V5KCdib29rU291cmNlVXJsJykpIHsKICAgICAgICBsaXN0LmFkZCh2YWx1ZSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgLy8gV3JhcHBlcnMgbGlrZSB7InNvdXJjZXMiOlsuLi5dfSBvciB7ImRhdGEiOlsuLi5dfS4KICAgICAgICBmb3IgKGZpbmFsIGtleSBpbiBbJ3NvdXJjZXMnLCAnZGF0YScsICdib29rU291cmNlcycsICdsaXN0J10pIHsKICAgICAgICAgIGZpbmFsIGlubmVyID0gdmFsdWVba2V5XTsKICAgICAgICAgIGlmIChpbm5lciBpcyBMaXN0KSB7CiAgICAgICAgICAgIGxpc3QuYWRkQWxsKGlubmVyKTsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICB9CiAgICBmaW5hbCByZXN1bHQgPSA8Qm9va1NvdXJjZT5bXTsKICAgIGZvciAoZmluYWwgaXRlbSBpbiBsaXN0KSB7CiAgICAgIGlmIChpdGVtIGlzIE1hcDxTdHJpbmcsIGR5bmFtaWM+KSB7CiAgICAgICAgZmluYWwgc291cmNlID0gQm9va1NvdXJjZS5mcm9tSnNvbihpdGVtKTsKICAgICAgICBpZiAoc291cmNlLmlzVmFsaWQpIHJlc3VsdC5hZGQoc291cmNlKTsKICAgICAgfSBlbHNlIGlmIChpdGVtIGlzIFN0cmluZykgewogICAgICAgIHRyeSB7CiAgICAgICAgICBmaW5hbCBkZWNvZGVkID0ganNvbkRlY29kZShpdGVtKTsKICAgICAgICAgIGlmIChkZWNvZGVkIGlzIE1hcDxTdHJpbmcsIGR5bmFtaWM+KSB7CiAgICAgICAgICAgIGZpbmFsIHNvdXJjZSA9IEJvb2tTb3VyY2UuZnJvbUpzb24oZGVjb2RlZCk7CiAgICAgICAgICAgIGlmIChzb3VyY2UuaXNWYWxpZCkgcmVzdWx0LmFkZChzb3VyY2UpOwogICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKF8pIHt9CiAgICAgIH0KICAgIH0KICAgIHJldHVybiByZXN1bHQ7CiAgfQoKICBTdHJpbmcgZXhwb3J0SnNvbih7SXRlcmFibGU8Qm9va1NvdXJjZT4/IG9ubHl9KSA9PgogICAgICBqc29uRW5jb2RlKChvbmx5ID8/IHNvdXJjZXMpLm1hcCgocykgPT4gcy50b0pzb24oKSkudG9MaXN0KCkpOwoKICAvLyAtLS0tIElkZW50aXR5IG1hcHBpbmcgKHN0cmluZyBVUkwgLT4gc3RhYmxlIGludCBJRCkgLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiAgTWFwPGludCwgX0lkZW50aXR5PiBnZXQgaWRlbnRpdGllcyB7CiAgICBmaW5hbCBjYWNoZSA9IF9pZGVudGl0aWVzOwogICAgaWYgKGNhY2hlICE9IG51bGwpIHJldHVybiBjYWNoZTsKICAgIGZpbmFsIGxvYWRlZCA9IDxpbnQsIF9JZGVudGl0eT57fTsKICAgIGZpbmFsIHJhdyA9IF9wcmVmcy5nZXRTdHJpbmcoJ2N1c3RvbV9ib29rX2lkZW50aXRpZXNfdjEnKTsKICAgIGlmIChyYXcgIT0gbnVsbCkgewogICAgICB0cnkgewogICAgICAgIGZpbmFsIGRlY29kZWQgPSBqc29uRGVjb2RlKHJhdykgYXMgTWFwPFN0cmluZywgZHluYW1pYz47CiAgICAgICAgZGVjb2RlZC5mb3JFYWNoKChrZXksIHZhbHVlKSB7CiAgICAgICAgICBmaW5hbCBpZCA9IGludC50cnlQYXJzZShrZXkpOwogICAgICAgICAgaWYgKGlkID09IG51bGwgfHwgdmFsdWUgaXMhIE1hcDxTdHJpbmcsIGR5bmFtaWM+KSByZXR1cm47CiAgICAgICAgICBsb2FkZWRbaWRdID0gX0lkZW50aXR5KAogICAgICAgICAgICBzb3VyY2VLZXk6ICh2YWx1ZVsnc291cmNlJ10gYXMgU3RyaW5nPykgPz8gJycsCiAgICAgICAgICAgIGJvb2tVcmw6ICh2YWx1ZVsndXJsJ10gYXMgU3RyaW5nPykgPz8gJycsCiAgICAgICAgICApOwogICAgICAgIH0pOwogICAgICB9IGNhdGNoIChfKSB7fQogICAgfQogICAgX2lkZW50aXRpZXMgPSBsb2FkZWQ7CiAgICByZXR1cm4gbG9hZGVkOwogIH0KCiAgLy8vIEFsbG9jYXRlIChvciByZXVzZSkgYSBzdGFibGUgaW50ZWdlciBJRCBmb3IgYSBzb3VyY2UgYm9vayBVUkwuCiAgaW50IGlkRm9yKFN0cmluZyBzb3VyY2VLZXksIFN0cmluZyBib29rVXJsKSB7CiAgICBmaW5hbCBpZGVudGl0aWVzID0gaWRlbnRpdGllczsKICAgIGZvciAoZmluYWwgZW50cnkgaW4gaWRlbnRpdGllcy5lbnRyaWVzKSB7CiAgICAgIGlmIChlbnRyeS52YWx1ZS5zb3VyY2VLZXkgPT0gc291cmNlS2V5ICYmIGVudHJ5LnZhbHVlLmJvb2tVcmwgPT0gYm9va1VybCkgewogICAgICAgIHJldHVybiBlbnRyeS5rZXk7CiAgICAgIH0KICAgIH0KICAgIGZpbmFsIGlkID0gY3VzdG9tQm9va0lkU3RhcnQgKwogICAgICAgIF9zdGFibGVIYXNoKCckc291cmNlS2V5XHUwMDAwJGJvb2tVcmwnKSAlCiAgICAgICAgICAgIChjdXN0b21Cb29rSWRFbmQgLSBjdXN0b21Cb29rSWRTdGFydCk7CiAgICAvLyBSZXNvbHZlIGNvbGxpc2lvbnMgZGV0ZXJtaW5pc3RpY2FsbHkuCiAgICB2YXIgY2FuZGlkYXRlID0gaWQ7CiAgICB3aGlsZSAoaWRlbnRpdGllcy5jb250YWluc0tleShjYW5kaWRhdGUpICYmCiAgICAgICAgIShpZGVudGl0aWVzW2NhbmRpZGF0ZV0hLnNvdXJjZUtleSA9PSBzb3VyY2VLZXkgJiYKICAgICAgICAgICAgaWRlbnRpdGllc1tjYW5kaWRhdGVdIS5ib29rVXJsID09IGJvb2tVcmwpKSB7CiAgICAgIGNhbmRpZGF0ZSsrOwogICAgICBpZiAoY2FuZGlkYXRlID49IGN1c3RvbUJvb2tJZEVuZCkgY2FuZGlkYXRlID0gY3VzdG9tQm9va0lkU3RhcnQ7CiAgICB9CiAgICBpZGVudGl0aWVzW2NhbmRpZGF0ZV0gPSBfSWRlbnRpdHkoc291cmNlS2V5LCBib29rVXJsKTsKICAgIHVuYXdhaXRlZChfcGVyc2lzdElkZW50aXRpZXMoKSk7CiAgICByZXR1cm4gY2FuZGlkYXRlOwogIH0KCiAgX0lkZW50aXR5PyBpZGVudGl0eShpbnQgaWQpID0+IGlkZW50aXRpZXNbaWRdOwoKICAvLy8gRXh0cmEgcGVyLWJvb2sgcm91dGluZyBkYXRhOiBzb3VyY2Uga2V5LCBib29rIFVSTCBhbmQgdG9jIFVSTC4KICBNYXA8aW50LCBNYXA8U3RyaW5nLCBTdHJpbmc+Pj8gX2Jvb2tSb3V0ZXM7CgogIE1hcDxpbnQsIE1hcDxTdHJpbmcsIFN0cmluZz4+IGdldCBib29rUm91dGVzIHsKICAgIGZpbmFsIGNhY2hlID0gX2Jvb2tSb3V0ZXM7CiAgICBpZiAoY2FjaGUgIT0gbnVsbCkgcmV0dXJuIGNhY2hlOwogICAgZmluYWwgbG9hZGVkID0gPGludCwgTWFwPFN0cmluZywgU3RyaW5nPj57fTsKICAgIGZpbmFsIHJhdyA9IF9wcmVmcy5nZXRTdHJpbmcoJ2N1c3RvbV9ib29rX3JvdXRlc192MScpOwogICAgaWYgKHJhdyAhPSBudWxsKSB7CiAgICAgIHRyeSB7CiAgICAgICAgZmluYWwgZGVjb2RlZCA9IGpzb25EZWNvZGUocmF3KSBhcyBNYXA8U3RyaW5nLCBkeW5hbWljPjsKICAgICAgICBkZWNvZGVkLmZvckVhY2goKGtleSwgdmFsdWUpIHsKICAgICAgICAgIGZpbmFsIGlkID0gaW50LnRyeVBhcnNlKGtleSk7CiAgICAgICAgICBpZiAoaWQgPT0gbnVsbCB8fCB2YWx1ZSBpcyEgTWFwPFN0cmluZywgZHluYW1pYz4pIHJldHVybjsKICAgICAgICAgIGxvYWRlZFtpZF0gPSB2YWx1ZS5tYXAoKGssIHYpID0+IE1hcEVudHJ5KGssIHYudG9TdHJpbmcoKSkpOwogICAgICAgIH0pOwogICAgICB9IGNhdGNoIChfKSB7fQogICAgfQogICAgX2Jvb2tSb3V0ZXMgPSBsb2FkZWQ7CiAgICByZXR1cm4gbG9hZGVkOwogIH0KCiAgdm9pZCBzYXZlQm9va1JvdXRlKAogICAgaW50IGlkLCB7CiAgICBTdHJpbmc/IHNvdXJjZUtleSwKICAgIFN0cmluZz8gYm9va1VybCwKICAgIFN0cmluZz8gdG9jVXJsLAogICAgTWFwPFN0cmluZywgU3RyaW5nPj8gZXh0cmEsCiAgfSkgewogICAgZmluYWwgcm91dGVzID0gYm9va1JvdXRlczsKICAgIGZpbmFsIGVudHJ5ID0gPFN0cmluZywgU3RyaW5nPnsuLi5yb3V0ZXNbaWRdID8/IGNvbnN0IDxTdHJpbmcsIFN0cmluZz57fX07CiAgICBpZiAoc291cmNlS2V5ICE9IG51bGwpIGVudHJ5Wydzb3VyY2UnXSA9IHNvdXJjZUtleTsKICAgIGlmIChib29rVXJsICE9IG51bGwpIGVudHJ5Wyd1cmwnXSA9IGJvb2tVcmw7CiAgICBpZiAodG9jVXJsICE9IG51bGwpIGVudHJ5Wyd0b2MnXSA9IHRvY1VybDsKICAgIGlmIChleHRyYSAhPSBudWxsKSBlbnRyeS5hZGRBbGwoZXh0cmEpOwogICAgcm91dGVzW2lkXSA9IGVudHJ5OwogICAgdW5hd2FpdGVkKF9wZXJzaXN0Um91dGVzKCkpOwogIH0KCiAgTWFwPFN0cmluZywgU3RyaW5nPj8gYm9va1JvdXRlKGludCBpZCkgPT4gYm9va1JvdXRlc1tpZF07CgogIC8vLyBSZWFkIHRoZSBOb3ZlbCBzbmFwc2hvdCB0aGUgc2hlbGYgcGVyc2lzdGVkIHVuZGVyIGBub3ZlbF9tZXRhXzxpZD5gLgogIE1hcDxTdHJpbmcsIGR5bmFtaWM+PyByZWFkTm92ZWxTbmFwc2hvdChpbnQgaWQpIHsKICAgIGZpbmFsIHJhdyA9IF9wcmVmcy5nZXRTdHJpbmcoJ25vdmVsX21ldGFfJGlkJyk7CiAgICBpZiAocmF3ID09IG51bGwpIHJldHVybiBudWxsOwogICAgdHJ5IHsKICAgICAgZmluYWwgZGVjb2RlZCA9IGpzb25EZWNvZGUocmF3KTsKICAgICAgcmV0dXJuIGRlY29kZWQgaXMgTWFwPFN0cmluZywgZHluYW1pYz4gPyBkZWNvZGVkIDogbnVsbDsKICAgIH0gY2F0Y2ggKF8pIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgfQoKICBGdXR1cmU8dm9pZD4gX3BlcnNpc3RSb3V0ZXMoKSBhc3luYyB7CiAgICBhd2FpdCBfcHJlZnMuc2V0U3RyaW5nKCdjdXN0b21fYm9va19yb3V0ZXNfdjEnLCBqc29uRW5jb2RlKGJvb2tSb3V0ZXMpKTsKICB9CgogIEZ1dHVyZTx2b2lkPiBfcGVyc2lzdElkZW50aXRpZXMoKSBhc3luYyB7CiAgICBmaW5hbCBlbmNvZGVkID0gaWRlbnRpdGllcy5tYXAoCiAgICAgIChrZXksIHZhbHVlKSA9PiBNYXBFbnRyeSgKICAgICAgICAnJGtleScsCiAgICAgICAgeydzb3VyY2UnOiB2YWx1ZS5zb3VyY2VLZXksICd1cmwnOiB2YWx1ZS5ib29rVXJsfSwKICAgICAgKSwKICAgICk7CiAgICBhd2FpdCBfcHJlZnMuc2V0U3RyaW5nKCdjdXN0b21fYm9va19pZGVudGl0aWVzX3YxJywganNvbkVuY29kZShlbmNvZGVkKSk7CiAgfQoKICBzdGF0aWMgaW50IF9zdGFibGVIYXNoKFN0cmluZyBpbnB1dCkgewogICAgdmFyIGhhc2ggPSAweDgxMWM5ZGM1OwogICAgZm9yIChmaW5hbCBjb2RlIGluIGlucHV0LmNvZGVVbml0cykgewogICAgICBoYXNoIF49IGNvZGU7CiAgICAgIGhhc2ggPSAoaGFzaCAqIDB4MDEwMDAxOTMpICYgMHhGRkZGRkZGRjsKICAgIH0KICAgIHJldHVybiBoYXNoICYgMHg3RkZGRkZGRjsKICB9Cn0KCmNsYXNzIF9JZGVudGl0eSB7CiAgY29uc3QgX0lkZW50aXR5KHtyZXF1aXJlZCB0aGlzLnNvdXJjZUtleSwgcmVxdWlyZWQgdGhpcy5ib29rVXJsfSk7CiAgZmluYWwgU3RyaW5nIHNvdXJjZUtleTsKICBmaW5hbCBTdHJpbmcgYm9va1VybDsKfQoKLy8gQXZvaWQgaW1wb3J0aW5nIGRhcnQ6YXN5bmMganVzdCBmb3IgdW5hd2FpdGVkIGluIGEgaG90IHBhdGguCnZvaWQgdW5hd2FpdGVkPFQ+KEZ1dHVyZTxUPiBmdXR1cmUpIHsKICBmdXR1cmUuY2F0Y2hFcnJvcigoT2JqZWN0IF8pIHt9KTsKfQo=
+/// Persistent store for custom book sources, backed by shared_preferences.
+///
+/// Stores the raw source JSON (verbatim Legado format) so imports round-trip
+/// without loss. Also persists the URL<->int identity mapping for source books
+/// and chapters, because Novel uses integer IDs throughout the app.
+library;
+
+import 'dart:convert';
+
+import 'package:shared_preferences/shared_preferences.dart';
+
+import 'book_source_model.dart';
+
+const _kSources = 'custom_book_sources_v1';
+const _kBookIdCounter = 'custom_book_id_counter_v1';
+
+/// Base of the reserved ID range for custom-source books.
+/// 0x50000000 .. 0x5FFFFFFF — below local books (0x60000000) and above the
+/// small integer IDs used by the official Wenku8 API.
+const int customBookIdStart = 0x50000000;
+const int customBookIdEnd = 0x60000000;
+
+bool isCustomSourceBook(int id) =>
+    id >= customBookIdStart && id < customBookIdEnd;
+
+class BookSourceStore {
+  BookSourceStore(this._prefs);
+
+  final SharedPreferences _prefs;
+  List<BookSource>? _cache;
+  Map<int, _Identity>? _identities;
+
+  List<BookSource> get sources {
+    final cache = _cache;
+    if (cache != null) return List.unmodifiable(cache);
+    final raw = _prefs.getStringList(_kSources) ?? const <String>[];
+    final loaded = <BookSource>[];
+    for (final item in raw) {
+      try {
+        final decoded = jsonDecode(item);
+        if (decoded is Map<String, dynamic>) {
+          final source = BookSource.fromJson(decoded);
+          if (source.isValid) loaded.add(source);
+        }
+      } catch (_) {}
+    }
+    loaded.sort((a, b) => a.customOrder.compareTo(b.customOrder));
+    _cache = loaded;
+    return List.unmodifiable(loaded);
+  }
+
+  List<BookSource> get enabledSources =>
+      sources.where((s) => s.enabled).toList();
+
+  BookSource? source(String key) {
+    for (final s in sources) {
+      if (s.key == key) return s;
+    }
+    return null;
+  }
+
+  Future<void> save(List<BookSource> list) async {
+    final encoded = list.map((s) => jsonEncode(s.toJson())).toList();
+    await _prefs.setStringList(_kSources, encoded);
+    _cache = List<BookSource>.from(list);
+  }
+
+  Future<void> upsert(BookSource source) async {
+    if (!source.isValid) return;
+    final next = <BookSource>[...sources.where((s) => s.key != source.key), source]
+      ..sort((a, b) => a.customOrder.compareTo(b.customOrder));
+    await save(next);
+  }
+
+  Future<void> remove(String key) async {
+    await save(sources.where((s) => s.key != key).toList());
+  }
+
+  Future<void> setEnabled(String key, bool enabled) async {
+    final source = source(key);
+    if (source == null) return;
+    await upsert(source.copyWith(enabled: enabled));
+  }
+
+  /// Import a Legado export: a single object, a JSON array, or a JSON-encoded
+  /// string containing either. Returns the number of valid sources imported.
+  Future<int> importJson(String text) async {
+    final parsed = _parseSources(text);
+    if (parsed.isEmpty) return 0;
+    final merged = <String, BookSource>{for (final s in sources) s.key: s};
+    for (final s in parsed) {
+      merged[s.key] = s;
+    }
+    await save(merged.values.toList());
+    return parsed.length;
+  }
+
+  static List<BookSource> _parseSources(String text) {
+    final trimmed = text.trim();
+    if (trimmed.isEmpty) return const <BookSource>[];
+    dynamic value;
+    try {
+      value = jsonDecode(trimmed);
+    } catch (_) {
+      return const <BookSource>[];
+    }
+    // Sometimes the payload is a JSON string containing JSON.
+    if (value is String) {
+      try {
+        value = jsonDecode(value);
+      } catch (_) {
+        return const <BookSource>[];
+      }
+    }
+    final list = <dynamic>[];
+    if (value is List) {
+      list.addAll(value);
+    } else if (value is Map<String, dynamic>) {
+      if (value.containsKey('bookSourceUrl')) {
+        list.add(value);
+      } else {
+        // Wrappers like {"sources":[...]} or {"data":[...]}.
+        for (final key in ['sources', 'data', 'bookSources', 'list']) {
+          final inner = value[key];
+          if (inner is List) {
+            list.addAll(inner);
+            break;
+          }
+        }
+      }
+    }
+    final result = <BookSource>[];
+    for (final item in list) {
+      if (item is Map<String, dynamic>) {
+        final source = BookSource.fromJson(item);
+        if (source.isValid) result.add(source);
+      } else if (item is String) {
+        try {
+          final decoded = jsonDecode(item);
+          if (decoded is Map<String, dynamic>) {
+            final source = BookSource.fromJson(decoded);
+            if (source.isValid) result.add(source);
+          }
+        } catch (_) {}
+      }
+    }
+    return result;
+  }
+
+  String exportJson({Iterable<BookSource>? only}) =>
+      jsonEncode((only ?? sources).map((s) => s.toJson()).toList());
+
+  // ---- Identity mapping (string URL -> stable int ID) --------------------
+
+  Map<int, _Identity> get identities {
+    final cache = _identities;
+    if (cache != null) return cache;
+    final loaded = <int, _Identity>{};
+    final raw = _prefs.getString('custom_book_identities_v1');
+    if (raw != null) {
+      try {
+        final decoded = jsonDecode(raw) as Map<String, dynamic>;
+        decoded.forEach((key, value) {
+          final id = int.tryParse(key);
+          if (id == null || value is! Map<String, dynamic>) return;
+          loaded[id] = _Identity(
+            sourceKey: (value['source'] as String?) ?? '',
+            bookUrl: (value['url'] as String?) ?? '',
+          );
+        });
+      } catch (_) {}
+    }
+    _identities = loaded;
+    return loaded;
+  }
+
+  /// Allocate (or reuse) a stable integer ID for a source book URL.
+  int idFor(String sourceKey, String bookUrl) {
+    final identities = identities;
+    for (final entry in identities.entries) {
+      if (entry.value.sourceKey == sourceKey && entry.value.bookUrl == bookUrl) {
+        return entry.key;
+      }
+    }
+    final id = customBookIdStart +
+        _stableHash('$sourceKey\u0000$bookUrl') %
+            (customBookIdEnd - customBookIdStart);
+    // Resolve collisions deterministically.
+    var candidate = id;
+    while (identities.containsKey(candidate) &&
+        !(identities[candidate]!.sourceKey == sourceKey &&
+            identities[candidate]!.bookUrl == bookUrl)) {
+      candidate++;
+      if (candidate >= customBookIdEnd) candidate = customBookIdStart;
+    }
+    identities[candidate] = _Identity(sourceKey, bookUrl);
+    unawaited(_persistIdentities());
+    return candidate;
+  }
+
+  _Identity? identity(int id) => identities[id];
+
+  /// Extra per-book routing data: source key, book URL and toc URL.
+  Map<int, Map<String, String>>? _bookRoutes;
+
+  Map<int, Map<String, String>> get bookRoutes {
+    final cache = _bookRoutes;
+    if (cache != null) return cache;
+    final loaded = <int, Map<String, String>>{};
+    final raw = _prefs.getString('custom_book_routes_v1');
+    if (raw != null) {
+      try {
+        final decoded = jsonDecode(raw) as Map<String, dynamic>;
+        decoded.forEach((key, value) {
+          final id = int.tryParse(key);
+          if (id == null || value is! Map<String, dynamic>) return;
+          loaded[id] = value.map((k, v) => MapEntry(k, v.toString()));
+        });
+      } catch (_) {}
+    }
+    _bookRoutes = loaded;
+    return loaded;
+  }
+
+  void saveBookRoute(
+    int id, {
+    String? sourceKey,
+    String? bookUrl,
+    String? tocUrl,
+    Map<String, String>? extra,
+  }) {
+    final routes = bookRoutes;
+    final entry = <String, String>{...routes[id] ?? const <String, String>{}};
+    if (sourceKey != null) entry['source'] = sourceKey;
+    if (bookUrl != null) entry['url'] = bookUrl;
+    if (tocUrl != null) entry['toc'] = tocUrl;
+    if (extra != null) entry.addAll(extra);
+    routes[id] = entry;
+    unawaited(_persistRoutes());
+  }
+
+  Map<String, String>? bookRoute(int id) => bookRoutes[id];
+
+  /// Read the Novel snapshot the shelf persisted under `novel_meta_<id>`.
+  Map<String, dynamic>? readNovelSnapshot(int id) {
+    final raw = _prefs.getString('novel_meta_$id');
+    if (raw == null) return null;
+    try {
+      final decoded = jsonDecode(raw);
+      return decoded is Map<String, dynamic> ? decoded : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  Future<void> _persistRoutes() async {
+    await _prefs.setString('custom_book_routes_v1', jsonEncode(bookRoutes));
+  }
+
+  Future<void> _persistIdentities() async {
+    final encoded = identities.map(
+      (key, value) => MapEntry(
+        '$key',
+        {'source': value.sourceKey, 'url': value.bookUrl},
+      ),
+    );
+    await _prefs.setString('custom_book_identities_v1', jsonEncode(encoded));
+  }
+
+  static int _stableHash(String input) {
+    var hash = 0x811c9dc5;
+    for (final code in input.codeUnits) {
+      hash ^= code;
+      hash = (hash * 0x01000193) & 0xFFFFFFFF;
+    }
+    return hash & 0x7FFFFFFF;
+  }
+}
+
+class _Identity {
+  const _Identity({required this.sourceKey, required this.bookUrl});
+  final String sourceKey;
+  final String bookUrl;
+}
+
+// Avoid importing dart:async just for unawaited in a hot path.
+void unawaited<T>(Future<T> future) {
+  future.catchError((Object _) {});
+}

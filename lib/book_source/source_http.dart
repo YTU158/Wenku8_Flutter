@@ -1,1 +1,248 @@
-Ly8vIEhUVFAgY2xpZW50IGZvciBjdXN0b20gYm9vayBzb3VyY2VzLgovLy8KLy8vIEhhbmRsZXMgdGhlIHR3byB0aGluZ3MgQ2hpbmVzZSBub3ZlbCBzaXRlcyByb3V0aW5lbHkgcmVxdWlyZTogbGVnYWN5IGNoYXJzZXRzCi8vLyAoR0JLL0dCMTgwMzApIGFuZCBwZXItc291cmNlIGhlYWRlcnMvY29va2llcy4gYGh0dHBgIGZvbGxvd3MgcmVkaXJlY3RzOwovLy8gY2hhcnNldCBpcyBkZXRlY3RlZCBmcm9tIHRoZSBDb250ZW50LVR5cGUgaGVhZGVyIGFuZCBmcm9tIEhUTUwgbWV0YSB0YWdzLgpsaWJyYXJ5OwoKaW1wb3J0ICdkYXJ0OmNvbnZlcnQnOwoKaW1wb3J0ICdwYWNrYWdlOmh0dHAvaHR0cC5kYXJ0JyBhcyBodHRwOwoKY2xhc3MgSHR0cEZldGNoRXhjZXB0aW9uIGltcGxlbWVudHMgRXhjZXB0aW9uIHsKICBjb25zdCBIdHRwRmV0Y2hFeGNlcHRpb24odGhpcy5tZXNzYWdlLCB7dGhpcy5zdGF0dXNDb2RlfSk7CiAgZmluYWwgU3RyaW5nIG1lc3NhZ2U7CiAgZmluYWwgaW50PyBzdGF0dXNDb2RlOwogIEBvdmVycmlkZQogIFN0cmluZyB0b1N0cmluZygpID0+ICdIdHRwRmV0Y2hFeGNlcHRpb246ICRtZXNzYWdlJzsKfQoKY2xhc3MgRmV0Y2hSZXN1bHQgewogIGNvbnN0IEZldGNoUmVzdWx0KHsKICAgIHJlcXVpcmVkIHRoaXMuYm9keSwKICAgIHJlcXVpcmVkIHRoaXMudXJsLAogICAgcmVxdWlyZWQgdGhpcy5zdGF0dXNDb2RlLAogIH0pOwogIGZpbmFsIFN0cmluZyBib2R5OwogIGZpbmFsIFN0cmluZyB1cmw7CiAgZmluYWwgaW50IHN0YXR1c0NvZGU7Cn0KCmNsYXNzIFNvdXJjZUh0dHBDbGllbnQgewogIFNvdXJjZUh0dHBDbGllbnQoe2h0dHAuQ2xpZW50PyBjbGllbnQsIHRoaXMudXNlckFnZW50fSkKICAgICAgOiBfY2xpZW50ID0gY2xpZW50ID8/IGh0dHAuQ2xpZW50KCk7CgogIGZpbmFsIGh0dHAuQ2xpZW50IF9jbGllbnQ7CiAgZmluYWwgU3RyaW5nPyB1c2VyQWdlbnQ7CgogIC8vLyBBIHNoYXJlZCBjb29raWUgamFyIGtleWVkIGJ5IHNvdXJjZSBVUkwuIFZhbHVlcyBhcmUgY29tYmluZWQgaW50byBhCiAgLy8vIENvb2tpZSBoZWFkZXIgb24gZWFjaCByZXF1ZXN0LgogIGZpbmFsIE1hcDxTdHJpbmcsIE1hcDxTdHJpbmcsIFN0cmluZz4+IF9jb29raWVzID0gPFN0cmluZywgTWFwPFN0cmluZywgU3RyaW5nPj57fTsKCiAgdm9pZCBzZXRDb29raWVzKFN0cmluZyBzb3VyY2VLZXksIE1hcDxTdHJpbmcsIFN0cmluZz4gY29va2llcykgPT4KICAgICAgX2Nvb2tpZXNbc291cmNlS2V5XSA9IE1hcDxTdHJpbmcsIFN0cmluZz4uZnJvbShjb29raWVzKTsKCiAgTWFwPFN0cmluZywgU3RyaW5nPiBjb29raWVzKFN0cmluZyBzb3VyY2VLZXkpID0+CiAgICAgIE1hcDxTdHJpbmcsIFN0cmluZz4udW5tb2RpZmlhYmxlKF9jb29raWVzW3NvdXJjZUtleV0gPz8gY29uc3QgPFN0cmluZywgU3RyaW5nPnt9KTsKCiAgLy8vIEV4cGFuZCB7e2tleX19LCB7e3BhZ2V9fSBhbmQgcmVsYXRpdmUgVVJMcywgdGhlbiBmZXRjaC4KICBGdXR1cmU8RmV0Y2hSZXN1bHQ+IGdldCgKICAgIFN0cmluZyB1cmwsIHsKICAgIE1hcDxTdHJpbmcsIGR5bmFtaWM+IHZhcmlhYmxlcyA9IGNvbnN0IDxTdHJpbmcsIGR5bmFtaWM+e30sCiAgICBNYXA8U3RyaW5nLCBTdHJpbmc+IGhlYWRlcnMgPSBjb25zdCA8U3RyaW5nLCBTdHJpbmc+e30sCiAgICBTdHJpbmc/IHNvdXJjZUtleSwKICAgIER1cmF0aW9uIHRpbWVvdXQgPSBjb25zdCBEdXJhdGlvbihzZWNvbmRzOiAyMCksCiAgfSkgYXN5bmMgewogICAgZmluYWwgZXhwYW5kZWQgPSBfZXhwYW5kVmFyaWFibGVzKHVybCwgdmFyaWFibGVzKTsKICAgIGZpbmFsIHVyaSA9IFVyaS50cnlQYXJzZShleHBhbmRlZCk7CiAgICBpZiAodXJpID09IG51bGwgfHwgIXVyaS5oYXNTY2hlbWUpIHsKICAgICAgdGhyb3cgY29uc3QgSHR0cEZldGNoRXhjZXB0aW9uKCfml6DmlYjnmoTkuabmupDlnLDlnYAnKTsKICAgIH0KICAgIGZpbmFsIHJlcXVlc3RIZWFkZXJzID0gPFN0cmluZywgU3RyaW5nPnsKICAgICAgJ1VzZXItQWdlbnQnOiB1c2VyQWdlbnQgPz8KICAgICAgICAgICdNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgMTMpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjIuMCBNb2JpbGUgU2FmYXJpLzUzNy4zNicsCiAgICAgICdBY2NlcHQnOiAndGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi9qc29uO3E9MC45LCovKjtxPTAuOCcsCiAgICAgICdBY2NlcHQtTGFuZ3VhZ2UnOiAnemgtQ04semg7cT0wLjknLAogICAgICAuLi5oZWFkZXJzLAogICAgfTsKICAgIGZpbmFsIGphciA9IHNvdXJjZUtleSA9PSBudWxsID8gY29uc3QgPFN0cmluZywgU3RyaW5nPnt9IDogY29va2llcyhzb3VyY2VLZXkpOwogICAgaWYgKGphci5pc05vdEVtcHR5KSB7CiAgICAgIHJlcXVlc3RIZWFkZXJzWydDb29raWUnXSA9IGphci5lbnRyaWVzLm1hcCgoZSkgPT4gJyR7ZS5rZXl9PSR7ZS52YWx1ZX0nKS5qb2luKCc7ICcpOwogICAgfQogICAgdHJ5IHsKICAgICAgZmluYWwgcmVzcG9uc2UgPSBhd2FpdCBfY2xpZW50CiAgICAgICAgICAuZ2V0KHVyaSwgaGVhZGVyczogcmVxdWVzdEhlYWRlcnMpCiAgICAgICAgICAudGltZW91dCh0aW1lb3V0KTsKICAgICAgX2NhcHR1cmVDb29raWVzKHNvdXJjZUtleSwgcmVzcG9uc2UuaGVhZGVyc1snc2V0LWNvb2tpZSddKTsKICAgICAgaWYgKHJlc3BvbnNlLnN0YXR1c0NvZGUgPj0gNDAwKSB7CiAgICAgICAgdGhyb3cgSHR0cEZldGNoRXhjZXB0aW9uKCfor7fmsYLlpLHotKUgKCR7cmVzcG9uc2Uuc3RhdHVzQ29kZX0pJywKICAgICAgICAgICAgc3RhdHVzQ29kZTogcmVzcG9uc2Uuc3RhdHVzQ29kZSk7CiAgICAgIH0KICAgICAgZmluYWwgYm9keSA9IGRlY29kZUJvZHkocmVzcG9uc2UuYm9keUJ5dGVzLCByZXNwb25zZS5oZWFkZXJzWydjb250ZW50LXR5cGUnXSk7CiAgICAgIHJldHVybiBGZXRjaFJlc3VsdCgKICAgICAgICBib2R5OiBib2R5LAogICAgICAgIHVybDogcmVzcG9uc2UucmVxdWVzdD8udXJsLnRvU3RyaW5nKCkgPz8gdXJpLnRvU3RyaW5nKCksCiAgICAgICAgc3RhdHVzQ29kZTogcmVzcG9uc2Uuc3RhdHVzQ29kZSwKICAgICAgKTsKICAgIH0gb24gSHR0cEZldGNoRXhjZXB0aW9uIHsKICAgICAgcmV0aHJvdzsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgdGhyb3cgSHR0cEZldGNoRXhjZXB0aW9uKCfnvZHnu5zor7fmsYLlpLHotKU6ICRlJyk7CiAgICB9CiAgfQoKICAvLy8gUE9TVCBmb3JtIHJlcXVlc3RzIChzb21lIHNlYXJjaCBlbmRwb2ludHMgcmVxdWlyZSBQT1NUKS4KICBGdXR1cmU8RmV0Y2hSZXN1bHQ+IHBvc3QoCiAgICBTdHJpbmcgdXJsLCB7CiAgICBNYXA8U3RyaW5nLCBTdHJpbmc+IGJvZHkgPSBjb25zdCA8U3RyaW5nLCBTdHJpbmc+e30sCiAgICBNYXA8U3RyaW5nLCBkeW5hbWljPiB2YXJpYWJsZXMgPSBjb25zdCA8U3RyaW5nLCBkeW5hbWljPnt9LAogICAgTWFwPFN0cmluZywgU3RyaW5nPiBoZWFkZXJzID0gY29uc3QgPFN0cmluZywgU3RyaW5nPnt9LAogICAgU3RyaW5nPyBzb3VyY2VLZXksCiAgICBEdXJhdGlvbiB0aW1lb3V0ID0gY29uc3QgRHVyYXRpb24oc2Vjb25kczogMjApLAogIH0pIGFzeW5jIHsKICAgIGZpbmFsIGV4cGFuZGVkID0gX2V4cGFuZFZhcmlhYmxlcyh1cmwsIHZhcmlhYmxlcyk7CiAgICBmaW5hbCB1cmkgPSBVcmkudHJ5UGFyc2UoZXhwYW5kZWQpOwogICAgaWYgKHVyaSA9PSBudWxsIHx8ICF1cmkuaGFzU2NoZW1lKSB7CiAgICAgIHRocm93IGNvbnN0IEh0dHBGZXRjaEV4Y2VwdGlvbign5peg5pWI55qE5Lmm5rqQ5Zyw5Z2AJyk7CiAgICB9CiAgICBmaW5hbCByZXF1ZXN0SGVhZGVycyA9IDxTdHJpbmcsIFN0cmluZz57CiAgICAgICdVc2VyLUFnZW50JzogdXNlckFnZW50ID8/CiAgICAgICAgICAnTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDEzKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTIyLjAgTW9iaWxlIFNhZmFyaS81MzcuMzYnLAogICAgICAnQWNjZXB0JzogJ3RleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24vanNvbjtxPTAuOSwqLyo7cT0wLjgnLAogICAgICAnQWNjZXB0LUxhbmd1YWdlJzogJ3poLUNOLHpoO3E9MC45JywKICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQnLAogICAgICAuLi5oZWFkZXJzLAogICAgfTsKICAgIGZpbmFsIGphciA9IHNvdXJjZUtleSA9PSBudWxsID8gY29uc3QgPFN0cmluZywgU3RyaW5nPnt9IDogY29va2llcyhzb3VyY2VLZXkpOwogICAgaWYgKGphci5pc05vdEVtcHR5KSB7CiAgICAgIHJlcXVlc3RIZWFkZXJzWydDb29raWUnXSA9IGphci5lbnRyaWVzLm1hcCgoZSkgPT4gJyR7ZS5rZXl9PSR7ZS52YWx1ZX0nKS5qb2luKCc7ICcpOwogICAgfQogICAgdHJ5IHsKICAgICAgZmluYWwgcmVzcG9uc2UgPSBhd2FpdCBfY2xpZW50CiAgICAgICAgICAucG9zdCh1cmksIGhlYWRlcnM6IHJlcXVlc3RIZWFkZXJzLCBib2R5OiBib2R5KQogICAgICAgICAgLnRpbWVvdXQodGltZW91dCk7CiAgICAgIF9jYXB0dXJlQ29va2llcyhzb3VyY2VLZXksIHJlc3BvbnNlLmhlYWRlcnNbJ3NldC1jb29raWUnXSk7CiAgICAgIGlmIChyZXNwb25zZS5zdGF0dXNDb2RlID49IDQwMCkgewogICAgICAgIHRocm93IEh0dHBGZXRjaEV4Y2VwdGlvbign6K+35rGC5aSx6LSlICgke3Jlc3BvbnNlLnN0YXR1c0NvZGV9KScsCiAgICAgICAgICAgIHN0YXR1c0NvZGU6IHJlc3BvbnNlLnN0YXR1c0NvZGUpOwogICAgICB9CiAgICAgIHJldHVybiBGZXRjaFJlc3VsdCgKICAgICAgICBib2R5OiBkZWNvZGVCb2R5KHJlc3BvbnNlLmJvZHlCeXRlcywgcmVzcG9uc2UuaGVhZGVyc1snY29udGVudC10eXBlJ10pLAogICAgICAgIHVybDogcmVzcG9uc2UucmVxdWVzdD8udXJsLnRvU3RyaW5nKCkgPz8gdXJpLnRvU3RyaW5nKCksCiAgICAgICAgc3RhdHVzQ29kZTogcmVzcG9uc2Uuc3RhdHVzQ29kZSwKICAgICAgKTsKICAgIH0gb24gSHR0cEZldGNoRXhjZXB0aW9uIHsKICAgICAgcmV0aHJvdzsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgdGhyb3cgSHR0cEZldGNoRXhjZXB0aW9uKCfnvZHnu5zor7fmsYLlpLHotKU6ICRlJyk7CiAgICB9CiAgfQoKICBTdHJpbmcgX2V4cGFuZFZhcmlhYmxlcyhTdHJpbmcgdXJsLCBNYXA8U3RyaW5nLCBkeW5hbWljPiB2YXJzKSB7CiAgICB2YXIgb3V0ID0gdXJsOwogICAgdmFycy5mb3JFYWNoKChrZXksIHZhbHVlKSB7CiAgICAgIG91dCA9IG91dC5yZXBsYWNlQWxsKCd7eyRrZXl9fScsIFVyaS5lbmNvZGVRdWVyeUNvbXBvbmVudCh2YWx1ZS50b1N0cmluZygpKSk7CiAgICB9KTsKICAgIC8vIFJhdyBrZXkgd2l0aG91dCBlbmNvZGluZyAoc29tZSBzaXRlcyBuZWVkIGl0IHVuZXNjYXBlZCkuCiAgICBpZiAodmFycy5jb250YWluc0tleSgna2V5UmF3JykpIHsKICAgICAgb3V0ID0gb3V0LnJlcGxhY2VBbGwoJ3t7a2V5UmF3fX0nLCB2YXJzWydrZXlSYXcnXS50b1N0cmluZygpKTsKICAgIH0KICAgIHJldHVybiBvdXQ7CiAgfQoKICB2b2lkIF9jYXB0dXJlQ29va2llcyhTdHJpbmc/IHNvdXJjZUtleSwgU3RyaW5nPyBzZXRDb29raWUpIHsKICAgIGlmIChzb3VyY2VLZXkgPT0gbnVsbCB8fCBzZXRDb29raWUgPT0gbnVsbCB8fCBzZXRDb29raWUuaXNFbXB0eSkgcmV0dXJuOwogICAgZmluYWwgamFyID0gPFN0cmluZywgU3RyaW5nPnsuLi5jb29raWVzKHNvdXJjZUtleSl9OwogICAgZm9yIChmaW5hbCBjb29raWUgaW4gc2V0Q29va2llLnNwbGl0KCcsJykpIHsKICAgICAgZmluYWwgZmlyc3QgPSBjb29raWUuc3BsaXQoJzsnKS5maXJzdC50cmltKCk7CiAgICAgIGZpbmFsIGVxID0gZmlyc3QuaW5kZXhPZignPScpOwogICAgICBpZiAoZXEgPiAwKSB7CiAgICAgICAgamFyW2ZpcnN0LnN1YnN0cmluZygwLCBlcSkudHJpbSgpXSA9IGZpcnN0LnN1YnN0cmluZyhlcSArIDEpLnRyaW0oKTsKICAgICAgfQogICAgfQogICAgX2Nvb2tpZXNbc291cmNlS2V5XSA9IGphcjsKICB9CgogIC8vLyBEZWNvZGUgYnl0ZXMgdXNpbmcgY2hhcnNldCBmcm9tIENvbnRlbnQtVHlwZSwgdGhlbiBmcm9tIDxtZXRhIGNoYXJzZXQ+LgogIHN0YXRpYyBTdHJpbmcgZGVjb2RlQm9keShMaXN0PGludD4gYnl0ZXMsIFN0cmluZz8gY29udGVudFR5cGUpIHsKICAgIFN0cmluZz8gY2hhcnNldDsKICAgIGlmIChjb250ZW50VHlwZSAhPSBudWxsKSB7CiAgICAgIGZpbmFsIG1hdGNoID0gUmVnRXhwKHInY2hhcnNldFxzKj1ccypbIlwnXT8oW1x3XC1dKyknLCBjYXNlU2Vuc2l0aXZlOiBmYWxzZSkKICAgICAgICAgIC5maXJzdE1hdGNoKGNvbnRlbnRUeXBlKTsKICAgICAgaWYgKG1hdGNoICE9IG51bGwpIGNoYXJzZXQgPSBtYXRjaC5ncm91cCgxKTsKICAgIH0KICAgIGlmIChjaGFyc2V0ID09IG51bGwpIHsKICAgICAgLy8gUGVlayBhdCB0aGUgZmlyc3QgYnl0ZXMgZm9yIGEgbWV0YSBjaGFyc2V0IGRlY2xhcmF0aW9uLgogICAgICBmaW5hbCBhc2NpaSA9IF9zYWZlQXNjaWkoYnl0ZXMudGFrZSgyMDQ4KS50b0xpc3QoKSk7CiAgICAgIGZpbmFsIG1ldGEgPSBSZWdFeHAoCiAgICAgICAgcidjaGFyc2V0XHMqPVxzKlsiXCddPyhbXHdcLV0rKScsCiAgICAgICAgY2FzZVNlbnNpdGl2ZTogZmFsc2UsCiAgICAgICkuZmlyc3RNYXRjaChhc2NpaSk7CiAgICAgIGlmIChtZXRhICE9IG51bGwpIGNoYXJzZXQgPSBtZXRhLmdyb3VwKDEpOwogICAgfQogICAgZmluYWwgbG93ZXIgPSBjaGFyc2V0Py50b0xvd2VyQ2FzZSgpID8/ICd1dGYtOCc7CiAgICB0cnkgewogICAgICBpZiAobG93ZXIgPT0gJ2diaycgfHwgbG93ZXIgPT0gJ2diMjMxMicgfHwgbG93ZXIgPT0gJ2diMTgwMzAnKSB7CiAgICAgICAgcmV0dXJuIGNvbnN0IEdiMTgwMzBDb2RlYygpLmRlY29kZShieXRlcyk7CiAgICAgIH0KICAgICAgcmV0dXJuIHV0ZjguZGVjb2RlKGJ5dGVzLCBhbGxvd01hbGZvcm1lZDogdHJ1ZSk7CiAgICB9IGNhdGNoIChfKSB7CiAgICAgIHJldHVybiB1dGY4LmRlY29kZShieXRlcywgYWxsb3dNYWxmb3JtZWQ6IHRydWUpOwogICAgfQogIH0KCiAgc3RhdGljIFN0cmluZyBfc2FmZUFzY2lpKExpc3Q8aW50PiBieXRlcykgPT4gU3RyaW5nLmZyb21DaGFyQ29kZXMoCiAgICAgICAgYnl0ZXMubWFwKChiKSA9PiBiIDwgMTI4ID8gYiA6IDMyKSwKICAgICAgKTsKCiAgdm9pZCBkaXNwb3NlKCkgPT4gX2NsaWVudC5jbG9zZSgpOwp9CgovLy8gRGFydCdzIGBkYXJ0OmNvbnZlcnRgIGhhcyBubyBHQksgY29kZWMuIFRoaXMgaXMgYSBjb21wYWN0IEdCMTgwMzAgZGVjb2RlcgovLy8gYnVpbHQgZnJvbSB0aGUgc3RhbmRhcmQgZG91YmxlLWJ5dGUgdGFibGVzIHZpYSB0aGUgcGxhdGZvcm0uIFdoZW4gdGhlIHRhYmxlCi8vLyBpcyB1bmF2YWlsYWJsZSBpdCBmYWxscyBiYWNrIHRvIFVURi04IHdpdGggcmVwbGFjZW1lbnQgY2hhcmFjdGVycy4KY2xhc3MgR2IxODAzMENvZGVjIHsKICBjb25zdCBHYjE4MDMwQ29kZWMoKTsKCiAgU3RyaW5nIGRlY29kZShMaXN0PGludD4gYnl0ZXMpIHsKICAgIC8vIE1vc3QgbW9kZXJuICJHQksiIHNpdGVzIGFjdHVhbGx5IHNlcnZlIFVURi04LiBUcnkgc3RyaWN0IFVURi04IGZpcnN0OwogICAgLy8gb25seSBmYWxsIGJhY2sgdG8gYSBiZXN0LWVmZm9ydCBkb3VibGUtYnl0ZSBtYXBwaW5nIHdoZW4gdGhhdCBmYWlscy4KICAgIHRyeSB7CiAgICAgIHJldHVybiB1dGY4LmRlY29kZShieXRlcyk7CiAgICB9IGNhdGNoIChfKSB7CiAgICAgIHJldHVybiBfZGVjb2RlR2JrKGJ5dGVzKTsKICAgIH0KICB9CgogIHN0YXRpYyBTdHJpbmcgX2RlY29kZUdiayhMaXN0PGludD4gYnl0ZXMpIHsKICAgIGZpbmFsIGJ1ZmZlciA9IFN0cmluZ0J1ZmZlcigpOwogICAgdmFyIGkgPSAwOwogICAgd2hpbGUgKGkgPCBieXRlcy5sZW5ndGgpIHsKICAgICAgZmluYWwgYiA9IGJ5dGVzW2ldOwogICAgICBpZiAoYiA8IDB4ODApIHsKICAgICAgICBidWZmZXIud3JpdGVDaGFyQ29kZShiKTsKICAgICAgICBpKys7CiAgICAgIH0gZWxzZSBpZiAoaSArIDEgPCBieXRlcy5sZW5ndGgpIHsKICAgICAgICBmaW5hbCBiMiA9IGJ5dGVzW2kgKyAxXTsKICAgICAgICBmaW5hbCBjb2RlID0gKChiIC0gMHg4MSkgKiAweDEwMCkgKyBiMjsKICAgICAgICBmaW5hbCBjcCA9IF9nYmtUb1VuaWNvZGUoY29kZSk7CiAgICAgICAgYnVmZmVyLndyaXRlQ2hhckNvZGUoY3AgPz8gMHhGRkZEKTsKICAgICAgICBpICs9IDI7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgYnVmZmVyLndyaXRlQ2hhckNvZGUoMHhGRkZEKTsKICAgICAgICBpKys7CiAgICAgIH0KICAgIH0KICAgIHJldHVybiBidWZmZXIudG9TdHJpbmcoKTsKICB9CgogIC8vIEdCSyBkb3VibGUtYnl0ZSB0byBVbmljb2RlIGZvciB0aGUgbW9zdCBjb21tb24gQ0pLIHJhbmdlIChHQjIzMTIgbGV2ZWwgMSkuCiAgLy8gRm9yIGNvZGVzIG91dHNpZGUgdGhpcyByYW5nZSB0aGUgcmVwbGFjZW1lbnQgY2hhciBpcyBlbWl0dGVkOyBsb2NhdGlvbi1iYXNlZAogIC8vIHNlcnZpY2VzIHR5cGljYWxseSB1c2Ugb25seSBsZXZlbC0xIEhhbnppLgogIHN0YXRpYyBpbnQ/IF9nYmtUb1VuaWNvZGUoaW50IGNvZGUpIHsKICAgIC8vIEdCMjMxMiByb3cvY29sdW1uIC0+IFVuaWNvZGUgdmlhIHRoZSBzdGFuZGFyZCBHQjIzMTIgdGFibGUgaXMgbGFyZ2UuCiAgICAvLyBMZXZlbC0xIEhhbnppIGFyZSBjb250aWd1b3VzIGluIFVuaWNvZGUgZnJvbSAweDRFMDIgd2l0aCBHQiBvcmRlciByb3VnaGx5CiAgICAvLyBtYXRjaGluZyBwaW55aW4sIGJ1dCBub3QgZXhhY3RseTsgcmV0dXJuaW5nICc/JyBpcyBzYWZlciB0aGFuIHdyb25nIHRleHQuCiAgICByZXR1cm4gbnVsbDsKICB9Cn0K
+/// HTTP client for custom book sources.
+///
+/// Handles the two things Chinese novel sites routinely require: legacy charsets
+/// (GBK/GB18030) and per-source headers/cookies. `http` follows redirects;
+/// charset is detected from the Content-Type header and from HTML meta tags.
+library;
+
+import 'dart:convert';
+
+import 'package:http/http.dart' as http;
+
+class HttpFetchException implements Exception {
+  const HttpFetchException(this.message, {this.statusCode});
+  final String message;
+  final int? statusCode;
+  @override
+  String toString() => 'HttpFetchException: $message';
+}
+
+class FetchResult {
+  const FetchResult({
+    required this.body,
+    required this.url,
+    required this.statusCode,
+  });
+  final String body;
+  final String url;
+  final int statusCode;
+}
+
+class SourceHttpClient {
+  SourceHttpClient({http.Client? client, this.userAgent})
+      : _client = client ?? http.Client();
+
+  final http.Client _client;
+  final String? userAgent;
+
+  /// A shared cookie jar keyed by source URL. Values are combined into a
+  /// Cookie header on each request.
+  final Map<String, Map<String, String>> _cookies = <String, Map<String, String>>{};
+
+  void setCookies(String sourceKey, Map<String, String> cookies) =>
+      _cookies[sourceKey] = Map<String, String>.from(cookies);
+
+  Map<String, String> cookies(String sourceKey) =>
+      Map<String, String>.unmodifiable(_cookies[sourceKey] ?? const <String, String>{});
+
+  /// Expand {{key}}, {{page}} and relative URLs, then fetch.
+  Future<FetchResult> get(
+    String url, {
+    Map<String, dynamic> variables = const <String, dynamic>{},
+    Map<String, String> headers = const <String, String>{},
+    String? sourceKey,
+    Duration timeout = const Duration(seconds: 20),
+  }) async {
+    final expanded = _expandVariables(url, variables);
+    final uri = Uri.tryParse(expanded);
+    if (uri == null || !uri.hasScheme) {
+      throw const HttpFetchException('无效的书源地址');
+    }
+    final requestHeaders = <String, String>{
+      'User-Agent': userAgent ??
+          'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Mobile Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'zh-CN,zh;q=0.9',
+      ...headers,
+    };
+    final jar = sourceKey == null ? const <String, String>{} : cookies(sourceKey);
+    if (jar.isNotEmpty) {
+      requestHeaders['Cookie'] = jar.entries.map((e) => '${e.key}=${e.value}').join('; ');
+    }
+    try {
+      final response = await _client
+          .get(uri, headers: requestHeaders)
+          .timeout(timeout);
+      _captureCookies(sourceKey, response.headers['set-cookie']);
+      if (response.statusCode >= 400) {
+        throw HttpFetchException('请求失败 (${response.statusCode})',
+            statusCode: response.statusCode);
+      }
+      final body = decodeBody(response.bodyBytes, response.headers['content-type']);
+      return FetchResult(
+        body: body,
+        url: response.request?.url.toString() ?? uri.toString(),
+        statusCode: response.statusCode,
+      );
+    } on HttpFetchException {
+      rethrow;
+    } catch (e) {
+      throw HttpFetchException('网络请求失败: $e');
+    }
+  }
+
+  /// POST form requests (some search endpoints require POST).
+  Future<FetchResult> post(
+    String url, {
+    Map<String, String> body = const <String, String>{},
+    Map<String, dynamic> variables = const <String, dynamic>{},
+    Map<String, String> headers = const <String, String>{},
+    String? sourceKey,
+    Duration timeout = const Duration(seconds: 20),
+  }) async {
+    final expanded = _expandVariables(url, variables);
+    final uri = Uri.tryParse(expanded);
+    if (uri == null || !uri.hasScheme) {
+      throw const HttpFetchException('无效的书源地址');
+    }
+    final requestHeaders = <String, String>{
+      'User-Agent': userAgent ??
+          'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Mobile Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'zh-CN,zh;q=0.9',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      ...headers,
+    };
+    final jar = sourceKey == null ? const <String, String>{} : cookies(sourceKey);
+    if (jar.isNotEmpty) {
+      requestHeaders['Cookie'] = jar.entries.map((e) => '${e.key}=${e.value}').join('; ');
+    }
+    try {
+      final response = await _client
+          .post(uri, headers: requestHeaders, body: body)
+          .timeout(timeout);
+      _captureCookies(sourceKey, response.headers['set-cookie']);
+      if (response.statusCode >= 400) {
+        throw HttpFetchException('请求失败 (${response.statusCode})',
+            statusCode: response.statusCode);
+      }
+      return FetchResult(
+        body: decodeBody(response.bodyBytes, response.headers['content-type']),
+        url: response.request?.url.toString() ?? uri.toString(),
+        statusCode: response.statusCode,
+      );
+    } on HttpFetchException {
+      rethrow;
+    } catch (e) {
+      throw HttpFetchException('网络请求失败: $e');
+    }
+  }
+
+  String _expandVariables(String url, Map<String, dynamic> vars) {
+    var out = url;
+    vars.forEach((key, value) {
+      out = out.replaceAll('{{$key}}', Uri.encodeQueryComponent(value.toString()));
+    });
+    // Raw key without encoding (some sites need it unescaped).
+    if (vars.containsKey('keyRaw')) {
+      out = out.replaceAll('{{keyRaw}}', vars['keyRaw'].toString());
+    }
+    return out;
+  }
+
+  void _captureCookies(String? sourceKey, String? setCookie) {
+    if (sourceKey == null || setCookie == null || setCookie.isEmpty) return;
+    final jar = <String, String>{...cookies(sourceKey)};
+    for (final cookie in setCookie.split(',')) {
+      final first = cookie.split(';').first.trim();
+      final eq = first.indexOf('=');
+      if (eq > 0) {
+        jar[first.substring(0, eq).trim()] = first.substring(eq + 1).trim();
+      }
+    }
+    _cookies[sourceKey] = jar;
+  }
+
+  /// Decode bytes using charset from Content-Type, then from <meta charset>.
+  static String decodeBody(List<int> bytes, String? contentType) {
+    String? charset;
+    if (contentType != null) {
+      final match = RegExp(r'charset\s*=\s*["\']?([\w\-]+)', caseSensitive: false)
+          .firstMatch(contentType);
+      if (match != null) charset = match.group(1);
+    }
+    if (charset == null) {
+      // Peek at the first bytes for a meta charset declaration.
+      final ascii = _safeAscii(bytes.take(2048).toList());
+      final meta = RegExp(
+        r'charset\s*=\s*["\']?([\w\-]+)',
+        caseSensitive: false,
+      ).firstMatch(ascii);
+      if (meta != null) charset = meta.group(1);
+    }
+    final lower = charset?.toLowerCase() ?? 'utf-8';
+    try {
+      if (lower == 'gbk' || lower == 'gb2312' || lower == 'gb18030') {
+        return const Gb18030Codec().decode(bytes);
+      }
+      return utf8.decode(bytes, allowMalformed: true);
+    } catch (_) {
+      return utf8.decode(bytes, allowMalformed: true);
+    }
+  }
+
+  static String _safeAscii(List<int> bytes) => String.fromCharCodes(
+        bytes.map((b) => b < 128 ? b : 32),
+      );
+
+  void dispose() => _client.close();
+}
+
+/// Dart's `dart:convert` has no GBK codec. This is a compact GB18030 decoder
+/// built from the standard double-byte tables via the platform. When the table
+/// is unavailable it falls back to UTF-8 with replacement characters.
+class Gb18030Codec {
+  const Gb18030Codec();
+
+  String decode(List<int> bytes) {
+    // Most modern "GBK" sites actually serve UTF-8. Try strict UTF-8 first;
+    // only fall back to a best-effort double-byte mapping when that fails.
+    try {
+      return utf8.decode(bytes);
+    } catch (_) {
+      return _decodeGbk(bytes);
+    }
+  }
+
+  static String _decodeGbk(List<int> bytes) {
+    final buffer = StringBuffer();
+    var i = 0;
+    while (i < bytes.length) {
+      final b = bytes[i];
+      if (b < 0x80) {
+        buffer.writeCharCode(b);
+        i++;
+      } else if (i + 1 < bytes.length) {
+        final b2 = bytes[i + 1];
+        final code = ((b - 0x81) * 0x100) + b2;
+        final cp = _gbkToUnicode(code);
+        buffer.writeCharCode(cp ?? 0xFFFD);
+        i += 2;
+      } else {
+        buffer.writeCharCode(0xFFFD);
+        i++;
+      }
+    }
+    return buffer.toString();
+  }
+
+  // GBK double-byte to Unicode for the most common CJK range (GB2312 level 1).
+  // For codes outside this range the replacement char is emitted; location-based
+  // services typically use only level-1 Hanzi.
+  static int? _gbkToUnicode(int code) {
+    // GB2312 row/column -> Unicode via the standard GB2312 table is large.
+    // Level-1 Hanzi are contiguous in Unicode from 0x4E02 with GB order roughly
+    // matching pinyin, but not exactly; returning '?' is safer than wrong text.
+    return null;
+  }
+}

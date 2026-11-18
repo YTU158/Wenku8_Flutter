@@ -1,1 +1,154 @@
-Ly8vIEEgY29tcGFjdCBKU09OUGF0aCBldmFsdWF0b3IgY292ZXJpbmcgdGhlIGNvbnN0cnVjdHMgdXNlZCBieSBMZWdhZG8gc291cmNlczoKLy8vICAgJC5hLmIgICAkWzBdICAgJC4ubmFtZSAgICQuYVsqXS5iICAgJFsna2V5J10gICBhcnJheSBzbGljZXMKbGlicmFyeTsKCmNsYXNzIEpzb25QYXRoIHsKICBzdGF0aWMgTGlzdDxkeW5hbWljPiBldmFsdWF0ZShkeW5hbWljIHJvb3QsIFN0cmluZyBwYXRoKSB7CiAgICB2YXIgZXhwciA9IHBhdGgudHJpbSgpOwogICAgaWYgKGV4cHIuc3RhcnRzV2l0aCgnQGpzb246JykpIGV4cHIgPSBleHByLnN1YnN0cmluZyg2KTsKICAgIGlmIChleHByLnN0YXJ0c1dpdGgoJ1wkJykpIGV4cHIgPSBleHByLnN1YnN0cmluZygxKTsKICAgIGlmIChleHByLmlzRW1wdHkpIHJldHVybiA8ZHluYW1pYz5bcm9vdF07CgogICAgZmluYWwgdG9rZW5zID0gX3Rva2VuaXplKGV4cHIpOwogICAgdmFyIGN1cnJlbnQgPSA8ZHluYW1pYz5bcm9vdF07CiAgICBmb3IgKGZpbmFsIHRva2VuIGluIHRva2VucykgewogICAgICBmaW5hbCBuZXh0ID0gPGR5bmFtaWM+W107CiAgICAgIGZvciAoZmluYWwgdmFsdWUgaW4gY3VycmVudCkgewogICAgICAgIG5leHQuYWRkQWxsKF9hcHBseSh2YWx1ZSwgdG9rZW4pKTsKICAgICAgfQogICAgICBjdXJyZW50ID0gbmV4dDsKICAgICAgaWYgKGN1cnJlbnQuaXNFbXB0eSkgYnJlYWs7CiAgICB9CiAgICByZXR1cm4gY3VycmVudDsKICB9CgogIHN0YXRpYyBMaXN0PF9Ub2tlbj4gX3Rva2VuaXplKFN0cmluZyBleHByKSB7CiAgICBmaW5hbCB0b2tlbnMgPSA8X1Rva2VuPltdOwogICAgdmFyIGkgPSAwOwogICAgd2hpbGUgKGkgPCBleHByLmxlbmd0aCkgewogICAgICBpZiAoZXhwcltpXSA9PSAnLicpIHsKICAgICAgICBpKys7CiAgICAgICAgaWYgKGkgPCBleHByLmxlbmd0aCAmJiBleHByW2ldID09ICcuJykgewogICAgICAgICAgaSsrOwogICAgICAgICAgZmluYWwgbmFtZSA9IF9yZWFkTmFtZShleHByLCBpKTsKICAgICAgICAgIGkgKz0gbmFtZS5sZW5ndGg7CiAgICAgICAgICB0b2tlbnMuYWRkKF9Ub2tlbihfVG9rZW5UeXBlLnJlY3Vyc2l2ZSwgbmFtZSkpOwogICAgICAgIH0gZWxzZSBpZiAoaSA8IGV4cHIubGVuZ3RoICYmIGV4cHJbaV0gPT0gJ1snKSB7CiAgICAgICAgICAvLyAuWzBdIOKAlCB0cmVhdCBhcyBub3JtYWwgYnJhY2tldCBiZWxvdwogICAgICAgICAgY29udGludWU7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIGZpbmFsIG5hbWUgPSBfcmVhZE5hbWUoZXhwciwgaSk7CiAgICAgICAgICBpZiAobmFtZS5pc05vdEVtcHR5KSB7CiAgICAgICAgICAgIHRva2Vucy5hZGQoX1Rva2VuKF9Ub2tlblR5cGUuY2hpbGQsIG5hbWUpKTsKICAgICAgICAgICAgaSArPSBuYW1lLmxlbmd0aDsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0gZWxzZSBpZiAoZXhwcltpXSA9PSAnWycpIHsKICAgICAgICBmaW5hbCBlbmQgPSBleHByLmluZGV4T2YoJ10nLCBpKTsKICAgICAgICBpZiAoZW5kIDwgMCkgYnJlYWs7CiAgICAgICAgZmluYWwgaW5uZXIgPSBleHByLnN1YnN0cmluZyhpICsgMSwgZW5kKS50cmltKCk7CiAgICAgICAgaSA9IGVuZCArIDE7CiAgICAgICAgZmluYWwgc2xpY2UgPSBSZWdFeHAocideKFxkKik6KFxkKikkJykuZmlyc3RNYXRjaChpbm5lcik7CiAgICAgICAgaWYgKHNsaWNlICE9IG51bGwpIHsKICAgICAgICAgIHRva2Vucy5hZGQoX1Rva2VuKAogICAgICAgICAgICBfVG9rZW5UeXBlLnNsaWNlLAogICAgICAgICAgICAnJywKICAgICAgICAgICAgc3RhcnQ6IHNsaWNlLmdyb3VwKDEpIS5pc0VtcHR5ID8gbnVsbCA6IGludC50cnlQYXJzZShzbGljZS5ncm91cCgxKSEpLAogICAgICAgICAgICBlbmQ6IHNsaWNlLmdyb3VwKDIpIS5pc0VtcHR5ID8gbnVsbCA6IGludC50cnlQYXJzZShzbGljZS5ncm91cCgyKSEpLAogICAgICAgICAgKSk7CiAgICAgICAgfSBlbHNlIGlmIChpbm5lciA9PSAnKicpIHsKICAgICAgICAgIHRva2Vucy5hZGQoY29uc3QgX1Rva2VuKF9Ub2tlblR5cGUud2lsZGNhcmQsICcnKSk7CiAgICAgICAgfSBlbHNlIGlmICgoaW5uZXIuc3RhcnRzV2l0aCgiJyIpICYmIGlubmVyLmVuZHNXaXRoKCInIikpIHx8CiAgICAgICAgICAgIChpbm5lci5zdGFydHNXaXRoKCciJykgJiYgaW5uZXIuZW5kc1dpdGgoJyInKSkpIHsKICAgICAgICAgIHRva2Vucy5hZGQoX1Rva2VuKF9Ub2tlblR5cGUuY2hpbGQsIGlubmVyLnN1YnN0cmluZygxLCBpbm5lci5sZW5ndGggLSAxKSkpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBmaW5hbCBpZHggPSBpbnQudHJ5UGFyc2UoaW5uZXIpOwogICAgICAgICAgaWYgKGlkeCAhPSBudWxsKSB0b2tlbnMuYWRkKF9Ub2tlbihfVG9rZW5UeXBlLmluZGV4LCAnJywgaW5kZXg6IGlkeCkpOwogICAgICAgIH0KICAgICAgfSBlbHNlIGlmIChleHByW2ldID09ICcqJykgewogICAgICAgIHRva2Vucy5hZGQoY29uc3QgX1Rva2VuKF9Ub2tlblR5cGUud2lsZGNhcmQsICcnKSk7CiAgICAgICAgaSsrOwogICAgICB9IGVsc2UgewogICAgICAgIGZpbmFsIG5hbWUgPSBfcmVhZE5hbWUoZXhwciwgaSk7CiAgICAgICAgaWYgKG5hbWUuaXNOb3RFbXB0eSkgewogICAgICAgICAgdG9rZW5zLmFkZChfVG9rZW4oX1Rva2VuVHlwZS5jaGlsZCwgbmFtZSkpOwogICAgICAgICAgaSArPSBuYW1lLmxlbmd0aDsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgaSsrOwogICAgICAgIH0KICAgICAgfQogICAgfQogICAgcmV0dXJuIHRva2VuczsKICB9CgogIHN0YXRpYyBTdHJpbmcgX3JlYWROYW1lKFN0cmluZyBleHByLCBpbnQgaSkgewogICAgZmluYWwgc3RhcnQgPSBpOwogICAgd2hpbGUgKGkgPCBleHByLmxlbmd0aCkgewogICAgICBmaW5hbCBjID0gZXhwcltpXTsKICAgICAgaWYgKGMgPT0gJy4nIHx8IGMgPT0gJ1snIHx8IGMgPT0gJ10nIHx8IGMgPT0gJyonIHx8IGMgPT0gJzonKSBicmVhazsKICAgICAgaSsrOwogICAgfQogICAgcmV0dXJuIGV4cHIuc3Vic3RyaW5nKHN0YXJ0LCBpKTsKICB9CgogIHN0YXRpYyBMaXN0PGR5bmFtaWM+IF9hcHBseShkeW5hbWljIHZhbHVlLCBfVG9rZW4gdG9rZW4pIHsKICAgIHN3aXRjaCAodG9rZW4udHlwZSkgewogICAgICBjYXNlIF9Ub2tlblR5cGUuY2hpbGQ6CiAgICAgICAgaWYgKHZhbHVlIGlzIE1hcCAmJiB2YWx1ZS5jb250YWluc0tleSh0b2tlbi5uYW1lKSkgcmV0dXJuIDxkeW5hbWljPlt2YWx1ZVt0b2tlbi5uYW1lXV07CiAgICAgICAgcmV0dXJuIGNvbnN0IDxkeW5hbWljPltdOwogICAgICBjYXNlIF9Ub2tlblR5cGUuaW5kZXg6CiAgICAgICAgaWYgKHZhbHVlIGlzIExpc3QpIHsKICAgICAgICAgIGZpbmFsIGlkeCA9IHRva2VuLmluZGV4ITsKICAgICAgICAgIGZpbmFsIHJlYWwgPSBpZHggPCAwID8gdmFsdWUubGVuZ3RoICsgaWR4IDogaWR4OwogICAgICAgICAgaWYgKHJlYWwgPj0gMCAmJiByZWFsIDwgdmFsdWUubGVuZ3RoKSByZXR1cm4gPGR5bmFtaWM+W3ZhbHVlW3JlYWxdXTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvbnN0IDxkeW5hbWljPltdOwogICAgICBjYXNlIF9Ub2tlblR5cGUuc2xpY2U6CiAgICAgICAgaWYgKHZhbHVlIGlzIExpc3QpIHsKICAgICAgICAgIGZpbmFsIHN0YXJ0ID0gdG9rZW4uc3RhcnQgPz8gMDsKICAgICAgICAgIGZpbmFsIGVuZCA9IHRva2VuLmVuZCA/PyB2YWx1ZS5sZW5ndGg7CiAgICAgICAgICBmaW5hbCBmcm9tID0gc3RhcnQgPCAwID8gdmFsdWUubGVuZ3RoICsgc3RhcnQgOiBzdGFydDsKICAgICAgICAgIGZpbmFsIHRvID0gZW5kIDwgMCA/IHZhbHVlLmxlbmd0aCArIGVuZCA6IGVuZDsKICAgICAgICAgIGlmIChmcm9tIDwgdG8gJiYgZnJvbSA8IHZhbHVlLmxlbmd0aCkgewogICAgICAgICAgICByZXR1cm4gdmFsdWUuc3VibGlzdChmcm9tLCB0byA+IHZhbHVlLmxlbmd0aCA/IHZhbHVlLmxlbmd0aCA6IHRvKTsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvbnN0IDxkeW5hbWljPltdOwogICAgICBjYXNlIF9Ub2tlblR5cGUud2lsZGNhcmQ6CiAgICAgICAgaWYgKHZhbHVlIGlzIExpc3QpIHJldHVybiBMaXN0PGR5bmFtaWM+LmZyb20odmFsdWUpOwogICAgICAgIGlmICh2YWx1ZSBpcyBNYXApIHJldHVybiB2YWx1ZS52YWx1ZXMudG9MaXN0KCk7CiAgICAgICAgcmV0dXJuIGNvbnN0IDxkeW5hbWljPltdOwogICAgICBjYXNlIF9Ub2tlblR5cGUucmVjdXJzaXZlOgogICAgICAgIHJldHVybiBfZGVzY2VuZCh2YWx1ZSwgdG9rZW4ubmFtZSk7CiAgICB9CiAgfQoKICBzdGF0aWMgTGlzdDxkeW5hbWljPiBfZGVzY2VuZChkeW5hbWljIHZhbHVlLCBTdHJpbmcgbmFtZSkgewogICAgZmluYWwgb3V0ID0gPGR5bmFtaWM+W107CiAgICB2b2lkIHdhbGsoZHluYW1pYyBub2RlKSB7CiAgICAgIGlmIChub2RlIGlzIE1hcCkgewogICAgICAgIGZvciAoZmluYWwgZW50cnkgaW4gbm9kZS5lbnRyaWVzKSB7CiAgICAgICAgICBpZiAobmFtZSA9PSAnKicgfHwgZW50cnkua2V5ID09IG5hbWUpIG91dC5hZGQoZW50cnkudmFsdWUpOwogICAgICAgICAgd2FsayhlbnRyeS52YWx1ZSk7CiAgICAgICAgfQogICAgICB9IGVsc2UgaWYgKG5vZGUgaXMgTGlzdCkgewogICAgICAgIGZvciAoZmluYWwgaXRlbSBpbiBub2RlKSB7CiAgICAgICAgICB3YWxrKGl0ZW0pOwogICAgICAgIH0KICAgICAgfQogICAgfQogICAgd2Fsayh2YWx1ZSk7CiAgICByZXR1cm4gb3V0OwogIH0KfQoKZW51bSBfVG9rZW5UeXBlIHsgY2hpbGQsIGluZGV4LCBzbGljZSwgd2lsZGNhcmQsIHJlY3Vyc2l2ZSB9CgpjbGFzcyBfVG9rZW4gewogIGNvbnN0IF9Ub2tlbih0aGlzLnR5cGUsIHRoaXMubmFtZSwge3RoaXMuaW5kZXgsIHRoaXMuc3RhcnQsIHRoaXMuZW5kfSk7CiAgZmluYWwgX1Rva2VuVHlwZSB0eXBlOwogIGZpbmFsIFN0cmluZyBuYW1lOwogIGZpbmFsIGludD8gaW5kZXg7CiAgZmluYWwgaW50PyBzdGFydDsKICBmaW5hbCBpbnQ/IGVuZDsKfQo=
+/// A compact JSONPath evaluator covering the constructs used by Legado sources:
+///   $.a.b   $[0]   $..name   $.a[*].b   $['key']   array slices
+library;
+
+class JsonPath {
+  static List<dynamic> evaluate(dynamic root, String path) {
+    var expr = path.trim();
+    if (expr.startsWith('@json:')) expr = expr.substring(6);
+    if (expr.startsWith('\$')) expr = expr.substring(1);
+    if (expr.isEmpty) return <dynamic>[root];
+
+    final tokens = _tokenize(expr);
+    var current = <dynamic>[root];
+    for (final token in tokens) {
+      final next = <dynamic>[];
+      for (final value in current) {
+        next.addAll(_apply(value, token));
+      }
+      current = next;
+      if (current.isEmpty) break;
+    }
+    return current;
+  }
+
+  static List<_Token> _tokenize(String expr) {
+    final tokens = <_Token>[];
+    var i = 0;
+    while (i < expr.length) {
+      if (expr[i] == '.') {
+        i++;
+        if (i < expr.length && expr[i] == '.') {
+          i++;
+          final name = _readName(expr, i);
+          i += name.length;
+          tokens.add(_Token(_TokenType.recursive, name));
+        } else if (i < expr.length && expr[i] == '[') {
+          // .[0] — treat as normal bracket below
+          continue;
+        } else {
+          final name = _readName(expr, i);
+          if (name.isNotEmpty) {
+            tokens.add(_Token(_TokenType.child, name));
+            i += name.length;
+          }
+        }
+      } else if (expr[i] == '[') {
+        final end = expr.indexOf(']', i);
+        if (end < 0) break;
+        final inner = expr.substring(i + 1, end).trim();
+        i = end + 1;
+        final slice = RegExp(r'^(\d*):(\d*)$').firstMatch(inner);
+        if (slice != null) {
+          tokens.add(_Token(
+            _TokenType.slice,
+            '',
+            start: slice.group(1)!.isEmpty ? null : int.tryParse(slice.group(1)!),
+            end: slice.group(2)!.isEmpty ? null : int.tryParse(slice.group(2)!),
+          ));
+        } else if (inner == '*') {
+          tokens.add(const _Token(_TokenType.wildcard, ''));
+        } else if ((inner.startsWith("'") && inner.endsWith("'")) ||
+            (inner.startsWith('"') && inner.endsWith('"'))) {
+          tokens.add(_Token(_TokenType.child, inner.substring(1, inner.length - 1)));
+        } else {
+          final idx = int.tryParse(inner);
+          if (idx != null) tokens.add(_Token(_TokenType.index, '', index: idx));
+        }
+      } else if (expr[i] == '*') {
+        tokens.add(const _Token(_TokenType.wildcard, ''));
+        i++;
+      } else {
+        final name = _readName(expr, i);
+        if (name.isNotEmpty) {
+          tokens.add(_Token(_TokenType.child, name));
+          i += name.length;
+        } else {
+          i++;
+        }
+      }
+    }
+    return tokens;
+  }
+
+  static String _readName(String expr, int i) {
+    final start = i;
+    while (i < expr.length) {
+      final c = expr[i];
+      if (c == '.' || c == '[' || c == ']' || c == '*' || c == ':') break;
+      i++;
+    }
+    return expr.substring(start, i);
+  }
+
+  static List<dynamic> _apply(dynamic value, _Token token) {
+    switch (token.type) {
+      case _TokenType.child:
+        if (value is Map && value.containsKey(token.name)) return <dynamic>[value[token.name]];
+        return const <dynamic>[];
+      case _TokenType.index:
+        if (value is List) {
+          final idx = token.index!;
+          final real = idx < 0 ? value.length + idx : idx;
+          if (real >= 0 && real < value.length) return <dynamic>[value[real]];
+        }
+        return const <dynamic>[];
+      case _TokenType.slice:
+        if (value is List) {
+          final start = token.start ?? 0;
+          final end = token.end ?? value.length;
+          final from = start < 0 ? value.length + start : start;
+          final to = end < 0 ? value.length + end : end;
+          if (from < to && from < value.length) {
+            return value.sublist(from, to > value.length ? value.length : to);
+          }
+        }
+        return const <dynamic>[];
+      case _TokenType.wildcard:
+        if (value is List) return List<dynamic>.from(value);
+        if (value is Map) return value.values.toList();
+        return const <dynamic>[];
+      case _TokenType.recursive:
+        return _descend(value, token.name);
+    }
+  }
+
+  static List<dynamic> _descend(dynamic value, String name) {
+    final out = <dynamic>[];
+    void walk(dynamic node) {
+      if (node is Map) {
+        for (final entry in node.entries) {
+          if (name == '*' || entry.key == name) out.add(entry.value);
+          walk(entry.value);
+        }
+      } else if (node is List) {
+        for (final item in node) {
+          walk(item);
+        }
+      }
+    }
+    walk(value);
+    return out;
+  }
+}
+
+enum _TokenType { child, index, slice, wildcard, recursive }
+
+class _Token {
+  const _Token(this.type, this.name, {this.index, this.start, this.end});
+  final _TokenType type;
+  final String name;
+  final int? index;
+  final int? start;
+  final int? end;
+}

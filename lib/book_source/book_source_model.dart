@@ -1,1 +1,264 @@
-Ly8vIEEgTGVnYWRvLWNvbXBhdGlibGUgYm9vayBzb3VyY2UgZGVmaW5pdGlvbi4KLy8vCi8vLyBGaWVsZCBuYW1lcyBpbnRlbnRpb25hbGx5IG1pcnJvciB0aGUgdXBzdHJlYW0gYEJvb2tTb3VyY2VgIEpTT04gc28gdGhhdAovLy8gc291cmNlcyBleHBvcnRlZCBmcm9tIOmYheivuyAvIExlZ2FkbyBjYW4gYmUgaW1wb3J0ZWQgdmVyYmF0aW0uIFVua25vd24ga2V5cwovLy8gYXJlIHByZXNlcnZlZCBpbiBbZXh0cmFzXSBhbmQgd3JpdHRlbiBiYWNrIG9uIGV4cG9ydC4KY2xhc3MgQm9va1NvdXJjZSB7CiAgY29uc3QgQm9va1NvdXJjZSh7CiAgICByZXF1aXJlZCB0aGlzLmJvb2tTb3VyY2VVcmwsCiAgICByZXF1aXJlZCB0aGlzLmJvb2tTb3VyY2VOYW1lLAogICAgdGhpcy5ib29rU291cmNlR3JvdXAgPSAnJywKICAgIHRoaXMuYm9va1NvdXJjZVR5cGUgPSAwLAogICAgdGhpcy5ib29rU291cmNlQ29tbWVudCA9ICcnLAogICAgdGhpcy5jdXN0b21PcmRlciA9IDAsCiAgICB0aGlzLmVuYWJsZWQgPSB0cnVlLAogICAgdGhpcy5lbmFibGVkU2VhcmNoID0gdHJ1ZSwKICAgIHRoaXMuZW5hYmxlZEV4cGxvcmUgPSBmYWxzZSwKICAgIHRoaXMubG9naW5VcmwgPSAnJywKICAgIHRoaXMuc2VhcmNoVXJsID0gJycsCiAgICB0aGlzLmV4cGxvcmVVcmwgPSAnJywKICAgIHRoaXMucnVsZVNlYXJjaCA9IGNvbnN0IFNlYXJjaFJ1bGUoKSwKICAgIHRoaXMucnVsZUJvb2tJbmZvID0gY29uc3QgQm9va0luZm9SdWxlKCksCiAgICB0aGlzLnJ1bGVUb2MgPSBjb25zdCBUb2NSdWxlKCksCiAgICB0aGlzLnJ1bGVDb250ZW50ID0gY29uc3QgQ29udGVudFJ1bGUoKSwKICAgIHRoaXMuZXh0cmFzID0gY29uc3QgPFN0cmluZywgZHluYW1pYz57fSwKICB9KTsKCiAgZmluYWwgU3RyaW5nIGJvb2tTb3VyY2VVcmw7CiAgZmluYWwgU3RyaW5nIGJvb2tTb3VyY2VOYW1lOwogIGZpbmFsIFN0cmluZyBib29rU291cmNlR3JvdXA7CiAgZmluYWwgaW50IGJvb2tTb3VyY2VUeXBlOwogIGZpbmFsIFN0cmluZyBib29rU291cmNlQ29tbWVudDsKICBmaW5hbCBpbnQgY3VzdG9tT3JkZXI7CiAgZmluYWwgYm9vbCBlbmFibGVkOwogIGZpbmFsIGJvb2wgZW5hYmxlZFNlYXJjaDsKICBmaW5hbCBib29sIGVuYWJsZWRFeHBsb3JlOwogIGZpbmFsIFN0cmluZyBsb2dpblVybDsKICBmaW5hbCBTdHJpbmcgc2VhcmNoVXJsOwogIGZpbmFsIFN0cmluZyBleHBsb3JlVXJsOwogIGZpbmFsIFNlYXJjaFJ1bGUgcnVsZVNlYXJjaDsKICBmaW5hbCBCb29rSW5mb1J1bGUgcnVsZUJvb2tJbmZvOwogIGZpbmFsIFRvY1J1bGUgcnVsZVRvYzsKICBmaW5hbCBDb250ZW50UnVsZSBydWxlQ29udGVudDsKICBmaW5hbCBNYXA8U3RyaW5nLCBkeW5hbWljPiBleHRyYXM7CgogIC8vLyBTdGFibGUga2V5OiBMZWdhZG8gaWRlbnRpZmllcyBhIHNvdXJjZSBieSBpdHMgVVJMLgogIFN0cmluZyBnZXQga2V5ID0+IGJvb2tTb3VyY2VVcmwudHJpbSgpOwoKICBib29sIGdldCBpc1ZhbGlkID0+IGtleS5pc05vdEVtcHR5ICYmIGJvb2tTb3VyY2VOYW1lLnRyaW0oKS5pc05vdEVtcHR5OwoKICBCb29rU291cmNlIGNvcHlXaXRoKHsKICAgIFN0cmluZz8gYm9va1NvdXJjZVVybCwKICAgIFN0cmluZz8gYm9va1NvdXJjZU5hbWUsCiAgICBTdHJpbmc/IGJvb2tTb3VyY2VHcm91cCwKICAgIGludD8gYm9va1NvdXJjZVR5cGUsCiAgICBTdHJpbmc/IGJvb2tTb3VyY2VDb21tZW50LAogICAgaW50PyBjdXN0b21PcmRlciwKICAgIGJvb2w/IGVuYWJsZWQsCiAgICBib29sPyBlbmFibGVkU2VhcmNoLAogICAgYm9vbD8gZW5hYmxlZEV4cGxvcmUsCiAgICBTdHJpbmc/IGxvZ2luVXJsLAogICAgU3RyaW5nPyBzZWFyY2hVcmwsCiAgICBTdHJpbmc/IGV4cGxvcmVVcmwsCiAgICBTZWFyY2hSdWxlPyBydWxlU2VhcmNoLAogICAgQm9va0luZm9SdWxlPyBydWxlQm9va0luZm8sCiAgICBUb2NSdWxlPyBydWxlVG9jLAogICAgQ29udGVudFJ1bGU/IHJ1bGVDb250ZW50LAogICAgTWFwPFN0cmluZywgZHluYW1pYz4/IGV4dHJhcywKICB9KSA9PiBCb29rU291cmNlKAogICAgYm9va1NvdXJjZVVybDogYm9va1NvdXJjZVVybCA/PyB0aGlzLmJvb2tTb3VyY2VVcmwsCiAgICBib29rU291cmNlTmFtZTogYm9va1NvdXJjZU5hbWUgPz8gdGhpcy5ib29rU291cmNlTmFtZSwKICAgIGJvb2tTb3VyY2VHcm91cDogYm9va1NvdXJjZUdyb3VwID8/IHRoaXMuYm9va1NvdXJjZUdyb3VwLAogICAgYm9va1NvdXJjZVR5cGU6IGJvb2tTb3VyY2VUeXBlID8/IHRoaXMuYm9va1NvdXJjZVR5cGUsCiAgICBib29rU291cmNlQ29tbWVudDogYm9va1NvdXJjZUNvbW1lbnQgPz8gdGhpcy5ib29rU291cmNlQ29tbWVudCwKICAgIGN1c3RvbU9yZGVyOiBjdXN0b21PcmRlciA/PyB0aGlzLmN1c3RvbU9yZGVyLAogICAgZW5hYmxlZDogZW5hYmxlZCA/PyB0aGlzLmVuYWJsZWQsCiAgICBlbmFibGVkU2VhcmNoOiBlbmFibGVkU2VhcmNoID8/IHRoaXMuZW5hYmxlZFNlYXJjaCwKICAgIGVuYWJsZWRFeHBsb3JlOiBlbmFibGVkRXhwbG9yZSA/PyB0aGlzLmVuYWJsZWRFeHBsb3JlLAogICAgbG9naW5Vcmw6IGxvZ2luVXJsID8/IHRoaXMubG9naW5VcmwsCiAgICBzZWFyY2hVcmw6IHNlYXJjaFVybCA/PyB0aGlzLnNlYXJjaFVybCwKICAgIGV4cGxvcmVVcmw6IGV4cGxvcmVVcmwgPz8gdGhpcy5leHBsb3JlVXJsLAogICAgcnVsZVNlYXJjaDogcnVsZVNlYXJjaCA/PyB0aGlzLnJ1bGVTZWFyY2gsCiAgICBydWxlQm9va0luZm86IHJ1bGVCb29rSW5mbyA/PyB0aGlzLnJ1bGVCb29rSW5mbywKICAgIHJ1bGVUb2M6IHJ1bGVUb2MgPz8gdGhpcy5ydWxlVG9jLAogICAgcnVsZUNvbnRlbnQ6IHJ1bGVDb250ZW50ID8/IHRoaXMucnVsZUNvbnRlbnQsCiAgICBleHRyYXM6IGV4dHJhcyA/PyB0aGlzLmV4dHJhcywKICApOwoKICBNYXA8U3RyaW5nLCBkeW5hbWljPiB0b0pzb24oKSA9PiA8U3RyaW5nLCBkeW5hbWljPnsKICAgICdib29rU291cmNlVXJsJzogYm9va1NvdXJjZVVybCwKICAgICdib29rU291cmNlTmFtZSc6IGJvb2tTb3VyY2VOYW1lLAogICAgJ2Jvb2tTb3VyY2VHcm91cCc6IGJvb2tTb3VyY2VHcm91cCwKICAgICdib29rU291cmNlVHlwZSc6IGJvb2tTb3VyY2VUeXBlLAogICAgJ2Jvb2tTb3VyY2VDb21tZW50JzogYm9va1NvdXJjZUNvbW1lbnQsCiAgICAnY3VzdG9tT3JkZXInOiBjdXN0b21PcmRlciwKICAgICdlbmFibGVkJzogZW5hYmxlZCwKICAgICdlbmFibGVkU2VhcmNoJzogZW5hYmxlZFNlYXJjaCwKICAgICdlbmFibGVkRXhwbG9yZSc6IGVuYWJsZWRFeHBsb3JlLAogICAgJ2xvZ2luVXJsJzogbG9naW5VcmwsCiAgICAnc2VhcmNoVXJsJzogc2VhcmNoVXJsLAogICAgJ2V4cGxvcmVVcmwnOiBleHBsb3JlVXJsLAogICAgJ3J1bGVTZWFyY2gnOiBydWxlU2VhcmNoLnRvSnNvbigpLAogICAgJ3J1bGVCb29rSW5mbyc6IHJ1bGVCb29rSW5mby50b0pzb24oKSwKICAgICdydWxlVG9jJzogcnVsZVRvYy50b0pzb24oKSwKICAgICdydWxlQ29udGVudCc6IHJ1bGVDb250ZW50LnRvSnNvbigpLAogICAgLi4uZXh0cmFzLAogIH07CgogIGZhY3RvcnkgQm9va1NvdXJjZS5mcm9tSnNvbihNYXA8U3RyaW5nLCBkeW5hbWljPiBqc29uKSB7CiAgICBjb25zdCBrbm93biA9IDxTdHJpbmc+ewogICAgICAnYm9va1NvdXJjZVVybCcsICdib29rU291cmNlTmFtZScsICdib29rU291cmNlR3JvdXAnLCAnYm9va1NvdXJjZVR5cGUnLAogICAgICAnYm9va1NvdXJjZUNvbW1lbnQnLCAnY3VzdG9tT3JkZXInLCAnZW5hYmxlZCcsICdlbmFibGVkU2VhcmNoJywKICAgICAgJ2VuYWJsZWRFeHBsb3JlJywgJ2xvZ2luVXJsJywgJ3NlYXJjaFVybCcsICdleHBsb3JlVXJsJywKICAgICAgJ3J1bGVTZWFyY2gnLCAncnVsZUJvb2tJbmZvJywgJ3J1bGVUb2MnLCAncnVsZUNvbnRlbnQnLAogICAgfTsKICAgIGZpbmFsIGV4dHJhcyA9IDxTdHJpbmcsIGR5bmFtaWM+e307CiAgICBmb3IgKGZpbmFsIGVudHJ5IGluIGpzb24uZW50cmllcykgewogICAgICBpZiAoIWtub3duLmNvbnRhaW5zKGVudHJ5LmtleSkpIGV4dHJhc1tlbnRyeS5rZXldID0gZW50cnkudmFsdWU7CiAgICB9CiAgICByZXR1cm4gQm9va1NvdXJjZSgKICAgICAgYm9va1NvdXJjZVVybDogX3N0cihqc29uWydib29rU291cmNlVXJsJ10pLAogICAgICBib29rU291cmNlTmFtZTogX3N0cihqc29uWydib29rU291cmNlTmFtZSddKSwKICAgICAgYm9va1NvdXJjZUdyb3VwOiBfc3RyKGpzb25bJ2Jvb2tTb3VyY2VHcm91cCddKSwKICAgICAgYm9va1NvdXJjZVR5cGU6IF9pbnQoanNvblsnYm9va1NvdXJjZVR5cGUnXSwgZmFsbGJhY2s6IDApLAogICAgICBib29rU291cmNlQ29tbWVudDogX3N0cihqc29uWydib29rU291cmNlQ29tbWVudCddKSwKICAgICAgY3VzdG9tT3JkZXI6IF9pbnQoanNvblsnY3VzdG9tT3JkZXInXSksCiAgICAgIGVuYWJsZWQ6IF9ib29sKGpzb25bJ2VuYWJsZWQnXSwgZmFsbGJhY2s6IHRydWUpLAogICAgICBlbmFibGVkU2VhcmNoOiBfYm9vbChqc29uWydlbmFibGVkU2VhcmNoJ10sIGZhbGxiYWNrOiB0cnVlKSwKICAgICAgZW5hYmxlZEV4cGxvcmU6IF9ib29sKGpzb25bJ2VuYWJsZWRFeHBsb3JlJ10pLAogICAgICBsb2dpblVybDogX3N0cihqc29uWydsb2dpblVybCddKSwKICAgICAgc2VhcmNoVXJsOiBfc3RyKGpzb25bJ3NlYXJjaFVybCddKSwKICAgICAgZXhwbG9yZVVybDogX3N0cihqc29uWydleHBsb3JlVXJsJ10pLAogICAgICBydWxlU2VhcmNoOiBTZWFyY2hSdWxlLmZyb21Kc29uKF9tYXAoanNvblsncnVsZVNlYXJjaCddKSksCiAgICAgIHJ1bGVCb29rSW5mbzogQm9va0luZm9SdWxlLmZyb21Kc29uKF9tYXAoanNvblsncnVsZUJvb2tJbmZvJ10pKSwKICAgICAgcnVsZVRvYzogVG9jUnVsZS5mcm9tSnNvbihfbWFwKGpzb25bJ3J1bGVUb2MnXSkpLAogICAgICBydWxlQ29udGVudDogQ29udGVudFJ1bGUuZnJvbUpzb24oX21hcChqc29uWydydWxlQ29udGVudCddKSksCiAgICAgIGV4dHJhczogTWFwLnVubW9kaWZpYWJsZShleHRyYXMpLAogICAgKTsKICB9CgogIHN0YXRpYyBTdHJpbmcgX3N0cihPYmplY3Q/IHYpID0+IHYgaXMgU3RyaW5nID8gdiA6ICcnOwogIHN0YXRpYyBpbnQgX2ludChPYmplY3Q/IHYsIHtpbnQgZmFsbGJhY2sgPSAwfSkgPT4KICAgICAgdiBpcyBpbnQgPyB2IDogKHYgaXMgbnVtID8gdi50b0ludCgpIDogKHYgaXMgU3RyaW5nID8gaW50LnRyeVBhcnNlKHYpID8/IGZhbGxiYWNrIDogZmFsbGJhY2spKTsKICBzdGF0aWMgYm9vbCBfYm9vbChPYmplY3Q/IHYsIHtib29sIGZhbGxiYWNrID0gZmFsc2V9KSA9PgogICAgICB2IGlzIGJvb2wgPyB2IDogKHYgaXMgU3RyaW5nID8gdiA9PSAnMScgfHwgdi50b0xvd2VyQ2FzZSgpID09ICd0cnVlJyA6IGZhbGxiYWNrKTsKICBzdGF0aWMgTWFwPFN0cmluZywgZHluYW1pYz4gX21hcChPYmplY3Q/IHYpID0+CiAgICAgIHYgaXMgTWFwID8gTWFwPFN0cmluZywgZHluYW1pYz4uZnJvbSh2KSA6IGNvbnN0IDxTdHJpbmcsIGR5bmFtaWM+e307Cn0KCmNsYXNzIFNlYXJjaFJ1bGUgewogIGNvbnN0IFNlYXJjaFJ1bGUoewogICAgdGhpcy5ib29rTGlzdCA9ICcnLAogICAgdGhpcy5uYW1lID0gJycsCiAgICB0aGlzLmF1dGhvciA9ICcnLAogICAgdGhpcy5raW5kID0gJycsCiAgICB0aGlzLndvcmRDb3VudCA9ICcnLAogICAgdGhpcy5sYXN0Q2hhcHRlciA9ICcnLAogICAgdGhpcy5pbnRybyA9ICcnLAogICAgdGhpcy5jb3ZlclVybCA9ICcnLAogICAgdGhpcy5ib29rVXJsID0gJycsCiAgfSk7CgogIGZpbmFsIFN0cmluZyBib29rTGlzdCwgbmFtZSwgYXV0aG9yLCBraW5kLCB3b3JkQ291bnQ7CiAgZmluYWwgU3RyaW5nIGxhc3RDaGFwdGVyLCBpbnRybywgY292ZXJVcmwsIGJvb2tVcmw7CgogIE1hcDxTdHJpbmcsIGR5bmFtaWM+IHRvSnNvbigpID0+IDxTdHJpbmcsIGR5bmFtaWM+ewogICAgJ2Jvb2tMaXN0JzogYm9va0xpc3QsICduYW1lJzogbmFtZSwgJ2F1dGhvcic6IGF1dGhvciwgJ2tpbmQnOiBraW5kLAogICAgJ3dvcmRDb3VudCc6IHdvcmRDb3VudCwgJ2xhc3RDaGFwdGVyJzogbGFzdENoYXB0ZXIsICdpbnRybyc6IGludHJvLAogICAgJ2NvdmVyVXJsJzogY292ZXJVcmwsICdib29rVXJsJzogYm9va1VybCwKICB9OwoKICBmYWN0b3J5IFNlYXJjaFJ1bGUuZnJvbUpzb24oTWFwPFN0cmluZywgZHluYW1pYz4gaikgPT4gU2VhcmNoUnVsZSgKICAgIGJvb2tMaXN0OiBCb29rU291cmNlLl9zdHIoalsnYm9va0xpc3QnXSksIG5hbWU6IEJvb2tTb3VyY2UuX3N0cihqWyduYW1lJ10pLAogICAgYXV0aG9yOiBCb29rU291cmNlLl9zdHIoalsnYXV0aG9yJ10pLCBraW5kOiBCb29rU291cmNlLl9zdHIoalsna2luZCddKSwKICAgIHdvcmRDb3VudDogQm9va1NvdXJjZS5fc3RyKGpbJ3dvcmRDb3VudCddKSwgbGFzdENoYXB0ZXI6IEJvb2tTb3VyY2UuX3N0cihqWydsYXN0Q2hhcHRlciddKSwKICAgIGludHJvOiBCb29rU291cmNlLl9zdHIoalsnaW50cm8nXSksIGNvdmVyVXJsOiBCb29rU291cmNlLl9zdHIoalsnY292ZXJVcmwnXSksCiAgICBib29rVXJsOiBCb29rU291cmNlLl9zdHIoalsnYm9va1VybCddKSwKICApOwp9CgpjbGFzcyBCb29rSW5mb1J1bGUgewogIGNvbnN0IEJvb2tJbmZvUnVsZSh7CiAgICB0aGlzLm5hbWUgPSAnJywKICAgIHRoaXMuYXV0aG9yID0gJycsCiAgICB0aGlzLmtpbmQgPSAnJywKICAgIHRoaXMud29yZENvdW50ID0gJycsCiAgICB0aGlzLmxhc3RDaGFwdGVyID0gJycsCiAgICB0aGlzLmludHJvID0gJycsCiAgICB0aGlzLmNvdmVyVXJsID0gJycsCiAgICB0aGlzLnRvY1VybCA9ICcnLAogICAgdGhpcy5pc0NvbXBsZXRlID0gJycsCiAgfSk7CgogIGZpbmFsIFN0cmluZyBuYW1lLCBhdXRob3IsIGtpbmQsIHdvcmRDb3VudCwgbGFzdENoYXB0ZXI7CiAgZmluYWwgU3RyaW5nIGludHJvLCBjb3ZlclVybCwgdG9jVXJsLCBpc0NvbXBsZXRlOwoKICBNYXA8U3RyaW5nLCBkeW5hbWljPiB0b0pzb24oKSA9PiA8U3RyaW5nLCBkeW5hbWljPnsKICAgICduYW1lJzogbmFtZSwgJ2F1dGhvcic6IGF1dGhvciwgJ2tpbmQnOiBraW5kLCAnd29yZENvdW50Jzogd29yZENvdW50LAogICAgJ2xhc3RDaGFwdGVyJzogbGFzdENoYXB0ZXIsICdpbnRybyc6IGludHJvLCAnY292ZXJVcmwnOiBjb3ZlclVybCwKICAgICd0b2NVcmwnOiB0b2NVcmwsICdpc0NvbXBsZXRlJzogaXNDb21wbGV0ZSwKICB9OwoKICBmYWN0b3J5IEJvb2tJbmZvUnVsZS5mcm9tSnNvbihNYXA8U3RyaW5nLCBkeW5hbWljPiBqKSA9PiBCb29rSW5mb1J1bGUoCiAgICBuYW1lOiBCb29rU291cmNlLl9zdHIoalsnbmFtZSddKSwgYXV0aG9yOiBCb29rU291cmNlLl9zdHIoalsnYXV0aG9yJ10pLAogICAga2luZDogQm9va1NvdXJjZS5fc3RyKGpbJ2tpbmQnXSksIHdvcmRDb3VudDogQm9va1NvdXJjZS5fc3RyKGpbJ3dvcmRDb3VudCddKSwKICAgIGxhc3RDaGFwdGVyOiBCb29rU291cmNlLl9zdHIoalsnbGFzdENoYXB0ZXInXSksIGludHJvOiBCb29rU291cmNlLl9zdHIoalsnaW50cm8nXSksCiAgICBjb3ZlclVybDogQm9va1NvdXJjZS5fc3RyKGpbJ2NvdmVyVXJsJ10pLCB0b2NVcmw6IEJvb2tTb3VyY2UuX3N0cihqWyd0b2NVcmwnXSksCiAgICBpc0NvbXBsZXRlOiBCb29rU291cmNlLl9zdHIoalsnaXNDb21wbGV0ZSddKSwKICApOwp9CgpjbGFzcyBUb2NSdWxlIHsKICBjb25zdCBUb2NSdWxlKHsKICAgIHRoaXMuY2hhcHRlckxpc3QgPSAnJywKICAgIHRoaXMuY2hhcHRlck5hbWUgPSAnJywKICAgIHRoaXMuY2hhcHRlclVybCA9ICcnLAogICAgdGhpcy5pc1ZpcCA9ICcnLAogICAgdGhpcy51cGRhdGVUaW1lID0gJycsCiAgICB0aGlzLm5leHRVcmwgPSAnJywKICB9KTsKCiAgZmluYWwgU3RyaW5nIGNoYXB0ZXJMaXN0LCBjaGFwdGVyTmFtZSwgY2hhcHRlclVybCwgaXNWaXAsIHVwZGF0ZVRpbWUsIG5leHRVcmw7CgogIE1hcDxTdHJpbmcsIGR5bmFtaWM+IHRvSnNvbigpID0+IDxTdHJpbmcsIGR5bmFtaWM+ewogICAgJ2NoYXB0ZXJMaXN0JzogY2hhcHRlckxpc3QsICdjaGFwdGVyTmFtZSc6IGNoYXB0ZXJOYW1lLAogICAgJ2NoYXB0ZXJVcmwnOiBjaGFwdGVyVXJsLCAnaXNWaXAnOiBpc1ZpcCwgJ3VwZGF0ZVRpbWUnOiB1cGRhdGVUaW1lLAogICAgJ25leHRVcmwnOiBuZXh0VXJsLAogIH07CgogIGZhY3RvcnkgVG9jUnVsZS5mcm9tSnNvbihNYXA8U3RyaW5nLCBkeW5hbWljPiBqKSA9PiBUb2NSdWxlKAogICAgY2hhcHRlckxpc3Q6IEJvb2tTb3VyY2UuX3N0cihqWydjaGFwdGVyTGlzdCddKSwKICAgIGNoYXB0ZXJOYW1lOiBCb29rU291cmNlLl9zdHIoalsnY2hhcHRlck5hbWUnXSksCiAgICBjaGFwdGVyVXJsOiBCb29rU291cmNlLl9zdHIoalsnY2hhcHRlclVybCddKSwKICAgIGlzVmlwOiBCb29rU291cmNlLl9zdHIoalsnaXNWaXAnXSksCiAgICB1cGRhdGVUaW1lOiBCb29rU291cmNlLl9zdHIoalsndXBkYXRlVGltZSddKSwKICAgIG5leHRVcmw6IEJvb2tTb3VyY2UuX3N0cihqWyduZXh0VXJsJ10pLAogICk7Cn0KCmNsYXNzIENvbnRlbnRSdWxlIHsKICBjb25zdCBDb250ZW50UnVsZSh7CiAgICB0aGlzLmNvbnRlbnQgPSAnJywKICAgIHRoaXMubmV4dENvbnRlbnRVcmwgPSAnJywKICAgIHRoaXMud2ViSnMgPSAnJywKICAgIHRoaXMuc291cmNlUmVnZXggPSAnJywKICAgIHRoaXMucmVwbGFjZVJlZ2V4ID0gJycsCiAgICB0aGlzLmltYWdlU3R5bGUgPSAnJywKICB9KTsKCiAgZmluYWwgU3RyaW5nIGNvbnRlbnQsIG5leHRDb250ZW50VXJsLCB3ZWJKcywgc291cmNlUmVnZXgsIHJlcGxhY2VSZWdleCwgaW1hZ2VTdHlsZTsKCiAgTWFwPFN0cmluZywgZHluYW1pYz4gdG9Kc29uKCkgPT4gPFN0cmluZywgZHluYW1pYz57CiAgICAnY29udGVudCc6IGNvbnRlbnQsICduZXh0Q29udGVudFVybCc6IG5leHRDb250ZW50VXJsLCAnd2ViSnMnOiB3ZWJKcywKICAgICdzb3VyY2VSZWdleCc6IHNvdXJjZVJlZ2V4LCAncmVwbGFjZVJlZ2V4JzogcmVwbGFjZVJlZ2V4LCAnaW1hZ2VTdHlsZSc6IGltYWdlU3R5bGUsCiAgfTsKCiAgZmFjdG9yeSBDb250ZW50UnVsZS5mcm9tSnNvbihNYXA8U3RyaW5nLCBkeW5hbWljPiBqKSA9PiBDb250ZW50UnVsZSgKICAgIGNvbnRlbnQ6IEJvb2tTb3VyY2UuX3N0cihqWydjb250ZW50J10pLAogICAgbmV4dENvbnRlbnRVcmw6IEJvb2tTb3VyY2UuX3N0cihqWyduZXh0Q29udGVudFVybCddKSwKICAgIHdlYkpzOiBCb29rU291cmNlLl9zdHIoalsnd2ViSnMnXSksCiAgICBzb3VyY2VSZWdleDogQm9va1NvdXJjZS5fc3RyKGpbJ3NvdXJjZVJlZ2V4J10pLAogICAgcmVwbGFjZVJlZ2V4OiBCb29rU291cmNlLl9zdHIoalsncmVwbGFjZVJlZ2V4J10pLAogICAgaW1hZ2VTdHlsZTogQm9va1NvdXJjZS5fc3RyKGpbJ2ltYWdlU3R5bGUnXSksCiAgKTsKfQo=
+/// A Legado-compatible book source definition.
+///
+/// Field names intentionally mirror the upstream `BookSource` JSON so that
+/// sources exported from 阅读 / Legado can be imported verbatim. Unknown keys
+/// are preserved in [extras] and written back on export.
+class BookSource {
+  const BookSource({
+    required this.bookSourceUrl,
+    required this.bookSourceName,
+    this.bookSourceGroup = '',
+    this.bookSourceType = 0,
+    this.bookSourceComment = '',
+    this.customOrder = 0,
+    this.enabled = true,
+    this.enabledSearch = true,
+    this.enabledExplore = false,
+    this.loginUrl = '',
+    this.searchUrl = '',
+    this.exploreUrl = '',
+    this.ruleSearch = const SearchRule(),
+    this.ruleBookInfo = const BookInfoRule(),
+    this.ruleToc = const TocRule(),
+    this.ruleContent = const ContentRule(),
+    this.extras = const <String, dynamic>{},
+  });
+
+  final String bookSourceUrl;
+  final String bookSourceName;
+  final String bookSourceGroup;
+  final int bookSourceType;
+  final String bookSourceComment;
+  final int customOrder;
+  final bool enabled;
+  final bool enabledSearch;
+  final bool enabledExplore;
+  final String loginUrl;
+  final String searchUrl;
+  final String exploreUrl;
+  final SearchRule ruleSearch;
+  final BookInfoRule ruleBookInfo;
+  final TocRule ruleToc;
+  final ContentRule ruleContent;
+  final Map<String, dynamic> extras;
+
+  /// Stable key: Legado identifies a source by its URL.
+  String get key => bookSourceUrl.trim();
+
+  bool get isValid => key.isNotEmpty && bookSourceName.trim().isNotEmpty;
+
+  BookSource copyWith({
+    String? bookSourceUrl,
+    String? bookSourceName,
+    String? bookSourceGroup,
+    int? bookSourceType,
+    String? bookSourceComment,
+    int? customOrder,
+    bool? enabled,
+    bool? enabledSearch,
+    bool? enabledExplore,
+    String? loginUrl,
+    String? searchUrl,
+    String? exploreUrl,
+    SearchRule? ruleSearch,
+    BookInfoRule? ruleBookInfo,
+    TocRule? ruleToc,
+    ContentRule? ruleContent,
+    Map<String, dynamic>? extras,
+  }) => BookSource(
+    bookSourceUrl: bookSourceUrl ?? this.bookSourceUrl,
+    bookSourceName: bookSourceName ?? this.bookSourceName,
+    bookSourceGroup: bookSourceGroup ?? this.bookSourceGroup,
+    bookSourceType: bookSourceType ?? this.bookSourceType,
+    bookSourceComment: bookSourceComment ?? this.bookSourceComment,
+    customOrder: customOrder ?? this.customOrder,
+    enabled: enabled ?? this.enabled,
+    enabledSearch: enabledSearch ?? this.enabledSearch,
+    enabledExplore: enabledExplore ?? this.enabledExplore,
+    loginUrl: loginUrl ?? this.loginUrl,
+    searchUrl: searchUrl ?? this.searchUrl,
+    exploreUrl: exploreUrl ?? this.exploreUrl,
+    ruleSearch: ruleSearch ?? this.ruleSearch,
+    ruleBookInfo: ruleBookInfo ?? this.ruleBookInfo,
+    ruleToc: ruleToc ?? this.ruleToc,
+    ruleContent: ruleContent ?? this.ruleContent,
+    extras: extras ?? this.extras,
+  );
+
+  Map<String, dynamic> toJson() => <String, dynamic>{
+    'bookSourceUrl': bookSourceUrl,
+    'bookSourceName': bookSourceName,
+    'bookSourceGroup': bookSourceGroup,
+    'bookSourceType': bookSourceType,
+    'bookSourceComment': bookSourceComment,
+    'customOrder': customOrder,
+    'enabled': enabled,
+    'enabledSearch': enabledSearch,
+    'enabledExplore': enabledExplore,
+    'loginUrl': loginUrl,
+    'searchUrl': searchUrl,
+    'exploreUrl': exploreUrl,
+    'ruleSearch': ruleSearch.toJson(),
+    'ruleBookInfo': ruleBookInfo.toJson(),
+    'ruleToc': ruleToc.toJson(),
+    'ruleContent': ruleContent.toJson(),
+    ...extras,
+  };
+
+  factory BookSource.fromJson(Map<String, dynamic> json) {
+    const known = <String>{
+      'bookSourceUrl', 'bookSourceName', 'bookSourceGroup', 'bookSourceType',
+      'bookSourceComment', 'customOrder', 'enabled', 'enabledSearch',
+      'enabledExplore', 'loginUrl', 'searchUrl', 'exploreUrl',
+      'ruleSearch', 'ruleBookInfo', 'ruleToc', 'ruleContent',
+    };
+    final extras = <String, dynamic>{};
+    for (final entry in json.entries) {
+      if (!known.contains(entry.key)) extras[entry.key] = entry.value;
+    }
+    return BookSource(
+      bookSourceUrl: _str(json['bookSourceUrl']),
+      bookSourceName: _str(json['bookSourceName']),
+      bookSourceGroup: _str(json['bookSourceGroup']),
+      bookSourceType: _int(json['bookSourceType'], fallback: 0),
+      bookSourceComment: _str(json['bookSourceComment']),
+      customOrder: _int(json['customOrder']),
+      enabled: _bool(json['enabled'], fallback: true),
+      enabledSearch: _bool(json['enabledSearch'], fallback: true),
+      enabledExplore: _bool(json['enabledExplore']),
+      loginUrl: _str(json['loginUrl']),
+      searchUrl: _str(json['searchUrl']),
+      exploreUrl: _str(json['exploreUrl']),
+      ruleSearch: SearchRule.fromJson(_map(json['ruleSearch'])),
+      ruleBookInfo: BookInfoRule.fromJson(_map(json['ruleBookInfo'])),
+      ruleToc: TocRule.fromJson(_map(json['ruleToc'])),
+      ruleContent: ContentRule.fromJson(_map(json['ruleContent'])),
+      extras: Map.unmodifiable(extras),
+    );
+  }
+
+  static String _str(Object? v) => v is String ? v : '';
+  static int _int(Object? v, {int fallback = 0}) =>
+      v is int ? v : (v is num ? v.toInt() : (v is String ? int.tryParse(v) ?? fallback : fallback));
+  static bool _bool(Object? v, {bool fallback = false}) =>
+      v is bool ? v : (v is String ? v == '1' || v.toLowerCase() == 'true' : fallback);
+  static Map<String, dynamic> _map(Object? v) =>
+      v is Map ? Map<String, dynamic>.from(v) : const <String, dynamic>{};
+}
+
+class SearchRule {
+  const SearchRule({
+    this.bookList = '',
+    this.name = '',
+    this.author = '',
+    this.kind = '',
+    this.wordCount = '',
+    this.lastChapter = '',
+    this.intro = '',
+    this.coverUrl = '',
+    this.bookUrl = '',
+  });
+
+  final String bookList, name, author, kind, wordCount;
+  final String lastChapter, intro, coverUrl, bookUrl;
+
+  Map<String, dynamic> toJson() => <String, dynamic>{
+    'bookList': bookList, 'name': name, 'author': author, 'kind': kind,
+    'wordCount': wordCount, 'lastChapter': lastChapter, 'intro': intro,
+    'coverUrl': coverUrl, 'bookUrl': bookUrl,
+  };
+
+  factory SearchRule.fromJson(Map<String, dynamic> j) => SearchRule(
+    bookList: BookSource._str(j['bookList']), name: BookSource._str(j['name']),
+    author: BookSource._str(j['author']), kind: BookSource._str(j['kind']),
+    wordCount: BookSource._str(j['wordCount']), lastChapter: BookSource._str(j['lastChapter']),
+    intro: BookSource._str(j['intro']), coverUrl: BookSource._str(j['coverUrl']),
+    bookUrl: BookSource._str(j['bookUrl']),
+  );
+}
+
+class BookInfoRule {
+  const BookInfoRule({
+    this.name = '',
+    this.author = '',
+    this.kind = '',
+    this.wordCount = '',
+    this.lastChapter = '',
+    this.intro = '',
+    this.coverUrl = '',
+    this.tocUrl = '',
+    this.isComplete = '',
+  });
+
+  final String name, author, kind, wordCount, lastChapter;
+  final String intro, coverUrl, tocUrl, isComplete;
+
+  Map<String, dynamic> toJson() => <String, dynamic>{
+    'name': name, 'author': author, 'kind': kind, 'wordCount': wordCount,
+    'lastChapter': lastChapter, 'intro': intro, 'coverUrl': coverUrl,
+    'tocUrl': tocUrl, 'isComplete': isComplete,
+  };
+
+  factory BookInfoRule.fromJson(Map<String, dynamic> j) => BookInfoRule(
+    name: BookSource._str(j['name']), author: BookSource._str(j['author']),
+    kind: BookSource._str(j['kind']), wordCount: BookSource._str(j['wordCount']),
+    lastChapter: BookSource._str(j['lastChapter']), intro: BookSource._str(j['intro']),
+    coverUrl: BookSource._str(j['coverUrl']), tocUrl: BookSource._str(j['tocUrl']),
+    isComplete: BookSource._str(j['isComplete']),
+  );
+}
+
+class TocRule {
+  const TocRule({
+    this.chapterList = '',
+    this.chapterName = '',
+    this.chapterUrl = '',
+    this.isVip = '',
+    this.updateTime = '',
+    this.nextUrl = '',
+  });
+
+  final String chapterList, chapterName, chapterUrl, isVip, updateTime, nextUrl;
+
+  Map<String, dynamic> toJson() => <String, dynamic>{
+    'chapterList': chapterList, 'chapterName': chapterName,
+    'chapterUrl': chapterUrl, 'isVip': isVip, 'updateTime': updateTime,
+    'nextUrl': nextUrl,
+  };
+
+  factory TocRule.fromJson(Map<String, dynamic> j) => TocRule(
+    chapterList: BookSource._str(j['chapterList']),
+    chapterName: BookSource._str(j['chapterName']),
+    chapterUrl: BookSource._str(j['chapterUrl']),
+    isVip: BookSource._str(j['isVip']),
+    updateTime: BookSource._str(j['updateTime']),
+    nextUrl: BookSource._str(j['nextUrl']),
+  );
+}
+
+class ContentRule {
+  const ContentRule({
+    this.content = '',
+    this.nextContentUrl = '',
+    this.webJs = '',
+    this.sourceRegex = '',
+    this.replaceRegex = '',
+    this.imageStyle = '',
+  });
+
+  final String content, nextContentUrl, webJs, sourceRegex, replaceRegex, imageStyle;
+
+  Map<String, dynamic> toJson() => <String, dynamic>{
+    'content': content, 'nextContentUrl': nextContentUrl, 'webJs': webJs,
+    'sourceRegex': sourceRegex, 'replaceRegex': replaceRegex, 'imageStyle': imageStyle,
+  };
+
+  factory ContentRule.fromJson(Map<String, dynamic> j) => ContentRule(
+    content: BookSource._str(j['content']),
+    nextContentUrl: BookSource._str(j['nextContentUrl']),
+    webJs: BookSource._str(j['webJs']),
+    sourceRegex: BookSource._str(j['sourceRegex']),
+    replaceRegex: BookSource._str(j['replaceRegex']),
+    imageStyle: BookSource._str(j['imageStyle']),
+  );
+}

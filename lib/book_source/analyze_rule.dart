@@ -1,1 +1,427 @@
-Ly8vIExlZ2Fkby1jb21wYXRpYmxlIHJ1bGUgYW5hbHl6ZXIuCi8vLwovLy8gQSBydWxlIGlzIGEgY2hhaW4gb2YgZXhwcmVzc2lvbnMuIEVhY2ggZXhwcmVzc2lvbiBpcyBkZXRlY3RlZCBhcyBDU1MsIFhQYXRoLAovLy8gSlNPTlBhdGgsIEpTLCByZWdleCBvciBwbGFpbiB0ZXh0IGFuZCBhcHBsaWVkIHRvIHRoZSBjdXJyZW50IHJlc3VsdC4gQ2hhaW4KLy8vIG9wZXJhdG9yczoKLy8vICAgJiYgIGZlZWQgZWFjaCBlbGVtZW50IGludG8gdGhlIG5leHQgcnVsZSAobWFwKQovLy8gICB8fCAgZmlyc3Qgbm9uLWVtcHR5IHdpbnMKLy8vICAgIyNwYXR0ZXJuIyNyZXBsYWNlbWVudCAgcmVnZXjlh4DljJYgKGdsb2JhbCByZXBsYWNlLCB0cmFpbGluZyAjIyMgPSBmaXJzdCBvbmx5KQovLy8gVGVtcGxhdGUgYHt7IC4uLiB9fWAgYW5kIGBAZ2V0OntrZXl9YCBhcmUgZXhwYW5kZWQgYmVmb3JlIGV2YWx1YXRpb24uCmxpYnJhcnk7CgppbXBvcnQgJ2RhcnQ6Y29udmVydCc7CgppbXBvcnQgJ3BhY2thZ2U6aHRtbC9wYXJzZXIuZGFydCcgYXMgaHRtbF9wYXJzZXI7CmltcG9ydCAncGFja2FnZTpodG1sL2RvbS5kYXJ0JyBhcyBkb207CgppbXBvcnQgJ2pzX3J1bnRpbWUuZGFydCc7CmltcG9ydCAnanNvbl9wYXRoLmRhcnQnOwppbXBvcnQgJ3hwYXRoX2VuZ2luZS5kYXJ0JzsKCi8vLyBWYXJpYWJsZXMgc2hhcmVkIGFjcm9zcyBydWxlcyBvZiBvbmUgcmVxdWVzdCAoa2V5LCBwYWdlLCBib29rLCBzb3VyY2UsIC4uLikuCmNsYXNzIFJ1bGVWYXJpYWJsZXMgewogIFJ1bGVWYXJpYWJsZXModGhpcy5fdmFsdWVzKTsKICBmaW5hbCBNYXA8U3RyaW5nLCBkeW5hbWljPiBfdmFsdWVzOwogIGZpbmFsIE1hcDxTdHJpbmcsIFN0cmluZz4gX3N0b3JlID0gPFN0cmluZywgU3RyaW5nPnt9OwoKICBmYWN0b3J5IFJ1bGVWYXJpYWJsZXMuc2VhcmNoKFN0cmluZyBrZXksIGludCBwYWdlKSA9PgogICAgICBSdWxlVmFyaWFibGVzKHsna2V5Jzoga2V5LCAncGFnZSc6IHBhZ2V9KTsKCiAgZHluYW1pYyBvcGVyYXRvciBbXShTdHJpbmcga2V5KSA9PiBfdmFsdWVzW2tleV07CiAgdm9pZCBvcGVyYXRvciBbXT0oU3RyaW5nIGtleSwgZHluYW1pYyB2YWx1ZSkgPT4gX3ZhbHVlc1trZXldID0gdmFsdWU7CgogIHZvaWQgcHV0KFN0cmluZyBrZXksIFN0cmluZyB2YWx1ZSkgPT4gX3N0b3JlW2tleV0gPSB2YWx1ZTsKICBTdHJpbmc/IGdldChTdHJpbmcga2V5KSA9PiBfc3RvcmVba2V5XTsKCiAgTWFwPFN0cmluZywgZHluYW1pYz4gdG9Kc29uKCkgPT4gPFN0cmluZywgZHluYW1pYz57CiAgICAuLi5fdmFsdWVzLAogICAgLi4uX3N0b3JlLAogIH07Cn0KCmNsYXNzIEFuYWx5emVSdWxlIHsKICBBbmFseXplUnVsZSh7CiAgICByZXF1aXJlZCB0aGlzLmpzLAogICAgdGhpcy52YXJpYWJsZXMsCiAgfSkgOiB2YXJpYWJsZXMgPSB2YXJpYWJsZXMgPz8gUnVsZVZhcmlhYmxlcyhjb25zdCA8U3RyaW5nLCBkeW5hbWljPnt9KTsKCiAgZmluYWwgSnNSdW50aW1lIGpzOwogIGZpbmFsIFJ1bGVWYXJpYWJsZXMgdmFyaWFibGVzOwogIGRvbS5Eb2N1bWVudD8gX2RvY3VtZW50OwogIGR5bmFtaWMgX2pzb247CiAgU3RyaW5nIF9jb250ZW50ID0gJyc7CiAgYm9vbCBfaXNKc29uID0gZmFsc2U7CgogIC8vLyBGZWVkIHJhdyBIVE1MIG9yIEpTT04gY29udGVudCBpbnRvIHRoZSBhbmFseXplci4KICBBbmFseXplUnVsZSBzZXRDb250ZW50KFN0cmluZyBjb250ZW50KSB7CiAgICBfY29udGVudCA9IGNvbnRlbnQ7CiAgICBmaW5hbCB0cmltbWVkID0gY29udGVudC50cmltTGVmdCgpOwogICAgX2lzSnNvbiA9IHRyaW1tZWQuc3RhcnRzV2l0aCgneycpIHx8IHRyaW1tZWQuc3RhcnRzV2l0aCgnWycpOwogICAgaWYgKF9pc0pzb24pIHsKICAgICAgdHJ5IHsKICAgICAgICBfanNvbiA9IGpzb25EZWNvZGUoY29udGVudCk7CiAgICAgIH0gY2F0Y2ggKF8pIHsKICAgICAgICBfaXNKc29uID0gZmFsc2U7CiAgICAgICAgX2pzb24gPSBudWxsOwogICAgICB9CiAgICB9CiAgICBpZiAoIV9pc0pzb24pIHsKICAgICAgdHJ5IHsKICAgICAgICBfZG9jdW1lbnQgPSBodG1sX3BhcnNlci5wYXJzZShjb250ZW50KTsKICAgICAgfSBjYXRjaCAoXykgewogICAgICAgIF9kb2N1bWVudCA9IG51bGw7CiAgICAgIH0KICAgIH0KICAgIHJldHVybiB0aGlzOwogIH0KCiAgLy8vIEV4dHJhY3QgYSBzaW5nbGUgc3RyaW5nLgogIFN0cmluZyBnZXRTdHJpbmcoU3RyaW5nPyBydWxlLCB7U3RyaW5nIGRlZmF1bHRWYWx1ZSA9ICcnfSkgewogICAgaWYgKHJ1bGUgPT0gbnVsbCB8fCBydWxlLnRyaW0oKS5pc0VtcHR5KSByZXR1cm4gZGVmYXVsdFZhbHVlOwogICAgZmluYWwgdmFsdWVzID0gZ2V0TGlzdChydWxlKTsKICAgIGlmICh2YWx1ZXMuaXNFbXB0eSkgcmV0dXJuIGRlZmF1bHRWYWx1ZTsKICAgIHJldHVybiB2YWx1ZXMuZmlyc3QudHJpbSgpOwogIH0KCiAgLy8vIEV4dHJhY3QgYSBsaXN0IG9mIHN0cmluZ3MgZm9sbG93aW5nIHRoZSBydWxlIGNoYWluLgogIExpc3Q8U3RyaW5nPiBnZXRMaXN0KFN0cmluZz8gcnVsZSkgewogICAgaWYgKHJ1bGUgPT0gbnVsbCB8fCBydWxlLnRyaW0oKS5pc0VtcHR5KSByZXR1cm4gY29uc3QgPFN0cmluZz5bXTsKICAgIGZpbmFsIGV4cGFuZGVkID0gX21ha2VVcFJ1bGUocnVsZSk7CiAgICAvLyBPUiBjaGFpbnM6IGZpcnN0IG5vbi1lbXB0eSBicmFuY2ggd2lucy4KICAgIGZpbmFsIG9yUGFydHMgPSBfc3BsaXRUb3BMZXZlbChleHBhbmRlZCwgJ3x8Jyk7CiAgICBpZiAob3JQYXJ0cy5sZW5ndGggPiAxKSB7CiAgICAgIGZvciAoZmluYWwgcGFydCBpbiBvclBhcnRzKSB7CiAgICAgICAgZmluYWwgcmVzdWx0ID0gX2V2YWxDaGFpbihwYXJ0KTsKICAgICAgICBpZiAocmVzdWx0LmlzTm90RW1wdHkpIHJldHVybiByZXN1bHQ7CiAgICAgIH0KICAgICAgcmV0dXJuIGNvbnN0IDxTdHJpbmc+W107CiAgICB9CiAgICByZXR1cm4gX2V2YWxDaGFpbihleHBhbmRlZCk7CiAgfQoKICAvLy8gRXZhbHVhdGUgdGhlIHJhdyBjb250ZW50IGl0c2VsZiAoZS5nLiBhIEpTIHJ1bGUgb3ZlciB0aGUgd2hvbGUgcGFnZSkuCiAgU3RyaW5nIGV2YWx1YXRlKFN0cmluZyBydWxlKSA9PiBnZXRTdHJpbmcocnVsZSk7CgogIExpc3Q8U3RyaW5nPiBfZXZhbENoYWluKFN0cmluZyBjaGFpbikgewogICAgLy8gQU5EIGNoYWluczogc3BsaXQsIGV2YWx1YXRlIGVhY2ggYWdhaW5zdCBjdXJyZW50IG5vZGVzLCBmbGF0dGVuLgogICAgZmluYWwgYW5kUGFydHMgPSBfc3BsaXRUb3BMZXZlbChjaGFpbiwgJyYmJyk7CiAgICBpZiAoYW5kUGFydHMubGVuZ3RoID4gMSkgewogICAgICBMaXN0PFN0cmluZz4gY3VycmVudCA9IDxTdHJpbmc+WycnXTsKICAgICAgLy8gRmlyc3QgcGFydCBldmFsdWF0ZXMgYWdhaW5zdCB0aGUgZG9jdW1lbnQ7IGxhdGVyIHBhcnRzIHJlLXNldCBjb250ZW50LgogICAgICBmb3IgKHZhciBpID0gMDsgaSA8IGFuZFBhcnRzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgZmluYWwgcGFydCA9IGFuZFBhcnRzW2ldLnRyaW0oKTsKICAgICAgICBpZiAoaSA9PSAwKSB7CiAgICAgICAgICBjdXJyZW50ID0gX2V2YWxDaGFpbihwYXJ0KTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgZmluYWwgZXhwYW5kZWQgPSBfZXhwYW5kV2l0aEVhY2gocGFydCwgY3VycmVudCk7CiAgICAgICAgICBjdXJyZW50ID0gZXhwYW5kZWQ7CiAgICAgICAgfQogICAgICB9CiAgICAgIHJldHVybiBjdXJyZW50LndoZXJlKChzKSA9PiBzLmlzTm90RW1wdHkpLnRvTGlzdCgpOwogICAgfQogICAgcmV0dXJuIF9ldmFsU2luZ2xlKGNoYWluKTsKICB9CgogIExpc3Q8U3RyaW5nPiBfZXhwYW5kV2l0aEVhY2goU3RyaW5nIHBhcnQsIExpc3Q8U3RyaW5nPiBpbnB1dHMpIHsKICAgIGZpbmFsIG91dCA9IDxTdHJpbmc+W107CiAgICBmb3IgKGZpbmFsIGlucHV0IGluIGlucHV0cykgewogICAgICBzZXRDb250ZW50KGlucHV0KTsKICAgICAgb3V0LmFkZEFsbChfZXZhbFNpbmdsZShwYXJ0KSk7CiAgICB9CiAgICByZXR1cm4gb3V0OwogIH0KCiAgTGlzdDxTdHJpbmc+IF9ldmFsU2luZ2xlKFN0cmluZyByYXcpIHsKICAgIHZhciBydWxlID0gcmF3LnRyaW0oKTsKICAgIGlmIChydWxlLmlzRW1wdHkpIHJldHVybiBjb25zdCA8U3RyaW5nPltdOwoKICAgIC8vIFJlZ2V4IHJlcGxhY2VtZW50IGNoYWluOiBydWxlIyNwYXR0ZXJuIyNyZXBsYWNlbWVudCAoIyMjID0gZmlyc3Qgb25seSkuCiAgICBTdHJpbmc/IHJlcGxhY2VQYXR0ZXJuLCByZXBsYWNlbWVudDsKICAgIGJvb2wgZmlyc3RPbmx5ID0gZmFsc2U7CiAgICBmaW5hbCByZXBsYWNlSWR4ID0gX2luZGV4T2ZUb3BMZXZlbChydWxlLCAnIyMnKTsKICAgIGlmIChyZXBsYWNlSWR4ID49IDApIHsKICAgICAgZmluYWwgYWZ0ZXIgPSBydWxlLnN1YnN0cmluZyhyZXBsYWNlSWR4ICsgMik7CiAgICAgIHJ1bGUgPSBydWxlLnN1YnN0cmluZygwLCByZXBsYWNlSWR4KS50cmltKCk7CiAgICAgIGZpbmFsIHBhcnRzID0gX3NwbGl0UmVwbGFjZShhZnRlcik7CiAgICAgIGlmIChwYXJ0cy5sZW5ndGggPj0gMikgewogICAgICAgIHJlcGxhY2VQYXR0ZXJuID0gcGFydHNbMF07CiAgICAgICAgcmVwbGFjZW1lbnQgPSBwYXJ0c1sxXTsKICAgICAgICBmaXJzdE9ubHkgPSBwYXJ0cy5sZW5ndGggPj0gMzsKICAgICAgfQogICAgfQoKICAgIExpc3Q8U3RyaW5nPiB2YWx1ZXMgPSBfZXh0cmFjdChydWxlKTsKCiAgICBpZiAocmVwbGFjZVBhdHRlcm4gIT0gbnVsbCAmJiByZXBsYWNlbWVudCAhPSBudWxsKSB7CiAgICAgIHRyeSB7CiAgICAgICAgZmluYWwgcmUgPSBSZWdFeHAocmVwbGFjZVBhdHRlcm4sIG11bHRpTGluZTogdHJ1ZSwgZG90QWxsOiBmYWxzZSk7CiAgICAgICAgdmFsdWVzID0gdmFsdWVzLm1hcCgodmFsdWUpIHsKICAgICAgICAgIHJldHVybiBmaXJzdE9ubHkKICAgICAgICAgICAgICA/IHZhbHVlLnJlcGxhY2VGaXJzdE1hcHBlZChyZSwgKG0pID0+IF9leHBhbmRHcm91cHMocmVwbGFjZW1lbnQhLCBtKSkKICAgICAgICAgICAgICA6IHZhbHVlLnJlcGxhY2VBbGxNYXBwZWQocmUsIChtKSA9PiBfZXhwYW5kR3JvdXBzKHJlcGxhY2VtZW50ISwgbSkpOwogICAgICAgIH0pLnRvTGlzdCgpOwogICAgICB9IGNhdGNoIChfKSB7CiAgICAgICAgLy8gSW52YWxpZCByZWdleDoga2VlcCBvcmlnaW5hbCB2YWx1ZXMuCiAgICAgIH0KICAgIH0KICAgIHJldHVybiB2YWx1ZXMud2hlcmUoKHMpID0+IHMuaXNOb3RFbXB0eSkudG9MaXN0KCk7CiAgfQoKICBTdHJpbmcgX2V4cGFuZEdyb3VwcyhTdHJpbmcgcmVwbGFjZW1lbnQsIFJlZ0V4cE1hdGNoIG1hdGNoKSB7CiAgICB2YXIgb3V0ID0gcmVwbGFjZW1lbnQ7CiAgICBmb3IgKHZhciBpID0gMDsgaSA8PSBtYXRjaC5ncm91cENvdW50OyBpKyspIHsKICAgICAgb3V0ID0gb3V0LnJlcGxhY2VBbGwoJ1wkJGknLCBtYXRjaC5ncm91cChpKSA/PyAnJyk7CiAgICB9CiAgICByZXR1cm4gb3V0OwogIH0KCiAgTGlzdDxTdHJpbmc+IF9leHRyYWN0KFN0cmluZyBydWxlKSB7CiAgICBpZiAocnVsZS5pc0VtcHR5KSByZXR1cm4gY29uc3QgPFN0cmluZz5bXTsKCiAgICAvLyBBbGxJbk9uZSByZWdleCBtb2RlOiBwcmVmaXggJzonLgogICAgaWYgKHJ1bGUuc3RhcnRzV2l0aCgnOicpKSB7CiAgICAgIHJldHVybiBfcmVnZXhDYXB0dXJlKHJ1bGUuc3Vic3RyaW5nKDEpLCBhbGw6IHRydWUpOwogICAgfQogICAgLy8gSlMgbW9kZTogQGpzOiBwcmVmaXggb3IgYmFyZSBKUyBtYXJrZXJzLgogICAgaWYgKHJ1bGUuc3RhcnRzV2l0aCgnQGpzOicpKSB7CiAgICAgIGZpbmFsIHJlc3VsdCA9IF9ydW5KcyhydWxlLnN1YnN0cmluZyg0KSk7CiAgICAgIHJldHVybiByZXN1bHQuaXNFbXB0eSA/IGNvbnN0IDxTdHJpbmc+W10gOiA8U3RyaW5nPltyZXN1bHRdOwogICAgfQogICAgLy8gTmVzdGVkIHt7IH19IHB1cmUgdGVtcGxhdGUgYWxyZWFkeSBleHBhbmRlZCBpbiBtYWtlVXA7IGlmIHN0aWxsIHByZXNlbnQKICAgIC8vIGl0IGlzIGEgSlMgZXhwcmVzc2lvbiB0aGF0IG11c3QgcnVuLgogICAgaWYgKF9sb29rc0xpa2VKcyhydWxlKSkgewogICAgICBmaW5hbCByZXN1bHQgPSBfcnVuSnMocnVsZSk7CiAgICAgIHJldHVybiByZXN1bHQuaXNFbXB0eSA/IGNvbnN0IDxTdHJpbmc+W10gOiA8U3RyaW5nPltyZXN1bHRdOwogICAgfQogICAgLy8gSlNPTlBhdGguCiAgICBpZiAoX2lzSnNvbikgewogICAgICBmaW5hbCBqcCA9IF9zdHJpcFByZWZpeChydWxlLCAnanNvbicpOwogICAgICBpZiAoanAuc3RhcnRzV2l0aCgnXCQnKSB8fCBydWxlLnN0YXJ0c1dpdGgoJ0Bqc29uOicpIHx8IHJ1bGUuc3RhcnRzV2l0aCgnXCQnKSkgewogICAgICAgIHJldHVybiBKc29uUGF0aC5ldmFsdWF0ZShfanNvbiwganApLm1hcChfc3RyaW5naWZ5KS53aGVyZSgocykgPT4gcy5pc05vdEVtcHR5KS50b0xpc3QoKTsKICAgICAgfQogICAgfQogICAgLy8gWFBhdGguCiAgICBmaW5hbCB4cCA9IF9zdHJpcFByZWZpeChydWxlLCAneHBhdGgnKTsKICAgIGlmIChydWxlLnN0YXJ0c1dpdGgoJ0BYUGF0aDonKSB8fAogICAgICAgIHJ1bGUuc3RhcnRzV2l0aCgnQHhwYXRoOicpIHx8CiAgICAgICAgeHAuc3RhcnRzV2l0aCgnLycpKSB7CiAgICAgIGZpbmFsIGVuZ2luZSA9IFhQYXRoRW5naW5lKF9kb2N1bWVudCA/PyBodG1sX3BhcnNlci5wYXJzZSgnPGh0bWw+PC9odG1sPicpKTsKICAgICAgZmluYWwgcmVzdWx0ID0gZW5naW5lLmV2YWx1YXRlKHhwKTsKICAgICAgaWYgKHJlc3VsdC50ZXh0ICE9IG51bGwpIHsKICAgICAgICByZXR1cm4gcmVzdWx0LnRleHQhLmlzRW1wdHkgPyBjb25zdCA8U3RyaW5nPltdIDogPFN0cmluZz5bcmVzdWx0LnRleHQhXTsKICAgICAgfQogICAgICByZXR1cm4gcmVzdWx0Lm5vZGVzLm1hcCgobikgPT4gbi50ZXh0Py50cmltKCkgPz8gJycpLndoZXJlKChzKSA9PiBzLmlzTm90RW1wdHkpLnRvTGlzdCgpOwogICAgfQogICAgLy8gQ1NTIChkZWZhdWx0IG1vZGUpLiBTdXBwb3J0cyBgc2VsZWN0b3JAYXR0cmAgYW5kIGBAQHNlbGVjdG9yQGF0dHJgLgogICAgZmluYWwgY3NzID0gX3N0cmlwUHJlZml4KHJ1bGUsICdjc3MnKTsKICAgIHJldHVybiBfY3NzUXVlcnkoY3NzKTsKICB9CgogIExpc3Q8U3RyaW5nPiBfY3NzUXVlcnkoU3RyaW5nIHJ1bGUpIHsKICAgIGZpbmFsIGRvY3VtZW50ID0gX2RvY3VtZW50OwogICAgaWYgKGRvY3VtZW50ID09IG51bGwpIHJldHVybiBjb25zdCA8U3RyaW5nPltdOwogICAgdmFyIHNlbGVjdG9yID0gcnVsZTsKICAgIFN0cmluZz8gYXR0cjsKICAgIC8vIGBzZWxlY3RvckBhdHRyYCDigJQgc3BsaXQgb24gdGhlIGxhc3QgQCB0aGF0IGlzIG5vdCBhIGNzcyBlc2NhcGUuCiAgICBmaW5hbCBhdCA9IHNlbGVjdG9yLmxhc3RJbmRleE9mKCdAJyk7CiAgICBpZiAoYXQgPiAwKSB7CiAgICAgIGF0dHIgPSBzZWxlY3Rvci5zdWJzdHJpbmcoYXQgKyAxKS50cmltKCk7CiAgICAgIHNlbGVjdG9yID0gc2VsZWN0b3Iuc3Vic3RyaW5nKDAsIGF0KS50cmltKCk7CiAgICB9CiAgICBpZiAoc2VsZWN0b3Iuc3RhcnRzV2l0aCgnQEAnKSkgc2VsZWN0b3IgPSBzZWxlY3Rvci5zdWJzdHJpbmcoMik7CiAgICBpZiAoc2VsZWN0b3IuaXNFbXB0eSkgc2VsZWN0b3IgPSAnYm9keSc7CgogICAgTGlzdDxkb20uRWxlbWVudD4gZWxlbWVudHM7CiAgICB0cnkgewogICAgICBlbGVtZW50cyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoc2VsZWN0b3IpLnRvTGlzdCgpOwogICAgfSBjYXRjaCAoXykgewogICAgICByZXR1cm4gY29uc3QgPFN0cmluZz5bXTsKICAgIH0KICAgIGlmIChhdHRyID09IG51bGwgfHwgYXR0ci5pc0VtcHR5IHx8IGF0dHIgPT0gJ3RleHQnIHx8IGF0dHIgPT0gJ3RleHQoKScpIHsKICAgICAgcmV0dXJuIGVsZW1lbnRzCiAgICAgICAgICAubWFwKChlKSA9PiBlLnRleHQudHJpbSgpKQogICAgICAgICAgLndoZXJlKChzKSA9PiBzLmlzTm90RW1wdHkpCiAgICAgICAgICAudG9MaXN0KCk7CiAgICB9CiAgICBpZiAoYXR0ciA9PSAnaHRtbCcgfHwgYXR0ciA9PSAnb3V0ZXJIdG1sJykgewogICAgICByZXR1cm4gZWxlbWVudHMubWFwKChlKSA9PiBlLm91dGVySHRtbCkudG9MaXN0KCk7CiAgICB9CiAgICBpZiAoYXR0ciA9PSAnaW5uZXJIdG1sJyB8fCBhdHRyID09ICdpbm5lckhUTUwnKSB7CiAgICAgIHJldHVybiBlbGVtZW50cy5tYXAoKGUpID0+IGUuaW5uZXJIdG1sKS50b0xpc3QoKTsKICAgIH0KICAgIHJldHVybiBlbGVtZW50cwogICAgICAgIC5tYXAoKGUpIHsKICAgICAgICAgIGZpbmFsIGtleSA9IGUuYXR0cmlidXRlcy5rZXlzLmZpcnN0V2hlcmUoCiAgICAgICAgICAgIChrKSA9PiBrLnRvTG93ZXJDYXNlKCkgPT0gYXR0ciEudG9Mb3dlckNhc2UoKSwKICAgICAgICAgICAgb3JFbHNlOiAoKSA9PiAnJywKICAgICAgICAgICk7CiAgICAgICAgICByZXR1cm4ga2V5LmlzRW1wdHkgPyAnJyA6IChlLmF0dHJpYnV0ZXNba2V5XSA/PyAnJyk7CiAgICAgICAgfSkKICAgICAgICAud2hlcmUoKHMpID0+IHMuaXNOb3RFbXB0eSkKICAgICAgICAudG9MaXN0KCk7CiAgfQoKICBMaXN0PFN0cmluZz4gX3JlZ2V4Q2FwdHVyZShTdHJpbmcgcGF0dGVybiwge3JlcXVpcmVkIGJvb2wgYWxsfSkgewogICAgZmluYWwgb3V0ID0gPFN0cmluZz5bXTsKICAgIHRyeSB7CiAgICAgIGZpbmFsIHJlID0gUmVnRXhwKHBhdHRlcm4sIG11bHRpTGluZTogdHJ1ZSwgZG90QWxsOiB0cnVlKTsKICAgICAgaWYgKGFsbCkgewogICAgICAgIGZvciAoZmluYWwgbSBpbiByZS5hbGxNYXRjaGVzKF9jb250ZW50KSkgewogICAgICAgICAgaWYgKG0uZ3JvdXBDb3VudCA+PSAxKSB7CiAgICAgICAgICAgIG91dC5hZGQobS5ncm91cCgxKSA/PyAnJyk7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBvdXQuYWRkKG0uZ3JvdXAoMCkgPz8gJycpOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSBlbHNlIHsKICAgICAgICBmaW5hbCBtID0gcmUuZmlyc3RNYXRjaChfY29udGVudCk7CiAgICAgICAgaWYgKG0gIT0gbnVsbCkgewogICAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPD0gbS5ncm91cENvdW50OyBpKyspIHsKICAgICAgICAgICAgb3V0LmFkZChtLmdyb3VwKGkpID8/ICcnKTsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0KICAgIH0gY2F0Y2ggKF8pIHt9CiAgICByZXR1cm4gb3V0LndoZXJlKChzKSA9PiBzLmlzTm90RW1wdHkpLnRvTGlzdCgpOwogIH0KCiAgU3RyaW5nIF9ydW5KcyhTdHJpbmcgY29kZSkgewogICAgZmluYWwgdmFycyA9IHZhcmlhYmxlcy50b0pzb24oKTsKICAgIHJldHVybiBqcy5ldmFsdWF0ZVJ1bGUoY29kZSwgdmFyaWFibGVzOiB2YXJzLCBjb250ZW50OiBfY29udGVudCk7CiAgfQoKICAvLy8gRXhwYW5kIHt7Li4ufX0gdGVtcGxhdGVzIGFuZCBAZ2V0OntrZXl9IGJlZm9yZSBldmFsdWF0aW9uLgogIFN0cmluZyBfbWFrZVVwUnVsZShTdHJpbmcgcnVsZSkgewogICAgdmFyIG91dCA9IHJ1bGU7CiAgICAvLyBAZ2V0OntrZXl9CiAgICBvdXQgPSBvdXQucmVwbGFjZUFsbE1hcHBlZChSZWdFeHAocidAZ2V0Olx7KFtefV0rKVx9JyksIChtKSB7CiAgICAgIHJldHVybiB2YXJpYWJsZXMuZ2V0KG0uZ3JvdXAoMSkhLnRyaW0oKSkgPz8gJyc7CiAgICB9KTsKICAgIC8vIHt7IC4uLiB9fSDigJQgbWF5IGNvbnRhaW4gbmVzdGVkIGJyYWNlcyBidXQgbm90IHRyaXBsZS1xdW90ZWQgc3RyaW5ncyBoZXJlLgogICAgb3V0ID0gX3JlcGxhY2VUZW1wbGF0ZXMob3V0KTsKICAgIHJldHVybiBvdXQ7CiAgfQoKICBTdHJpbmcgX3JlcGxhY2VUZW1wbGF0ZXMoU3RyaW5nIGlucHV0KSB7CiAgICBmaW5hbCBidWZmZXIgPSBTdHJpbmdCdWZmZXIoKTsKICAgIHZhciBpID0gMDsKICAgIHdoaWxlIChpIDwgaW5wdXQubGVuZ3RoKSB7CiAgICAgIGZpbmFsIHN0YXJ0ID0gaW5wdXQuaW5kZXhPZigne3snLCBpKTsKICAgICAgaWYgKHN0YXJ0IDwgMCkgewogICAgICAgIGJ1ZmZlci53cml0ZShpbnB1dC5zdWJzdHJpbmcoaSkpOwogICAgICAgIGJyZWFrOwogICAgICB9CiAgICAgIGJ1ZmZlci53cml0ZShpbnB1dC5zdWJzdHJpbmcoaSwgc3RhcnQpKTsKICAgICAgdmFyIGRlcHRoID0gMjsKICAgICAgdmFyIGogPSBzdGFydCArIDI7CiAgICAgIHdoaWxlIChqIDwgaW5wdXQubGVuZ3RoICYmIGRlcHRoID4gMCkgewogICAgICAgIGlmIChpbnB1dC5zdGFydHNXaXRoKCd7eycsIGopKSB7CiAgICAgICAgICBkZXB0aCArPSAyOwogICAgICAgICAgaiArPSAyOwogICAgICAgIH0gZWxzZSBpZiAoaW5wdXQuc3RhcnRzV2l0aCgnfX0nLCBqKSkgewogICAgICAgICAgZGVwdGggLT0gMjsKICAgICAgICAgIGogKz0gMjsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgaisrOwogICAgICAgIH0KICAgICAgfQogICAgICBpZiAoZGVwdGggPiAwKSB7CiAgICAgICAgYnVmZmVyLndyaXRlKGlucHV0LnN1YnN0cmluZyhzdGFydCkpOwogICAgICAgIGJyZWFrOwogICAgICB9CiAgICAgIGZpbmFsIGV4cHIgPSBpbnB1dC5zdWJzdHJpbmcoc3RhcnQgKyAyLCBqIC0gMikudHJpbSgpOwogICAgICBmaW5hbCByZXN1bHQgPSBqcy5ldmFsdWF0ZVJ1bGUoZXhwciwgdmFyaWFibGVzOiB2YXJpYWJsZXMudG9Kc29uKCksIGNvbnRlbnQ6IF9jb250ZW50KTsKICAgICAgYnVmZmVyLndyaXRlKHJlc3VsdCk7CiAgICAgIGkgPSBqOwogICAgfQogICAgcmV0dXJuIGJ1ZmZlci50b1N0cmluZygpOwogIH0KCiAgc3RhdGljIFN0cmluZyBfc3RyaXBQcmVmaXgoU3RyaW5nIHJ1bGUsIFN0cmluZyBraW5kKSB7CiAgICBmaW5hbCBwcmVmaXhlcyA9IHN3aXRjaCAoa2luZCkgewogICAgICAnY3NzJyA9PiBjb25zdCBbJ0Bjc3M6JywgJ0BAJ10sCiAgICAgICd4cGF0aCcgPT4gY29uc3QgWydAWFBhdGg6JywgJ0B4cGF0aDonXSwKICAgICAgJ2pzb24nID0+IGNvbnN0IFsnQGpzb246JywgJ0BKU09OOiddLAogICAgICBfID0+IGNvbnN0IDxTdHJpbmc+W10sCiAgICB9OwogICAgZm9yIChmaW5hbCBwIGluIHByZWZpeGVzKSB7CiAgICAgIGlmIChydWxlLnN0YXJ0c1dpdGgocCkpIHJldHVybiBydWxlLnN1YnN0cmluZyhwLmxlbmd0aCkudHJpbSgpOwogICAgfQogICAgcmV0dXJuIHJ1bGU7CiAgfQoKICBzdGF0aWMgYm9vbCBfbG9va3NMaWtlSnMoU3RyaW5nIHJ1bGUpIHsKICAgIGZpbmFsIHIgPSBydWxlLnRyaW1MZWZ0KCk7CiAgICByZXR1cm4gci5zdGFydHNXaXRoKCdqYXZhLicpIHx8CiAgICAgICAgci5zdGFydHNXaXRoKCdzb3VyY2UuJykgfHwKICAgICAgICByLnN0YXJ0c1dpdGgoJ2Jvb2suJykgfHwKICAgICAgICByLnN0YXJ0c1dpdGgoJ0pTT04ucGFyc2UoJykgfHwKICAgICAgICByLnN0YXJ0c1dpdGgoJ1N0cmluZygnKSB8fAogICAgICAgIChyLmNvbnRhaW5zKCc7JykgJiYgKHIuY29udGFpbnMoJ3Jlc3VsdCcpIHx8IHIuY29udGFpbnMoJ3JldHVybicpKSk7CiAgfQoKICBzdGF0aWMgU3RyaW5nIF9zdHJpbmdpZnkoZHluYW1pYyB2YWx1ZSkgPT4gdmFsdWUgPT0gbnVsbAogICAgICA/ICcnCiAgICAgIDogdmFsdWUgaXMgTGlzdAogICAgICAgICAgPyB2YWx1ZS5qb2luKCcsICcpCiAgICAgICAgICA6IHZhbHVlLnRvU3RyaW5nKCk7CgogIHN0YXRpYyBMaXN0PFN0cmluZz4gX3NwbGl0VG9wTGV2ZWwoU3RyaW5nIGlucHV0LCBTdHJpbmcgc2VwKSB7CiAgICBmaW5hbCBwYXJ0cyA9IDxTdHJpbmc+W107CiAgICB2YXIgZGVwdGggPSAwOwogICAgdmFyIGxhc3QgPSAwOwogICAgdmFyIGkgPSAwOwogICAgd2hpbGUgKGkgPCBpbnB1dC5sZW5ndGgpIHsKICAgICAgaWYgKGlucHV0LnN0YXJ0c1dpdGgoJ3t7JywgaSkpIHsKICAgICAgICBkZXB0aCsrOwogICAgICAgIGkgKz0gMjsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBpZiAoaW5wdXQuc3RhcnRzV2l0aCgnfX0nLCBpKSkgewogICAgICAgIGRlcHRoLS07CiAgICAgICAgaSArPSAyOwogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmIChkZXB0aCA9PSAwICYmIGlucHV0LnN0YXJ0c1dpdGgoc2VwLCBpKSkgewogICAgICAgIHBhcnRzLmFkZChpbnB1dC5zdWJzdHJpbmcobGFzdCwgaSkpOwogICAgICAgIGkgKz0gc2VwLmxlbmd0aDsKICAgICAgICBsYXN0ID0gaTsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBpKys7CiAgICB9CiAgICBwYXJ0cy5hZGQoaW5wdXQuc3Vic3RyaW5nKGxhc3QpKTsKICAgIHJldHVybiBwYXJ0czsKICB9CgogIHN0YXRpYyBpbnQgX2luZGV4T2ZUb3BMZXZlbChTdHJpbmcgaW5wdXQsIFN0cmluZyBuZWVkbGUpIHsKICAgIHZhciBkZXB0aCA9IDA7CiAgICB2YXIgaSA9IDA7CiAgICB3aGlsZSAoaSA8IGlucHV0Lmxlbmd0aCkgewogICAgICBpZiAoaW5wdXQuc3RhcnRzV2l0aCgne3snLCBpKSkgewogICAgICAgIGRlcHRoKys7CiAgICAgICAgaSArPSAyOwogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmIChpbnB1dC5zdGFydHNXaXRoKCd9fScsIGkpKSB7CiAgICAgICAgZGVwdGgtLTsKICAgICAgICBpICs9IDI7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgaWYgKGRlcHRoID09IDAgJiYgaW5wdXQuc3RhcnRzV2l0aChuZWVkbGUsIGkpKSByZXR1cm4gaTsKICAgICAgaSsrOwogICAgfQogICAgcmV0dXJuIC0xOwogIH0KCiAgc3RhdGljIExpc3Q8U3RyaW5nPiBfc3BsaXRSZXBsYWNlKFN0cmluZyBhZnRlcikgewogICAgLy8gIyNwYXR0ZXJuIyNyZXBsYWNlbWVudCBvcHRpb25hbGx5IGZvbGxvd2VkIGJ5ICMjZmlyc3QKICAgIGZpbmFsIGZpcnN0ID0gYWZ0ZXIuaW5kZXhPZignIyMnKTsKICAgIGlmIChmaXJzdCA8IDApIHJldHVybiBjb25zdCA8U3RyaW5nPltdOwogICAgZmluYWwgcGF0dGVybiA9IGFmdGVyLnN1YnN0cmluZygwLCBmaXJzdCk7CiAgICBmaW5hbCByZXN0ID0gYWZ0ZXIuc3Vic3RyaW5nKGZpcnN0ICsgMik7CiAgICBmaW5hbCBzZWNvbmQgPSByZXN0LmluZGV4T2YoJyMjJyk7CiAgICBpZiAoc2Vjb25kIDwgMCkgcmV0dXJuIDxTdHJpbmc+W3BhdHRlcm4sIHJlc3RdOwogICAgcmV0dXJuIDxTdHJpbmc+W3BhdHRlcm4sIHJlc3Quc3Vic3RyaW5nKDAsIHNlY29uZCksIHJlc3Quc3Vic3RyaW5nKHNlY29uZCArIDIpLnRyaW0oKV07CiAgfQp9Cg==
+/// Legado-compatible rule analyzer.
+///
+/// A rule is a chain of expressions. Each expression is detected as CSS, XPath,
+/// JSONPath, JS, regex or plain text and applied to the current result. Chain
+/// operators:
+///   &&  feed each element into the next rule (map)
+///   ||  first non-empty wins
+///   ##pattern##replacement  regex净化 (global replace, trailing ### = first only)
+/// Template `{{ ... }}` and `@get:{key}` are expanded before evaluation.
+library;
+
+import 'dart:convert';
+
+import 'package:html/parser.dart' as html_parser;
+import 'package:html/dom.dart' as dom;
+
+import 'js_runtime.dart';
+import 'json_path.dart';
+import 'xpath_engine.dart';
+
+/// Variables shared across rules of one request (key, page, book, source, ...).
+class RuleVariables {
+  RuleVariables(this._values);
+  final Map<String, dynamic> _values;
+  final Map<String, String> _store = <String, String>{};
+
+  factory RuleVariables.search(String key, int page) =>
+      RuleVariables({'key': key, 'page': page});
+
+  dynamic operator [](String key) => _values[key];
+  void operator []=(String key, dynamic value) => _values[key] = value;
+
+  void put(String key, String value) => _store[key] = value;
+  String? get(String key) => _store[key];
+
+  Map<String, dynamic> toJson() => <String, dynamic>{
+    ..._values,
+    ..._store,
+  };
+}
+
+class AnalyzeRule {
+  AnalyzeRule({
+    required this.js,
+    this.variables,
+  }) : variables = variables ?? RuleVariables(const <String, dynamic>{});
+
+  final JsRuntime js;
+  final RuleVariables variables;
+  dom.Document? _document;
+  dynamic _json;
+  String _content = '';
+  bool _isJson = false;
+
+  /// Feed raw HTML or JSON content into the analyzer.
+  AnalyzeRule setContent(String content) {
+    _content = content;
+    final trimmed = content.trimLeft();
+    _isJson = trimmed.startsWith('{') || trimmed.startsWith('[');
+    if (_isJson) {
+      try {
+        _json = jsonDecode(content);
+      } catch (_) {
+        _isJson = false;
+        _json = null;
+      }
+    }
+    if (!_isJson) {
+      try {
+        _document = html_parser.parse(content);
+      } catch (_) {
+        _document = null;
+      }
+    }
+    return this;
+  }
+
+  /// Extract a single string.
+  String getString(String? rule, {String defaultValue = ''}) {
+    if (rule == null || rule.trim().isEmpty) return defaultValue;
+    final values = getList(rule);
+    if (values.isEmpty) return defaultValue;
+    return values.first.trim();
+  }
+
+  /// Extract a list of strings following the rule chain.
+  List<String> getList(String? rule) {
+    if (rule == null || rule.trim().isEmpty) return const <String>[];
+    final expanded = _makeUpRule(rule);
+    // OR chains: first non-empty branch wins.
+    final orParts = _splitTopLevel(expanded, '||');
+    if (orParts.length > 1) {
+      for (final part in orParts) {
+        final result = _evalChain(part);
+        if (result.isNotEmpty) return result;
+      }
+      return const <String>[];
+    }
+    return _evalChain(expanded);
+  }
+
+  /// Evaluate the raw content itself (e.g. a JS rule over the whole page).
+  String evaluate(String rule) => getString(rule);
+
+  List<String> _evalChain(String chain) {
+    // AND chains: split, evaluate each against current nodes, flatten.
+    final andParts = _splitTopLevel(chain, '&&');
+    if (andParts.length > 1) {
+      List<String> current = <String>[''];
+      // First part evaluates against the document; later parts re-set content.
+      for (var i = 0; i < andParts.length; i++) {
+        final part = andParts[i].trim();
+        if (i == 0) {
+          current = _evalChain(part);
+        } else {
+          final expanded = _expandWithEach(part, current);
+          current = expanded;
+        }
+      }
+      return current.where((s) => s.isNotEmpty).toList();
+    }
+    return _evalSingle(chain);
+  }
+
+  List<String> _expandWithEach(String part, List<String> inputs) {
+    final out = <String>[];
+    for (final input in inputs) {
+      setContent(input);
+      out.addAll(_evalSingle(part));
+    }
+    return out;
+  }
+
+  List<String> _evalSingle(String raw) {
+    var rule = raw.trim();
+    if (rule.isEmpty) return const <String>[];
+
+    // Regex replacement chain: rule##pattern##replacement (### = first only).
+    String? replacePattern, replacement;
+    bool firstOnly = false;
+    final replaceIdx = _indexOfTopLevel(rule, '##');
+    if (replaceIdx >= 0) {
+      final after = rule.substring(replaceIdx + 2);
+      rule = rule.substring(0, replaceIdx).trim();
+      final parts = _splitReplace(after);
+      if (parts.length >= 2) {
+        replacePattern = parts[0];
+        replacement = parts[1];
+        firstOnly = parts.length >= 3;
+      }
+    }
+
+    List<String> values = _extract(rule);
+
+    if (replacePattern != null && replacement != null) {
+      try {
+        final re = RegExp(replacePattern, multiLine: true, dotAll: false);
+        values = values.map((value) {
+          return firstOnly
+              ? value.replaceFirstMapped(re, (m) => _expandGroups(replacement!, m))
+              : value.replaceAllMapped(re, (m) => _expandGroups(replacement!, m));
+        }).toList();
+      } catch (_) {
+        // Invalid regex: keep original values.
+      }
+    }
+    return values.where((s) => s.isNotEmpty).toList();
+  }
+
+  String _expandGroups(String replacement, RegExpMatch match) {
+    var out = replacement;
+    for (var i = 0; i <= match.groupCount; i++) {
+      out = out.replaceAll('\$$i', match.group(i) ?? '');
+    }
+    return out;
+  }
+
+  List<String> _extract(String rule) {
+    if (rule.isEmpty) return const <String>[];
+
+    // AllInOne regex mode: prefix ':'.
+    if (rule.startsWith(':')) {
+      return _regexCapture(rule.substring(1), all: true);
+    }
+    // JS mode: @js: prefix or bare JS markers.
+    if (rule.startsWith('@js:')) {
+      final result = _runJs(rule.substring(4));
+      return result.isEmpty ? const <String>[] : <String>[result];
+    }
+    // Nested {{ }} pure template already expanded in makeUp; if still present
+    // it is a JS expression that must run.
+    if (_looksLikeJs(rule)) {
+      final result = _runJs(rule);
+      return result.isEmpty ? const <String>[] : <String>[result];
+    }
+    // JSONPath.
+    if (_isJson) {
+      final jp = _stripPrefix(rule, 'json');
+      if (jp.startsWith('\$') || rule.startsWith('@json:') || rule.startsWith('\$')) {
+        return JsonPath.evaluate(_json, jp).map(_stringify).where((s) => s.isNotEmpty).toList();
+      }
+    }
+    // XPath.
+    final xp = _stripPrefix(rule, 'xpath');
+    if (rule.startsWith('@XPath:') ||
+        rule.startsWith('@xpath:') ||
+        xp.startsWith('/')) {
+      final engine = XPathEngine(_document ?? html_parser.parse('<html></html>'));
+      final result = engine.evaluate(xp);
+      if (result.text != null) {
+        return result.text!.isEmpty ? const <String>[] : <String>[result.text!];
+      }
+      return result.nodes.map((n) => n.text?.trim() ?? '').where((s) => s.isNotEmpty).toList();
+    }
+    // CSS (default mode). Supports `selector@attr` and `@@selector@attr`.
+    final css = _stripPrefix(rule, 'css');
+    return _cssQuery(css);
+  }
+
+  List<String> _cssQuery(String rule) {
+    final document = _document;
+    if (document == null) return const <String>[];
+    var selector = rule;
+    String? attr;
+    // `selector@attr` — split on the last @ that is not a css escape.
+    final at = selector.lastIndexOf('@');
+    if (at > 0) {
+      attr = selector.substring(at + 1).trim();
+      selector = selector.substring(0, at).trim();
+    }
+    if (selector.startsWith('@@')) selector = selector.substring(2);
+    if (selector.isEmpty) selector = 'body';
+
+    List<dom.Element> elements;
+    try {
+      elements = document.querySelectorAll(selector).toList();
+    } catch (_) {
+      return const <String>[];
+    }
+    if (attr == null || attr.isEmpty || attr == 'text' || attr == 'text()') {
+      return elements
+          .map((e) => e.text.trim())
+          .where((s) => s.isNotEmpty)
+          .toList();
+    }
+    if (attr == 'html' || attr == 'outerHtml') {
+      return elements.map((e) => e.outerHtml).toList();
+    }
+    if (attr == 'innerHtml' || attr == 'innerHTML') {
+      return elements.map((e) => e.innerHtml).toList();
+    }
+    return elements
+        .map((e) {
+          final key = e.attributes.keys.firstWhere(
+            (k) => k.toLowerCase() == attr!.toLowerCase(),
+            orElse: () => '',
+          );
+          return key.isEmpty ? '' : (e.attributes[key] ?? '');
+        })
+        .where((s) => s.isNotEmpty)
+        .toList();
+  }
+
+  List<String> _regexCapture(String pattern, {required bool all}) {
+    final out = <String>[];
+    try {
+      final re = RegExp(pattern, multiLine: true, dotAll: true);
+      if (all) {
+        for (final m in re.allMatches(_content)) {
+          if (m.groupCount >= 1) {
+            out.add(m.group(1) ?? '');
+          } else {
+            out.add(m.group(0) ?? '');
+          }
+        }
+      } else {
+        final m = re.firstMatch(_content);
+        if (m != null) {
+          for (var i = 0; i <= m.groupCount; i++) {
+            out.add(m.group(i) ?? '');
+          }
+        }
+      }
+    } catch (_) {}
+    return out.where((s) => s.isNotEmpty).toList();
+  }
+
+  String _runJs(String code) {
+    final vars = variables.toJson();
+    return js.evaluateRule(code, variables: vars, content: _content);
+  }
+
+  /// Expand {{...}} templates and @get:{key} before evaluation.
+  String _makeUpRule(String rule) {
+    var out = rule;
+    // @get:{key}
+    out = out.replaceAllMapped(RegExp(r'@get:\{([^}]+)\}'), (m) {
+      return variables.get(m.group(1)!.trim()) ?? '';
+    });
+    // {{ ... }} — may contain nested braces but not triple-quoted strings here.
+    out = _replaceTemplates(out);
+    return out;
+  }
+
+  String _replaceTemplates(String input) {
+    final buffer = StringBuffer();
+    var i = 0;
+    while (i < input.length) {
+      final start = input.indexOf('{{', i);
+      if (start < 0) {
+        buffer.write(input.substring(i));
+        break;
+      }
+      buffer.write(input.substring(i, start));
+      var depth = 2;
+      var j = start + 2;
+      while (j < input.length && depth > 0) {
+        if (input.startsWith('{{', j)) {
+          depth += 2;
+          j += 2;
+        } else if (input.startsWith('}}', j)) {
+          depth -= 2;
+          j += 2;
+        } else {
+          j++;
+        }
+      }
+      if (depth > 0) {
+        buffer.write(input.substring(start));
+        break;
+      }
+      final expr = input.substring(start + 2, j - 2).trim();
+      final result = js.evaluateRule(expr, variables: variables.toJson(), content: _content);
+      buffer.write(result);
+      i = j;
+    }
+    return buffer.toString();
+  }
+
+  static String _stripPrefix(String rule, String kind) {
+    final prefixes = switch (kind) {
+      'css' => const ['@css:', '@@'],
+      'xpath' => const ['@XPath:', '@xpath:'],
+      'json' => const ['@json:', '@JSON:'],
+      _ => const <String>[],
+    };
+    for (final p in prefixes) {
+      if (rule.startsWith(p)) return rule.substring(p.length).trim();
+    }
+    return rule;
+  }
+
+  static bool _looksLikeJs(String rule) {
+    final r = rule.trimLeft();
+    return r.startsWith('java.') ||
+        r.startsWith('source.') ||
+        r.startsWith('book.') ||
+        r.startsWith('JSON.parse(') ||
+        r.startsWith('String(') ||
+        (r.contains(';') && (r.contains('result') || r.contains('return')));
+  }
+
+  static String _stringify(dynamic value) => value == null
+      ? ''
+      : value is List
+          ? value.join(', ')
+          : value.toString();
+
+  static List<String> _splitTopLevel(String input, String sep) {
+    final parts = <String>[];
+    var depth = 0;
+    var last = 0;
+    var i = 0;
+    while (i < input.length) {
+      if (input.startsWith('{{', i)) {
+        depth++;
+        i += 2;
+        continue;
+      }
+      if (input.startsWith('}}', i)) {
+        depth--;
+        i += 2;
+        continue;
+      }
+      if (depth == 0 && input.startsWith(sep, i)) {
+        parts.add(input.substring(last, i));
+        i += sep.length;
+        last = i;
+        continue;
+      }
+      i++;
+    }
+    parts.add(input.substring(last));
+    return parts;
+  }
+
+  static int _indexOfTopLevel(String input, String needle) {
+    var depth = 0;
+    var i = 0;
+    while (i < input.length) {
+      if (input.startsWith('{{', i)) {
+        depth++;
+        i += 2;
+        continue;
+      }
+      if (input.startsWith('}}', i)) {
+        depth--;
+        i += 2;
+        continue;
+      }
+      if (depth == 0 && input.startsWith(needle, i)) return i;
+      i++;
+    }
+    return -1;
+  }
+
+  static List<String> _splitReplace(String after) {
+    // ##pattern##replacement optionally followed by ##first
+    final first = after.indexOf('##');
+    if (first < 0) return const <String>[];
+    final pattern = after.substring(0, first);
+    final rest = after.substring(first + 2);
+    final second = rest.indexOf('##');
+    if (second < 0) return <String>[pattern, rest];
+    return <String>[pattern, rest.substring(0, second), rest.substring(second + 2).trim()];
+  }
+}

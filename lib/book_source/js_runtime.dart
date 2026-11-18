@@ -1,1 +1,129 @@
-Ly8vIEphdmFTY3JpcHQgcnVsZSBleGVjdXRpb24gYmFja2VkIGJ5IGZsdXR0ZXJfanMgKFF1aWNrSlMgb24gQW5kcm9pZCkuCi8vLwovLy8gSW5qZWN0cyB0aGUgTGVnYWRvIEpTIGVudmlyb25tZW50OiBgcmVzdWx0YCwgYHNvdXJjZWAsIGBib29rYCwgYGtleWAsIGBwYWdlYCwKLy8vIHBsdXMgYSBgamF2YWAgY29tcGF0aWJpbGl0eSBzaGltIGZvciB0aGUgbW9zdCBjb21tb24gaGVscGVycy4gT25lIGxhemlseQovLy8gY3JlYXRlZCBydW50aW1lIGlzIHJldXNlZCBmb3IgdGhlIHdob2xlIGFwcDsgYGV2YWx1YXRlUnVsZWAgc2VyaWFsaXplcwovLy8gYWNjZXNzIGJlY2F1c2UgUXVpY2tKUyBpcyBub3QgcmVlbnRyYW50LgppbXBvcnQgJ2RhcnQ6YXN5bmMnOwppbXBvcnQgJ2RhcnQ6Y29udmVydCc7CgppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlcl9qcy9mbHV0dGVyX2pzLmRhcnQnOwoKY2xhc3MgSnNSdW50aW1lIHsKICBKYXZhc2NyaXB0UnVudGltZT8gX3J1bnRpbWU7CiAgQ29tcGxldGVyPHZvaWQ+PyBfaW5pdGlhbGl6aW5nOwogIGJvb2wgX2VuYWJsZWQgPSB0cnVlOwoKICBKc1J1bnRpbWUoe2Jvb2wgZW5hYmxlZCA9IHRydWV9KSA6IF9lbmFibGVkID0gZW5hYmxlZDsKCiAgYm9vbCBnZXQgZW5hYmxlZCA9PiBfZW5hYmxlZDsKCiAgRnV0dXJlPEphdmFzY3JpcHRSdW50aW1lPz4gX2Vuc3VyZSgpIGFzeW5jIHsKICAgIGlmICghX2VuYWJsZWQpIHJldHVybiBudWxsOwogICAgaWYgKF9ydW50aW1lICE9IG51bGwpIHJldHVybiBfcnVudGltZTsKICAgIGlmIChfaW5pdGlhbGl6aW5nICE9IG51bGwpIHsKICAgICAgYXdhaXQgX2luaXRpYWxpemluZyEuZnV0dXJlOwogICAgICByZXR1cm4gX3J1bnRpbWU7CiAgICB9CiAgICBfaW5pdGlhbGl6aW5nID0gQ29tcGxldGVyPHZvaWQ+KCk7CiAgICB0cnkgewogICAgICBmaW5hbCBydW50aW1lID0gZ2V0SmF2YXNjcmlwdFJ1bnRpbWUoZm9yY2VKYXZhc2NyaXB0Q29yZU9uQW5kcm9pZDogZmFsc2UpOwogICAgICBfaW5zdGFsbFNoaW1zKHJ1bnRpbWUpOwogICAgICBfcnVudGltZSA9IHJ1bnRpbWU7CiAgICAgIF9pbml0aWFsaXppbmchLmNvbXBsZXRlKCk7CiAgICB9IGNhdGNoIChfKSB7CiAgICAgIF9lbmFibGVkID0gZmFsc2U7CiAgICAgIF9pbml0aWFsaXppbmchLmNvbXBsZXRlKCk7CiAgICB9CiAgICByZXR1cm4gX3J1bnRpbWU7CiAgfQoKICB2b2lkIF9pbnN0YWxsU2hpbXMoSmF2YXNjcmlwdFJ1bnRpbWUgcnVudGltZSkgewogICAgLy8gTWluaW1hbCBgamF2YWAgc2hpbS4gU291cmNlcyBtb3N0bHkgY2FsbCBqYXZhLnQycyAvIGphdmEubG9nIC8gamF2YS5nZXQuCiAgICBydW50aW1lLmV2YWx1YXRlKCcnJwogICAgICB2YXIgamF2YSA9IHsKICAgICAgICBsb2c6IGZ1bmN0aW9uKCl7fSwKICAgICAgICB0MnM6IGZ1bmN0aW9uKHMpeyByZXR1cm4gcyA9PSBudWxsID8gIiIgOiBTdHJpbmcocyk7IH0sCiAgICAgICAgczJ0OiBmdW5jdGlvbihzKXsgcmV0dXJuIHMgPT0gbnVsbCA/ICIiIDogU3RyaW5nKHMpOyB9LAogICAgICAgIGdldDogZnVuY3Rpb24oayl7IHJldHVybiAodHlwZW9mIF9fdmFycyAhPT0gInVuZGVmaW5lZCIgJiYgX192YXJzW2tdKSB8fCAiIjsgfSwKICAgICAgICBwdXQ6IGZ1bmN0aW9uKGssdil7IGlmKHR5cGVvZiBfX3ZhcnMgIT09ICJ1bmRlZmluZWQiKXsgX192YXJzW2tdPXY7IH0gcmV0dXJuIHY7IH0sCiAgICAgICAgYWpheDogZnVuY3Rpb24oKXsgcmV0dXJuICIiOyB9LAogICAgICAgIGZpbmQ6IGZ1bmN0aW9uKHN0ciwgcmVnZXgpeyB2YXIgbSA9IFN0cmluZyhzdHIpLm1hdGNoKG5ldyBSZWdFeHAocmVnZXgpKTsgcmV0dXJuIG0gPyBtWzBdIDogIiI7IH0sCiAgICAgICAgYmFzZTY0RGVjb2RlOiBmdW5jdGlvbihzKXsgcmV0dXJuIHM7IH0KICAgICAgfTsKICAgICAgdmFyIHNvdXJjZSA9IHt9OwogICAgICB2YXIgYm9vayA9IHt9OwogICAgICB2YXIgcmVzdWx0ID0gIiI7CiAgICAnJycpOwogIH0KCiAgLy8vIFJ1biBhIEpTIHJ1bGUgYW5kIHJldHVybiBpdHMgc3RyaW5nIHJlc3VsdC4KICAvLy8gW3ZhcmlhYmxlc10gYXJlIGV4cG9zZWQgZGlyZWN0bHkgYW5kIHZpYSBgamF2YS5nZXRgOyBbY29udGVudF0gaXMgdGhlIHJhdwogIC8vLyBwYWdlIGJvZHkgZXhwb3NlZCBhcyBgc291cmNlLmNvbnRlbnRgLgogIFN0cmluZyBldmFsdWF0ZVJ1bGUoCiAgICBTdHJpbmcgY29kZSwgewogICAgTWFwPFN0cmluZywgZHluYW1pYz4gdmFyaWFibGVzID0gY29uc3QgPFN0cmluZywgZHluYW1pYz57fSwKICAgIFN0cmluZyBjb250ZW50ID0gJycsCiAgfSkgewogICAgZmluYWwgcnVudGltZSA9IF9ydW50aW1lOwogICAgaWYgKCFfZW5hYmxlZCB8fCBydW50aW1lID09IG51bGwgfHwgY29kZS50cmltKCkuaXNFbXB0eSkgewogICAgICByZXR1cm4gX2ZhbGxiYWNrKGNvZGUsIHZhcmlhYmxlcyk7CiAgICB9CiAgICB0cnkgewogICAgICBmaW5hbCB2YXJzSnNvbiA9IGpzb25FbmNvZGUodmFyaWFibGVzKTsKICAgICAgZmluYWwgY29udGVudEpzb24gPSBqc29uRW5jb2RlKGNvbnRlbnQpOwogICAgICBmaW5hbCB3cmFwcGVkID0gJycnCiAgICAgICAgKGZ1bmN0aW9uKCl7CiAgICAgICAgICB2YXIgX192YXJzID0gJHZhcnNKc29uOwogICAgICAgICAgdmFyIHJlc3VsdCA9ICIiOwogICAgICAgICAgdmFyIHNvdXJjZSA9IHtjb250ZW50OiAkY29udGVudEpzb24sIHVybDogKF9fdmFycy51cmwgfHwgIiIpfTsKICAgICAgICAgIHZhciBib29rID0gKF9fdmFycy5ib29rICYmIHR5cGVvZiBfX3ZhcnMuYm9vayA9PT0gIm9iamVjdCIpID8gX192YXJzLmJvb2sgOiB7fTsKICAgICAgICAgIHZhciBrZXkgPSBfX3ZhcnNbImtleSJdIHx8ICIiOwogICAgICAgICAgdmFyIHBhZ2UgPSBfX3ZhcnNbInBhZ2UiXSB8fCAxOwogICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgJGNvZGUKICAgICAgICAgIH0gY2F0Y2goZSkge30KICAgICAgICAgIGlmIChyZXN1bHQgPT0gbnVsbCkgcmV0dXJuICIiOwogICAgICAgICAgaWYgKHR5cGVvZiByZXN1bHQgPT09ICJzdHJpbmciKSByZXR1cm4gcmVzdWx0OwogICAgICAgICAgaWYgKEFycmF5LmlzQXJyYXkocmVzdWx0KSkgcmV0dXJuIHJlc3VsdC5qb2luKCJcXG4iKTsKICAgICAgICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShyZXN1bHQpOwogICAgICAgIH0pKCkKICAgICAgJycnOwogICAgICBmaW5hbCByZXMgPSBydW50aW1lLmV2YWx1YXRlKHdyYXBwZWQpOwogICAgICBmaW5hbCB2YWx1ZSA9IHJlcy5zdHJpbmdSZXN1bHQ/LnRyaW0oKSA/PyAnJzsKICAgICAgaWYgKHZhbHVlID09ICd1bmRlZmluZWQnIHx8IHZhbHVlID09ICdudWxsJykgcmV0dXJuICcnOwogICAgICByZXR1cm4gdmFsdWU7CiAgICB9IGNhdGNoIChfKSB7CiAgICAgIHJldHVybiBfZmFsbGJhY2soY29kZSwgdmFyaWFibGVzKTsKICAgIH0KICB9CgogIC8vLyBXaGVuIHRoZSBKUyBlbmdpbmUgaXMgdW5hdmFpbGFibGUsIGhhbmRsZSB0aGUgaGFuZGZ1bCBvZiB0cml2aWFsCiAgLy8vIGV4cHJlc3Npb25zIHdlIGNhbiBzYWZlbHkgZXZhbHVhdGUgKHN0cmluZyBjb25jYXRlbmF0aW9uIG9mIHZhcmlhYmxlcykuCiAgU3RyaW5nIF9mYWxsYmFjayhTdHJpbmcgY29kZSwgTWFwPFN0cmluZywgZHluYW1pYz4gdmFyaWFibGVzKSB7CiAgICB2YXIgZXhwciA9IGNvZGUudHJpbSgpOwogICAgLy8gInByZWZpeCIgKyBrZXkgKyAic3VmZml4IiBzdHlsZSBjb25jYXRlbmF0aW9uLgogICAgaWYgKCFleHByLmNvbnRhaW5zKCc7JykgJiYgZXhwci5jb250YWlucygnKycpKSB7CiAgICAgIGZpbmFsIHBhcnRzID0gZXhwci5zcGxpdCgnKycpLm1hcCgocCkgewogICAgICAgIHZhciB0b2tlbiA9IHAudHJpbSgpOwogICAgICAgIGlmICh0b2tlbi5zdGFydHNXaXRoKCciJykgJiYgdG9rZW4uZW5kc1dpdGgoJyInKSkgewogICAgICAgICAgcmV0dXJuIHRva2VuLnN1YnN0cmluZygxLCB0b2tlbi5sZW5ndGggLSAxKTsKICAgICAgICB9CiAgICAgICAgaWYgKHRva2VuLnN0YXJ0c1dpdGgoIiciKSAmJiB0b2tlbi5lbmRzV2l0aCgiJyIpKSB7CiAgICAgICAgICByZXR1cm4gdG9rZW4uc3Vic3RyaW5nKDEsIHRva2VuLmxlbmd0aCAtIDEpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gdmFyaWFibGVzW3Rva2VuXT8udG9TdHJpbmcoKSA/PyAnJzsKICAgICAgfSk7CiAgICAgIHJldHVybiBwYXJ0cy5qb2luKCk7CiAgICB9CiAgICBpZiAodmFyaWFibGVzLmNvbnRhaW5zS2V5KGV4cHIpKSByZXR1cm4gdmFyaWFibGVzW2V4cHJdLnRvU3RyaW5nKCk7CiAgICByZXR1cm4gJyc7CiAgfQoKICBGdXR1cmU8dm9pZD4gd2FybVVwKCkgPT4gX2Vuc3VyZSgpOwoKICB2b2lkIGRpc3Bvc2UoKSB7CiAgICBfZW5hYmxlZCA9IGZhbHNlOwogICAgX3J1bnRpbWUgPSBudWxsOwogIH0KfQo=
+/// JavaScript rule execution backed by flutter_js (QuickJS on Android).
+///
+/// Injects the Legado JS environment: `result`, `source`, `book`, `key`, `page`,
+/// plus a `java` compatibility shim for the most common helpers. One lazily
+/// created runtime is reused for the whole app; `evaluateRule` serializes
+/// access because QuickJS is not reentrant.
+import 'dart:async';
+import 'dart:convert';
+
+import 'package:flutter_js/flutter_js.dart';
+
+class JsRuntime {
+  JavascriptRuntime? _runtime;
+  Completer<void>? _initializing;
+  bool _enabled = true;
+
+  JsRuntime({bool enabled = true}) : _enabled = enabled;
+
+  bool get enabled => _enabled;
+
+  Future<JavascriptRuntime?> _ensure() async {
+    if (!_enabled) return null;
+    if (_runtime != null) return _runtime;
+    if (_initializing != null) {
+      await _initializing!.future;
+      return _runtime;
+    }
+    _initializing = Completer<void>();
+    try {
+      final runtime = getJavascriptRuntime(forceJavascriptCoreOnAndroid: false);
+      _installShims(runtime);
+      _runtime = runtime;
+      _initializing!.complete();
+    } catch (_) {
+      _enabled = false;
+      _initializing!.complete();
+    }
+    return _runtime;
+  }
+
+  void _installShims(JavascriptRuntime runtime) {
+    // Minimal `java` shim. Sources mostly call java.t2s / java.log / java.get.
+    runtime.evaluate('''
+      var java = {
+        log: function(){},
+        t2s: function(s){ return s == null ? "" : String(s); },
+        s2t: function(s){ return s == null ? "" : String(s); },
+        get: function(k){ return (typeof __vars !== "undefined" && __vars[k]) || ""; },
+        put: function(k,v){ if(typeof __vars !== "undefined"){ __vars[k]=v; } return v; },
+        ajax: function(){ return ""; },
+        find: function(str, regex){ var m = String(str).match(new RegExp(regex)); return m ? m[0] : ""; },
+        base64Decode: function(s){ return s; }
+      };
+      var source = {};
+      var book = {};
+      var result = "";
+    ''');
+  }
+
+  /// Run a JS rule and return its string result.
+  /// [variables] are exposed directly and via `java.get`; [content] is the raw
+  /// page body exposed as `source.content`.
+  String evaluateRule(
+    String code, {
+    Map<String, dynamic> variables = const <String, dynamic>{},
+    String content = '',
+  }) {
+    final runtime = _runtime;
+    if (!_enabled || runtime == null || code.trim().isEmpty) {
+      return _fallback(code, variables);
+    }
+    try {
+      final varsJson = jsonEncode(variables);
+      final contentJson = jsonEncode(content);
+      final wrapped = '''
+        (function(){
+          var __vars = $varsJson;
+          var result = "";
+          var source = {content: $contentJson, url: (__vars.url || "")};
+          var book = (__vars.book && typeof __vars.book === "object") ? __vars.book : {};
+          var key = __vars["key"] || "";
+          var page = __vars["page"] || 1;
+          try {
+            $code
+          } catch(e) {}
+          if (result == null) return "";
+          if (typeof result === "string") return result;
+          if (Array.isArray(result)) return result.join("\\n");
+          return JSON.stringify(result);
+        })()
+      ''';
+      final res = runtime.evaluate(wrapped);
+      final value = res.stringResult?.trim() ?? '';
+      if (value == 'undefined' || value == 'null') return '';
+      return value;
+    } catch (_) {
+      return _fallback(code, variables);
+    }
+  }
+
+  /// When the JS engine is unavailable, handle the handful of trivial
+  /// expressions we can safely evaluate (string concatenation of variables).
+  String _fallback(String code, Map<String, dynamic> variables) {
+    var expr = code.trim();
+    // "prefix" + key + "suffix" style concatenation.
+    if (!expr.contains(';') && expr.contains('+')) {
+      final parts = expr.split('+').map((p) {
+        var token = p.trim();
+        if (token.startsWith('"') && token.endsWith('"')) {
+          return token.substring(1, token.length - 1);
+        }
+        if (token.startsWith("'") && token.endsWith("'")) {
+          return token.substring(1, token.length - 1);
+        }
+        return variables[token]?.toString() ?? '';
+      });
+      return parts.join();
+    }
+    if (variables.containsKey(expr)) return variables[expr].toString();
+    return '';
+  }
+
+  Future<void> warmUp() => _ensure();
+
+  void dispose() {
+    _enabled = false;
+    _runtime = null;
+  }
+}

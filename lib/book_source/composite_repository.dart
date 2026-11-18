@@ -1,1 +1,100 @@
-Ly8vIFJvdXRlcyByZXBvc2l0b3J5IGNhbGxzIHRvIHRoZSBjb3JyZWN0IGJhY2tpbmcgc291cmNlIGJ5IGJvb2sgSUQuCi8vLwovLy8gVGhlIG9mZmljaWFsIFdlbmt1OCByZXBvc2l0b3J5IG93bnMgc21hbGwgaW50ZWdlciBJRHM7IGN1c3RvbSBzb3VyY2VzIG93bgovLy8gdGhlIHJlc2VydmVkIDB4NTAwMDAwMDAuLiByYW5nZS4gU2VhcmNoIGFnZ3JlZ2F0ZXMgZW5hYmxlZCBzb3VyY2VzLgpsaWJyYXJ5OwoKaW1wb3J0ICcuLi9jYXRhbG9nLmRhcnQnOwppbXBvcnQgJ2Jvb2tfc291cmNlX3N0b3JlLmRhcnQnOwppbXBvcnQgJ2N1c3RvbV9zb3VyY2VfcmVwb3NpdG9yeS5kYXJ0JzsKCmNsYXNzIENvbXBvc2l0ZVJlcG9zaXRvcnkgZXh0ZW5kcyBOb3ZlbFJlcG9zaXRvcnkgewogIGNvbnN0IENvbXBvc2l0ZVJlcG9zaXRvcnkoewogICAgcmVxdWlyZWQgdGhpcy5yZW1vdGUsCiAgICByZXF1aXJlZCB0aGlzLmN1c3RvbSwKICAgIHJlcXVpcmVkIHRoaXMuc3RvcmUsCiAgfSk7CgogIGZpbmFsIE5vdmVsUmVwb3NpdG9yeSByZW1vdGU7CiAgZmluYWwgQ3VzdG9tU291cmNlUmVwb3NpdG9yeSBjdXN0b207CiAgZmluYWwgQm9va1NvdXJjZVN0b3JlIHN0b3JlOwoKICBAb3ZlcnJpZGUKICBGdXR1cmU8TGlzdDxOb3ZlbD4+IGxpc3QoKSBhc3luYyA9PiByZW1vdGUubGlzdCgpOwoKICBAb3ZlcnJpZGUKICBGdXR1cmU8Tm92ZWw/PiBmaW5kKGludCBpZCkgYXN5bmMgewogICAgaWYgKGlzQ3VzdG9tU291cmNlQm9vayhpZCkpIHJldHVybiBjdXN0b20uZmluZChpZCk7CiAgICByZXR1cm4gcmVtb3RlLmZpbmQoaWQpOwogIH0KCiAgQG92ZXJyaWRlCiAgRnV0dXJlPExpc3Q8Tm92ZWw+PiBzZWFyY2goU3RyaW5nIHF1ZXJ5KSBhc3luYyA9PiAoYXdhaXQgc2VhcmNoUGFnZShxdWVyeSkpLml0ZW1zOwoKICBAb3ZlcnJpZGUKICBGdXR1cmU8Tm92ZWxQYWdlPiBicm93c2UoewogICAgTm92ZWxTb3J0IHNvcnQgPSBOb3ZlbFNvcnQubGFzdFVwZGF0ZSwKICAgIGludCBwYWdlID0gMSwKICAgIGJvb2wgcmVmcmVzaCA9IGZhbHNlLAogIH0pID0+IHJlbW90ZS5icm93c2Uoc29ydDogc29ydCwgcGFnZTogcGFnZSwgcmVmcmVzaDogcmVmcmVzaCk7CgogIEBvdmVycmlkZQogIEZ1dHVyZTxOb3ZlbFBhZ2U+IHNlYXJjaFBhZ2UoCiAgICBTdHJpbmcgcXVlcnksIHsKICAgIGludCBwYWdlID0gMSwKICAgIGJvb2wgcmVmcmVzaCA9IGZhbHNlLAogIH0pIGFzeW5jIHsKICAgIGZpbmFsIG9mZmljaWFsID0gYXdhaXQgcmVtb3RlLnNlYXJjaFBhZ2UocXVlcnksIHBhZ2U6IHBhZ2UsIHJlZnJlc2g6IHJlZnJlc2gpOwogICAgaWYgKHN0b3JlLmVuYWJsZWRTb3VyY2VzLmlzRW1wdHkpIHJldHVybiBvZmZpY2lhbDsKICAgIGZpbmFsIGN1c3RvbVBhZ2UgPSBhd2FpdCBjdXN0b20uc2VhcmNoUGFnZShxdWVyeSwgcGFnZTogcGFnZSwgcmVmcmVzaDogcmVmcmVzaCk7CiAgICBmaW5hbCBjb21iaW5lZCA9IDxOb3ZlbD5bLi4ub2ZmaWNpYWwuaXRlbXMsIC4uLmN1c3RvbVBhZ2UuaXRlbXNdOwogICAgcmV0dXJuIE5vdmVsUGFnZSgKICAgICAgaXRlbXM6IExpc3QudW5tb2RpZmlhYmxlKGNvbWJpbmVkKSwKICAgICAgcGFnZTogcGFnZSwKICAgICAgdG90YWxJdGVtczogY29tYmluZWQubGVuZ3RoLAogICAgKTsKICB9CgogIEBvdmVycmlkZQogIEZ1dHVyZTxOb3ZlbFBhZ2U+IHNlYXJjaEZpbHRlcmVkUGFnZSgKICAgIFN0cmluZyBxdWVyeSwgewogICAgQm9va1NlYXJjaEZpZWxkIGZpZWxkID0gQm9va1NlYXJjaEZpZWxkLmFsbCwKICAgIGludCBwYWdlID0gMSwKICAgIGJvb2wgcmVmcmVzaCA9IGZhbHNlLAogIH0pIGFzeW5jIHsKICAgIGZpbmFsIG9mZmljaWFsID0gYXdhaXQgcmVtb3RlLnNlYXJjaEZpbHRlcmVkUGFnZSgKICAgICAgcXVlcnksCiAgICAgIGZpZWxkOiBmaWVsZCwKICAgICAgcGFnZTogcGFnZSwKICAgICAgcmVmcmVzaDogcmVmcmVzaCwKICAgICk7CiAgICBpZiAoc3RvcmUuZW5hYmxlZFNvdXJjZXMuaXNFbXB0eSkgcmV0dXJuIG9mZmljaWFsOwogICAgZmluYWwgY3VzdG9tUGFnZSA9IGF3YWl0IGN1c3RvbS5zZWFyY2hQYWdlKHF1ZXJ5LCBwYWdlOiBwYWdlLCByZWZyZXNoOiByZWZyZXNoKTsKICAgIGZpbmFsIGNvbWJpbmVkID0gPE5vdmVsPlsuLi5vZmZpY2lhbC5pdGVtcywgLi4uY3VzdG9tUGFnZS5pdGVtc107CiAgICByZXR1cm4gTm92ZWxQYWdlKAogICAgICBpdGVtczogTGlzdC51bm1vZGlmaWFibGUoY29tYmluZWQpLAogICAgICBwYWdlOiBwYWdlLAogICAgICB0b3RhbEl0ZW1zOiBjb21iaW5lZC5sZW5ndGgsCiAgICApOwogIH0KCiAgQG92ZXJyaWRlCiAgRnV0dXJlPE5vdmVsPiBkZXRhaWwoTm92ZWwgbm92ZWwpIGFzeW5jIHsKICAgIGlmIChpc0N1c3RvbVNvdXJjZUJvb2sobm92ZWwuaWQpKSByZXR1cm4gY3VzdG9tLmRldGFpbChub3ZlbCk7CiAgICByZXR1cm4gcmVtb3RlLmRldGFpbChub3ZlbCk7CiAgfQoKICBAb3ZlcnJpZGUKICBGdXR1cmU8TGlzdDxOb3ZlbENoYXB0ZXI+PiBjaGFwdGVycyhpbnQgaWQpIGFzeW5jIHsKICAgIGlmIChpc0N1c3RvbVNvdXJjZUJvb2soaWQpKSByZXR1cm4gY3VzdG9tLmNoYXB0ZXJzKGlkKTsKICAgIHJldHVybiByZW1vdGUuY2hhcHRlcnMoaWQpOwogIH0KCiAgQG92ZXJyaWRlCiAgRnV0dXJlPFN0cmluZz4gY2hhcHRlckNvbnRlbnQoaW50IG5vdmVsSWQsIE5vdmVsQ2hhcHRlciBjaGFwdGVyKSBhc3luYyB7CiAgICBpZiAoaXNDdXN0b21Tb3VyY2VCb29rKG5vdmVsSWQpKSB7CiAgICAgIHJldHVybiBjdXN0b20uY2hhcHRlckNvbnRlbnQobm92ZWxJZCwgY2hhcHRlcik7CiAgICB9CiAgICByZXR1cm4gcmVtb3RlLmNoYXB0ZXJDb250ZW50KG5vdmVsSWQsIGNoYXB0ZXIpOwogIH0KfQo=
+/// Routes repository calls to the correct backing source by book ID.
+///
+/// The official Wenku8 repository owns small integer IDs; custom sources own
+/// the reserved 0x50000000.. range. Search aggregates enabled sources.
+library;
+
+import '../catalog.dart';
+import 'book_source_store.dart';
+import 'custom_source_repository.dart';
+
+class CompositeRepository extends NovelRepository {
+  const CompositeRepository({
+    required this.remote,
+    required this.custom,
+    required this.store,
+  });
+
+  final NovelRepository remote;
+  final CustomSourceRepository custom;
+  final BookSourceStore store;
+
+  @override
+  Future<List<Novel>> list() async => remote.list();
+
+  @override
+  Future<Novel?> find(int id) async {
+    if (isCustomSourceBook(id)) return custom.find(id);
+    return remote.find(id);
+  }
+
+  @override
+  Future<List<Novel>> search(String query) async => (await searchPage(query)).items;
+
+  @override
+  Future<NovelPage> browse({
+    NovelSort sort = NovelSort.lastUpdate,
+    int page = 1,
+    bool refresh = false,
+  }) => remote.browse(sort: sort, page: page, refresh: refresh);
+
+  @override
+  Future<NovelPage> searchPage(
+    String query, {
+    int page = 1,
+    bool refresh = false,
+  }) async {
+    final official = await remote.searchPage(query, page: page, refresh: refresh);
+    if (store.enabledSources.isEmpty) return official;
+    final customPage = await custom.searchPage(query, page: page, refresh: refresh);
+    final combined = <Novel>[...official.items, ...customPage.items];
+    return NovelPage(
+      items: List.unmodifiable(combined),
+      page: page,
+      totalItems: combined.length,
+    );
+  }
+
+  @override
+  Future<NovelPage> searchFilteredPage(
+    String query, {
+    BookSearchField field = BookSearchField.all,
+    int page = 1,
+    bool refresh = false,
+  }) async {
+    final official = await remote.searchFilteredPage(
+      query,
+      field: field,
+      page: page,
+      refresh: refresh,
+    );
+    if (store.enabledSources.isEmpty) return official;
+    final customPage = await custom.searchPage(query, page: page, refresh: refresh);
+    final combined = <Novel>[...official.items, ...customPage.items];
+    return NovelPage(
+      items: List.unmodifiable(combined),
+      page: page,
+      totalItems: combined.length,
+    );
+  }
+
+  @override
+  Future<Novel> detail(Novel novel) async {
+    if (isCustomSourceBook(novel.id)) return custom.detail(novel);
+    return remote.detail(novel);
+  }
+
+  @override
+  Future<List<NovelChapter>> chapters(int id) async {
+    if (isCustomSourceBook(id)) return custom.chapters(id);
+    return remote.chapters(id);
+  }
+
+  @override
+  Future<String> chapterContent(int novelId, NovelChapter chapter) async {
+    if (isCustomSourceBook(novelId)) {
+      return custom.chapterContent(novelId, chapter);
+    }
+    return remote.chapterContent(novelId, chapter);
+  }
+}

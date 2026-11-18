@@ -1,1 +1,79 @@
-bmFtZTogQnVpbGQgQ3VzdG9tIEJvb2sgU291cmNlIEFQSwoKb246CiAgd29ya2Zsb3dfZGlzcGF0Y2g6CiAgcHVzaDoKICAgIGJyYW5jaGVzOiBbbWFzdGVyLCBtYWluXQoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKCmpvYnM6CiAgYnVpbGQ6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CgogICAgICAtIHVzZXM6IGFjdGlvbnMvc2V0dXAtamF2YUB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBkaXN0cmlidXRpb246IHRlbXVyaW4KICAgICAgICAgIGphdmEtdmVyc2lvbjogJzE3JwoKICAgICAgLSB1c2VzOiBzdWJvc2l0by9mbHV0dGVyLWFjdGlvbkB2MgogICAgICAgIHdpdGg6CiAgICAgICAgICBmbHV0dGVyLXZlcnNpb246ICczLjQxLjUnCiAgICAgICAgICBjaGFubmVsOiBzdGFibGUKICAgICAgICAgIGNhY2hlOiB0cnVlCgogICAgICAtIG5hbWU6IEVuc3VyZSBBbmRyb2lkIG1pblNkayA+PSAyMSAocmVxdWlyZWQgYnkgZmx1dHRlcl9qcykKICAgICAgICBydW46IHwKICAgICAgICAgIEY9ImFuZHJvaWQvYXBwL2J1aWxkLmdyYWRsZS5rdHMiCiAgICAgICAgICBlY2hvICItLS0gY3VycmVudCBtaW5TZGsgLS0tIgogICAgICAgICAgZ3JlcCAtbiAibWluU2RrIiAiJEYiIHx8IHRydWUKICAgICAgICAgICMgSWYgbWluU2RrIGlzIGJlbG93IDIxLCByYWlzZSBpdC4gSGFuZGxlcyBib3RoIGBtaW5TZGsgPSBYYCBhbmQgYG1pblNka1ZlcnNpb24oWClgLgogICAgICAgICAgcHl0aG9uMyAtIDw8J1BZJwogICAgICAgICAgaW1wb3J0IHJlCiAgICAgICAgICBwID0gImFuZHJvaWQvYXBwL2J1aWxkLmdyYWRsZS5rdHMiCiAgICAgICAgICBzID0gb3BlbihwLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKICAgICAgICAgIGRlZiBmaXgobSk6CiAgICAgICAgICAgICAgcmV0dXJuIG0uZ3JvdXAoMSkgKyAiMjEiCiAgICAgICAgICBpZiAibWluU2RrVmVyc2lvbiIgaW4gczoKICAgICAgICAgICAgICBzMiA9IHJlLnN1YihyJyhtaW5TZGtWZXJzaW9uXCgpXGQrJywgZml4LCBzKQogICAgICAgICAgZWxzZToKICAgICAgICAgICAgICBzMiA9IHJlLnN1YihyJyhtaW5TZGtccyo9XHMqKVxkKycsIGZpeCwgcykKICAgICAgICAgICAgICBpZiAibWluU2RrIiBub3QgaW4gczI6CiAgICAgICAgICAgICAgICAgIHMyID0gczIucmVwbGFjZSgiZGVmYXVsdENvbmZpZyB7IiwgImRlZmF1bHRDb25maWcge1xuICAgICAgICBtaW5TZGsgPSAyMSIpCiAgICAgICAgICBvcGVuKHAsICJ3IiwgZW5jb2Rpbmc9InV0Zi04Iikud3JpdGUoczIpCiAgICAgICAgICBwcmludCgiLS0tIHBhdGNoZWQgbWluU2RrIC0tLSIpCiAgICAgICAgICBwcmludCgiXG4iLmpvaW4obCBmb3IgbCBpbiBzMi5zcGxpdGxpbmVzKCkgaWYgIm1pblNkayIgaW4gbCkpCiAgICAgICAgICBQWQoKICAgICAgLSBuYW1lOiBFbnN1cmUgSU5URVJORVQgcGVybWlzc2lvbgogICAgICAgIHJ1bjogfAogICAgICAgICAgTT0iYW5kcm9pZC9hcHAvc3JjL21haW4vQW5kcm9pZE1hbmlmZXN0LnhtbCIKICAgICAgICAgIGdyZXAgLXEgJ2FuZHJvaWQucGVybWlzc2lvbi5JTlRFUk5FVCcgIiRNIiB8fCBcCiAgICAgICAgICAgIHNlZCAtaSAnLzxtYW5pZmVzdFtePl0qPi9hXCAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLklOVEVSTkVUIiAvPicgIiRNIgogICAgICAgICAgZ3JlcCAtbiAiSU5URVJORVQiICIkTSIgfHwgdHJ1ZQoKICAgICAgLSBuYW1lOiBmbHV0dGVyIHB1YiBnZXQKICAgICAgICBydW46IGZsdXR0ZXIgcHViIGdldAoKICAgICAgLSBuYW1lOiBBbmFseXplIChub24tYmxvY2tpbmcgcmVwb3J0KQogICAgICAgIGNvbnRpbnVlLW9uLWVycm9yOiB0cnVlCiAgICAgICAgcnVuOiBmbHV0dGVyIGFuYWx5emUgfHwgdHJ1ZQoKICAgICAgLSBuYW1lOiBCdWlsZCBBUk02NCBBUEsgKGRlYnVnIHNpZ25pbmcsIGluc3RhbGxhYmxlKQogICAgICAgIHJ1bjogZmx1dHRlciBidWlsZCBhcGsgLS1kZWJ1ZyAtLXRhcmdldC1wbGF0Zm9ybSBhbmRyb2lkLWFybTY0CgogICAgICAtIG5hbWU6IFJlbmFtZSBBUEsKICAgICAgICBydW46IHwKICAgICAgICAgIG1rZGlyIC1wIGFydGlmYWN0cwogICAgICAgICAgY3AgYnVpbGQvYXBwL291dHB1dHMvZmx1dHRlci1hcGsvYXBwLWRlYnVnLmFwayBhcnRpZmFjdHMvd2Vua3U4LWN1c3RvbS1hcm02NC5hcGsKICAgICAgICAgIGxzIC1saCBhcnRpZmFjdHMvCgogICAgICAtIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IHdlbmt1OC1jdXN0b20tYXJtNjQKICAgICAgICAgIHBhdGg6IGFydGlmYWN0cy8qLmFwawogICAgICAgICAgaWYtbm8tZmlsZXMtZm91bmQ6IGVycm9yCiAgICAgICAgICByZXRlbnRpb24tZGF5czogMzAK
+name: Build Custom Book Source APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master, main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.41.5'
+          channel: stable
+          cache: true
+
+      - name: Ensure Android minSdk >= 21 (required by flutter_js)
+        run: |
+          F="android/app/build.gradle.kts"
+          echo "--- current minSdk ---"
+          grep -n "minSdk" "$F" || true
+          # If minSdk is below 21, raise it. Handles both `minSdk = X` and `minSdkVersion(X)`.
+          python3 - <<'PY'
+          import re
+          p = "android/app/build.gradle.kts"
+          s = open(p, encoding="utf-8").read()
+          def fix(m):
+              return m.group(1) + "21"
+          if "minSdkVersion" in s:
+              s2 = re.sub(r'(minSdkVersion\()\d+', fix, s)
+          else:
+              s2 = re.sub(r'(minSdk\s*=\s*)\d+', fix, s)
+              if "minSdk" not in s2:
+                  s2 = s2.replace("defaultConfig {", "defaultConfig {\n        minSdk = 21")
+          open(p, "w", encoding="utf-8").write(s2)
+          print("--- patched minSdk ---")
+          print("\n".join(l for l in s2.splitlines() if "minSdk" in l))
+          PY
+
+      - name: Ensure INTERNET permission
+        run: |
+          M="android/app/src/main/AndroidManifest.xml"
+          grep -q 'android.permission.INTERNET' "$M" || \
+            sed -i '/<manifest[^>]*>/a\    <uses-permission android:name="android.permission.INTERNET" />' "$M"
+          grep -n "INTERNET" "$M" || true
+
+      - name: flutter pub get
+        run: flutter pub get
+
+      - name: Analyze (non-blocking report)
+        continue-on-error: true
+        run: flutter analyze || true
+
+      - name: Build ARM64 APK (debug signing, installable)
+        run: flutter build apk --debug --target-platform android-arm64
+
+      - name: Rename APK
+        run: |
+          mkdir -p artifacts
+          cp build/app/outputs/flutter-apk/app-debug.apk artifacts/wenku8-custom-arm64.apk
+          ls -lh artifacts/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wenku8-custom-arm64
+          path: artifacts/*.apk
+          if-no-files-found: error
+          retention-days: 30

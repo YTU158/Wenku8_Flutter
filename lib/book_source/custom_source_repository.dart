@@ -1,1 +1,438 @@
-Ly8vIEEgTm92ZWxSZXBvc2l0b3J5IGJhY2tlZCBieSB1c2VyLWltcG9ydGVkIExlZ2FkbyBib29rIHNvdXJjZXMuCi8vLwovLy8gSXQgbWFwcyBzY3JhcGVkIHJlc3VsdHMgaW50byB0aGUgYXBwJ3Mgc291cmNlLW5ldXRyYWwgW05vdmVsXSBtb2RlbCBzbyB0aGF0Ci8vLyBldmVyeSBzaGVsZi9kZXRhaWwvcmVhZGVyIHdpZGdldCB3b3JrcyB1bmNoYW5nZWQuIEJvb2tzIGdldCBJRHMgaW4gdGhlCi8vLyByZXNlcnZlZCBjdXN0b20gcmFuZ2UgKDB4NTAwMDAwMDAuLiksIGtlcHQgc3RhYmxlIGJ5IFtCb29rU291cmNlU3RvcmVdLgpsaWJyYXJ5OwoKaW1wb3J0ICdkYXJ0OmFzeW5jJzsKCmltcG9ydCAncGFja2FnZTpmbHV0dGVyL21hdGVyaWFsLmRhcnQnIHNob3cgQ29sb3I7CmltcG9ydCAncGFja2FnZTpodG1sL2RvbS5kYXJ0JyBhcyBkb207CmltcG9ydCAncGFja2FnZTpodG1sL3BhcnNlci5kYXJ0JyBhcyBodG1sX3BhcnNlcjsKCmltcG9ydCAnLi4vY2F0YWxvZy5kYXJ0JzsKaW1wb3J0ICdhbmFseXplX3J1bGUuZGFydCc7CmltcG9ydCAnYm9va19zb3VyY2VfbW9kZWwuZGFydCc7CmltcG9ydCAnYm9va19zb3VyY2Vfc3RvcmUuZGFydCc7CmltcG9ydCAnanNfcnVudGltZS5kYXJ0JzsKaW1wb3J0ICdzb3VyY2VfaHR0cC5kYXJ0JzsKaW1wb3J0ICd4cGF0aF9lbmdpbmUuZGFydCc7CgpjbGFzcyBDdXN0b21Tb3VyY2VSZXBvc2l0b3J5IGV4dGVuZHMgTm92ZWxSZXBvc2l0b3J5IHsKICBDdXN0b21Tb3VyY2VSZXBvc2l0b3J5KHsKICAgIHJlcXVpcmVkIHRoaXMuc3RvcmUsCiAgICByZXF1aXJlZCB0aGlzLmh0dHAsCiAgICBKc1J1bnRpbWU/IGpzLAogIH0pIDoganMgPSBqcyA/PyBKc1J1bnRpbWUoKTsKCiAgZmluYWwgQm9va1NvdXJjZVN0b3JlIHN0b3JlOwogIGZpbmFsIFNvdXJjZUh0dHBDbGllbnQgaHR0cDsKICBmaW5hbCBKc1J1bnRpbWUganM7CgogIGZpbmFsIE1hcDxpbnQsIE5vdmVsPiBfa25vd24gPSA8aW50LCBOb3ZlbD57fTsKICBmaW5hbCBNYXA8aW50LCBCb29rU291cmNlPiBfYm9va1NvdXJjZXMgPSA8aW50LCBCb29rU291cmNlPnt9OwogIGZpbmFsIE1hcDxpbnQsIFN0cmluZz4gX2Jvb2tVcmxzID0gPGludCwgU3RyaW5nPnt9OwogIGZpbmFsIE1hcDxpbnQsIExpc3Q8Tm92ZWxDaGFwdGVyPj4gX2NoYXB0ZXJzID0gPGludCwgTGlzdDxOb3ZlbENoYXB0ZXI+Pnt9OwogIGZpbmFsIE1hcDxpbnQsIFN0cmluZz4gX3RvY1VybHMgPSA8aW50LCBTdHJpbmc+e307CiAgZmluYWwgTWFwPFN0cmluZywgRnV0dXJlPE5vdmVsUGFnZT4+IF9zZWFyY2hQYWdlcyA9IDxTdHJpbmcsIEZ1dHVyZTxOb3ZlbFBhZ2U+Pnt9OwogIGZpbmFsIE1hcDwoaW50LCBpbnQpLCBTdHJpbmc+IF9jaGFwdGVyVXJscyA9IDwoaW50LCBpbnQpLCBTdHJpbmc+e307CiAgYm9vbCBfcmVzdG9yZWQgPSBmYWxzZTsKCiAgLy8vIFJlc3RvcmUgcGVyc2lzdGVkIGJvb2stPnNvdXJjZSByb3V0aW5nIHNvIHNoZWxmIGJvb2tzIHdvcmsgYWZ0ZXIgcmVzdGFydC4KICB2b2lkIF9yZXN0b3JlKCkgewogICAgaWYgKF9yZXN0b3JlZCkgcmV0dXJuOwogICAgX3Jlc3RvcmVkID0gdHJ1ZTsKICAgIHN0b3JlLmJvb2tSb3V0ZXMuZm9yRWFjaCgoaWQsIHJvdXRlKSB7CiAgICAgIGZpbmFsIHNvdXJjZUtleSA9IHJvdXRlWydzb3VyY2UnXTsKICAgICAgZmluYWwgYm9va1VybCA9IHJvdXRlWyd1cmwnXTsKICAgICAgaWYgKHNvdXJjZUtleSA9PSBudWxsIHx8IGJvb2tVcmwgPT0gbnVsbCkgcmV0dXJuOwogICAgICBmaW5hbCBzb3VyY2UgPSBzdG9yZS5zb3VyY2Uoc291cmNlS2V5KTsKICAgICAgaWYgKHNvdXJjZSA9PSBudWxsKSByZXR1cm47CiAgICAgIF9ib29rU291cmNlc1tpZF0gPSBzb3VyY2U7CiAgICAgIF9ib29rVXJsc1tpZF0gPSBib29rVXJsOwogICAgICBmaW5hbCB0b2MgPSByb3V0ZVsndG9jJ107CiAgICAgIGlmICh0b2MgIT0gbnVsbCkgX3RvY1VybHNbaWRdID0gdG9jOwogICAgICAvLyBDaGFwdGVyIFVSTHMgYXJlIHN0b3JlZCBhcyB1cmxfMSwgdXJsXzIsIC4uLgogICAgICBmb3IgKGZpbmFsIGVudHJ5IGluIHJvdXRlLmVudHJpZXMpIHsKICAgICAgICBmaW5hbCBtID0gUmVnRXhwKHInXnVybF8oXGQrKSQnKS5maXJzdE1hdGNoKGVudHJ5LmtleSk7CiAgICAgICAgaWYgKG0gIT0gbnVsbCkgewogICAgICAgICAgZmluYWwgY2lkID0gaW50LnRyeVBhcnNlKG0uZ3JvdXAoMSkhKTsKICAgICAgICAgIGlmIChjaWQgIT0gbnVsbCkgX2NoYXB0ZXJVcmxzWyhpZCwgY2lkKV0gPSBlbnRyeS52YWx1ZTsKICAgICAgICB9CiAgICAgIH0KICAgIH0pOwogIH0KCiAgLy8vIEV4cG9zZSB3aGljaCBzb3VyY2UgYSBib29rIGJlbG9uZ3MgdG8gKGZvciB0aGUgc291cmNlIGJhZGdlIGluIFVJKS4KICAvLy8gRmV0Y2ggYSByZW1vdGUgc3Vic2NyaXB0aW9uIFVSTCBhbmQgcmV0dXJuIGl0cyByYXcgSlNPTiB0ZXh0LgogIEZ1dHVyZTxTdHJpbmc+IGZldGNoU291cmNlU3Vic2NyaXB0aW9uKFN0cmluZyB1cmwpIGFzeW5jIHsKICAgIGZpbmFsIHJlc3BvbnNlID0gYXdhaXQgaHR0cC5nZXQodXJsKTsKICAgIHJldHVybiByZXNwb25zZS5ib2R5OwogIH0KCiAgLy8vIFRlc3QgYSBzb3VyY2UgYnkgaXNzdWluZyBhIHNlYXJjaCBmb3IgYSBjb21tb24gdGVybSBhbmQgcmVwb3J0aW5nIHRoZQogIC8vLyBudW1iZXIgb2YgcmVzdWx0cyBmb3VuZC4KICBGdXR1cmU8U3RyaW5nPiB0ZXN0U291cmNlKEJvb2tTb3VyY2Ugc291cmNlKSBhc3luYyB7CiAgICBpZiAoc291cmNlLnNlYXJjaFVybC5pc0VtcHR5KSByZXR1cm4gJ+ivpeS5pua6kOacqumFjee9ruaQnOe0ouWcsOWdgCc7CiAgICB0cnkgewogICAgICBmaW5hbCB2YXJpYWJsZXMgPSA8U3RyaW5nLCBkeW5hbWljPnsKICAgICAgICAna2V5JzogJ+a1i+ivlScsCiAgICAgICAgJ2tleVJhdyc6ICfmtYvor5UnLAogICAgICAgICdwYWdlJzogMSwKICAgICAgfTsKICAgICAgZmluYWwgcmVzcG9uc2UgPSBhd2FpdCBodHRwLmdldCgKICAgICAgICBzb3VyY2Uuc2VhcmNoVXJsLAogICAgICAgIHZhcmlhYmxlczogdmFyaWFibGVzLAogICAgICAgIHNvdXJjZUtleTogc291cmNlLmtleSwKICAgICAgKTsKICAgICAgZmluYWwgcnVsZVNlYXJjaCA9IHNvdXJjZS5ydWxlU2VhcmNoOwogICAgICBpZiAocnVsZVNlYXJjaC5ib29rTGlzdC5pc0VtcHR5KSB7CiAgICAgICAgcmV0dXJuICfov57mjqXmiJDlip/vvIzkvYbmnKrphY3nva7kuabnsY3liJfooajop4TliJknOwogICAgICB9CiAgICAgIGZpbmFsIGRvY3VtZW50ID0gX3BhcnNlSHRtbChyZXNwb25zZS5ib2R5KTsKICAgICAgaWYgKGRvY3VtZW50ID09IG51bGwpIHJldHVybiAn6L+e5o6l5oiQ5Yqf77yM5L2G6L+U5Zue5YaF5a655peg5rOV6Kej5p6QJzsKICAgICAgZmluYWwgZWxlbWVudHMgPSBfc2VsZWN0RWxlbWVudHMoZG9jdW1lbnQsIHJ1bGVTZWFyY2guYm9va0xpc3QpOwogICAgICByZXR1cm4gJ+a1i+ivleaIkOWKn++8jOWMuemFjeWIsCAke2VsZW1lbnRzLmxlbmd0aH0g5Liq57uT5p6cJzsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgcmV0dXJuICfmtYvor5XlpLHotKU6ICRlJzsKICAgIH0KICB9CgogIEJvb2tTb3VyY2U/IHNvdXJjZU9mKGludCBub3ZlbElkKSB7CiAgICBfcmVzdG9yZSgpOwogICAgcmV0dXJuIF9ib29rU291cmNlc1tub3ZlbElkXTsKICB9CgogIGJvb2wgaGFuZGxlcyhpbnQgbm92ZWxJZCkgewogICAgX3Jlc3RvcmUoKTsKICAgIHJldHVybiBpc0N1c3RvbVNvdXJjZUJvb2sobm92ZWxJZCkgJiYgX2Jvb2tTb3VyY2VzLmNvbnRhaW5zS2V5KG5vdmVsSWQpOwogIH0KCiAgc3RhdGljIGNvbnN0IF9wYWxldHRlcyA9IDxMaXN0PENvbG9yPj5bCiAgICBbQ29sb3IoMHhGRjVFODdCOCksIENvbG9yKDB4RkYyMjJDNUIpXSwKICAgIFtDb2xvcigweEZGNjZDOUJDKSwgQ29sb3IoMHhGRjI3NkE4RildLAogICAgW0NvbG9yKDB4RkZFNkE1QjcpLCBDb2xvcigweEZGOEY2NThFKV0sCiAgICBbQ29sb3IoMHhGRkU5QjI3NyksIENvbG9yKDB4RkZCNzZFNkUpXSwKICBdOwoKICBAb3ZlcnJpZGUKICBGdXR1cmU8TGlzdDxOb3ZlbD4+IGxpc3QoKSBhc3luYyB7CiAgICAvLyBDdXN0b20gc291cmNlcyBoYXZlIG5vIGdsb2JhbCBjYXRhbG9ndWU7IGJvb2tzIG9ubHkgYXBwZWFyIG9uY2UgZm91bmQKICAgIC8vIHZpYSBzZWFyY2ggYW5kIHNhdmVkLiBSZXR1cm4gd2hhdCBpcyBrbm93biB0aGlzIHNlc3Npb24uCiAgICByZXR1cm4gTGlzdC51bm1vZGlmaWFibGUoX2tub3duLnZhbHVlcyk7CiAgfQoKICBAb3ZlcnJpZGUKICBGdXR1cmU8Tm92ZWw/PiBmaW5kKGludCBpZCkgYXN5bmMgewogICAgX3Jlc3RvcmUoKTsKICAgIGZpbmFsIGtub3duID0gX2tub3duW2lkXTsKICAgIGlmIChrbm93biAhPSBudWxsKSByZXR1cm4ga25vd247CiAgICAvLyBDb2xkIHN0YXJ0OiByZWJ1aWxkIGEgbWluaW1hbCBOb3ZlbCBmcm9tIHRoZSBzaGVsZidzIHBlcnNpc3RlZCBzbmFwc2hvdC4KICAgIGZpbmFsIHJvdXRlID0gc3RvcmUuYm9va1JvdXRlKGlkKTsKICAgIGlmIChyb3V0ZSA9PSBudWxsKSByZXR1cm4gbnVsbDsKICAgIGZpbmFsIHNuYXBzaG90ID0gc3RvcmUucmVhZE5vdmVsU25hcHNob3QoaWQpOwogICAgaWYgKHNuYXBzaG90ID09IG51bGwpIHJldHVybiBudWxsOwogICAgdHJ5IHsKICAgICAgZmluYWwgbm92ZWwgPSBOb3ZlbC5mcm9tU25hcHNob3Qoc25hcHNob3QpOwogICAgICBfa25vd25baWRdID0gbm92ZWw7CiAgICAgIHJldHVybiBub3ZlbDsKICAgIH0gY2F0Y2ggKF8pIHsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgfQoKICBAb3ZlcnJpZGUKICBGdXR1cmU8TGlzdDxOb3ZlbD4+IHNlYXJjaChTdHJpbmcgcXVlcnkpIGFzeW5jID0+CiAgICAgIChhd2FpdCBzZWFyY2hQYWdlKHF1ZXJ5KSkuaXRlbXM7CgogIEBvdmVycmlkZQogIEZ1dHVyZTxOb3ZlbFBhZ2U+IHNlYXJjaFBhZ2UoCiAgICBTdHJpbmcgcXVlcnksIHsKICAgIGludCBwYWdlID0gMSwKICAgIGJvb2wgcmVmcmVzaCA9IGZhbHNlLAogIH0pIGFzeW5jIHsKICAgIGZpbmFsIHRlcm0gPSBxdWVyeS50cmltKCk7CiAgICBpZiAodGVybS5pc0VtcHR5KSByZXR1cm4gTm92ZWxQYWdlLmZyb21JdGVtcyhjb25zdCA8Tm92ZWw+W10sIHBhZ2UpOwogICAgZmluYWwga2V5ID0gJ2FsbDokdGVybTokcGFnZToke3JlZnJlc2ggPyBEYXRlVGltZS5ub3coKS5taWxsaXNlY29uZHNTaW5jZUVwb2NoIDogMH0nOwogICAgaWYgKCFyZWZyZXNoKSB7CiAgICAgIGZpbmFsIHBlbmRpbmcgPSBfc2VhcmNoUGFnZXNba2V5XTsKICAgICAgaWYgKHBlbmRpbmcgIT0gbnVsbCkgcmV0dXJuIHBlbmRpbmc7CiAgICB9CiAgICBmaW5hbCByZXF1ZXN0ID0gX2RvU2VhcmNoKHRlcm0sIHBhZ2UpOwogICAgX3NlYXJjaFBhZ2VzW2tleV0gPSByZXF1ZXN0OwogICAgdHJ5IHsKICAgICAgcmV0dXJuIGF3YWl0IHJlcXVlc3Q7CiAgICB9IGZpbmFsbHkgewogICAgICBfc2VhcmNoUGFnZXMucmVtb3ZlKGtleSk7CiAgICB9CiAgfQoKICBGdXR1cmU8Tm92ZWxQYWdlPiBfZG9TZWFyY2goU3RyaW5nIHRlcm0sIGludCBwYWdlKSBhc3luYyB7CiAgICBmaW5hbCBib29rcyA9IDxOb3ZlbD5bXTsKICAgIGZpbmFsIGZ1dHVyZXMgPSA8RnV0dXJlPExpc3Q8Tm92ZWw+Pj5bXTsKICAgIGZvciAoZmluYWwgc291cmNlIGluIHN0b3JlLmVuYWJsZWRTb3VyY2VzKSB7CiAgICAgIGlmICghc291cmNlLmVuYWJsZWRTZWFyY2ggfHwgc291cmNlLnNlYXJjaFVybC5pc0VtcHR5KSBjb250aW51ZTsKICAgICAgZnV0dXJlcy5hZGQoX3NlYXJjaEluU291cmNlKHNvdXJjZSwgdGVybSwgcGFnZSkpOwogICAgfQogICAgZmluYWwgcmVzdWx0cyA9IGF3YWl0IEZ1dHVyZS53YWl0KGZ1dHVyZXMsIGVhZ2VyRXJyb3I6IGZhbHNlKTsKICAgIGZvciAoZmluYWwgYmF0Y2ggaW4gcmVzdWx0cykgewogICAgICBib29rcy5hZGRBbGwoYmF0Y2gpOwogICAgfQogICAgLy8gRGUtZHVwbGljYXRlIGJ5IHRpdGxlK2F1dGhvci4KICAgIGZpbmFsIHNlZW4gPSA8U3RyaW5nPnt9OwogICAgZmluYWwgdW5pcXVlID0gYm9va3Mud2hlcmUoKGIpIHsKICAgICAgZmluYWwgayA9ICcke2IudGl0bGV9fCR7Yi5hdXRob3J9JzsKICAgICAgcmV0dXJuIHNlZW4uYWRkKGspOwogICAgfSkudG9MaXN0KCk7CiAgICByZXR1cm4gTm92ZWxQYWdlKGl0ZW1zOiBMaXN0LnVubW9kaWZpYWJsZSh1bmlxdWUpLCBwYWdlOiBwYWdlKTsKICB9CgogIEZ1dHVyZTxMaXN0PE5vdmVsPj4gX3NlYXJjaEluU291cmNlKEJvb2tTb3VyY2Ugc291cmNlLCBTdHJpbmcgdGVybSwgaW50IHBhZ2UpIGFzeW5jIHsKICAgIHRyeSB7CiAgICAgIGZpbmFsIHVybCA9IHNvdXJjZS5zZWFyY2hVcmw7CiAgICAgIGZpbmFsIHZhcmlhYmxlcyA9IDxTdHJpbmcsIGR5bmFtaWM+ewogICAgICAgICdrZXknOiB0ZXJtLAogICAgICAgICdrZXlSYXcnOiB0ZXJtLAogICAgICAgICdwYWdlJzogcGFnZSwKICAgICAgfTsKICAgICAgZmluYWwgRmV0Y2hSZXN1bHQgcmVzcG9uc2U7CiAgICAgIGlmICh1cmwuY29udGFpbnMoJ1BPU1Q6JykgfHwgc291cmNlLmV4dHJhc1snc2VhcmNoTWV0aG9kJ10gPT0gJ1BPU1QnKSB7CiAgICAgICAgZmluYWwgY2xlYW4gPSB1cmwucmVwbGFjZUZpcnN0KCdQT1NUOicsICcnKTsKICAgICAgICByZXNwb25zZSA9IGF3YWl0IGh0dHAucG9zdCgKICAgICAgICAgIGNsZWFuLAogICAgICAgICAgYm9keTogeydrZXl3b3JkJzogdGVybSwgJ3BhZ2UnOiAnJHBhZ2UnfSwKICAgICAgICAgIHZhcmlhYmxlczogdmFyaWFibGVzLAogICAgICAgICAgc291cmNlS2V5OiBzb3VyY2Uua2V5LAogICAgICAgICk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgcmVzcG9uc2UgPSBhd2FpdCBodHRwLmdldCh1cmwsIHZhcmlhYmxlczogdmFyaWFibGVzLCBzb3VyY2VLZXk6IHNvdXJjZS5rZXkpOwogICAgICB9CgogICAgICBmaW5hbCBydWxlU2VhcmNoID0gc291cmNlLnJ1bGVTZWFyY2g7CiAgICAgIGlmIChydWxlU2VhcmNoLmJvb2tMaXN0LmlzRW1wdHkpIHJldHVybiBjb25zdCA8Tm92ZWw+W107CgogICAgICAvLyBTZWxlY3QgZWFjaCBib29rIGVsZW1lbnQgYnkgcmUtcGFyc2luZyB0aGUgcmF3IEhUTUwgd2l0aCB0aGUgbGlzdCBydWxlLAogICAgICAvLyB0aGVuIGV2YWx1YXRlIHBlci1maWVsZCBydWxlcyB3aXRoIHRoYXQgZWxlbWVudCBhcyB0aGUgY29udGVudCByb290LgogICAgICBmaW5hbCBkb2N1bWVudCA9IF9wYXJzZUh0bWwocmVzcG9uc2UuYm9keSk7CiAgICAgIGlmIChkb2N1bWVudCA9PSBudWxsKSByZXR1cm4gY29uc3QgPE5vdmVsPltdOwogICAgICBmaW5hbCBib29rRWxlbWVudHMgPSBfc2VsZWN0RWxlbWVudHMoZG9jdW1lbnQsIHJ1bGVTZWFyY2guYm9va0xpc3QpOwogICAgICBmaW5hbCByZXN1bHQgPSA8Tm92ZWw+W107CiAgICAgIGZvciAoZmluYWwgZWxlbWVudCBpbiBib29rRWxlbWVudHMuZW50cmllcykgewogICAgICAgIGZpbmFsIGh0bWwgPSBlbGVtZW50LnZhbHVlOwogICAgICAgIGZpbmFsIGZpZWxkUnVsZSA9IEFuYWx5emVSdWxlKGpzOiBqcywgdmFyaWFibGVzOiBSdWxlVmFyaWFibGVzLnNlYXJjaCh0ZXJtLCBwYWdlKSkKICAgICAgICAgIC4uc2V0Q29udGVudChodG1sKTsKICAgICAgICBmaW5hbCBib29rVXJsID0gZmllbGRSdWxlLmdldFN0cmluZyhydWxlU2VhcmNoLmJvb2tVcmwpOwogICAgICAgIGZpbmFsIHRpdGxlID0gZmllbGRSdWxlLmdldFN0cmluZyhydWxlU2VhcmNoLm5hbWUpOwogICAgICAgIGlmICh0aXRsZS5pc0VtcHR5IHx8IGJvb2tVcmwuaXNFbXB0eSkgY29udGludWU7CiAgICAgICAgZmluYWwgYWJzb2x1dGVVcmwgPSBfcmVzb2x2ZVVybChib29rVXJsLCByZXNwb25zZS51cmwpOwogICAgICAgIGZpbmFsIGlkID0gc3RvcmUuaWRGb3Ioc291cmNlLmtleSwgYWJzb2x1dGVVcmwpOwogICAgICAgIF9ib29rU291cmNlc1tpZF0gPSBzb3VyY2U7CiAgICAgICAgX2Jvb2tVcmxzW2lkXSA9IGFic29sdXRlVXJsOwogICAgICAgIHN0b3JlLnNhdmVCb29rUm91dGUoaWQsIHNvdXJjZUtleTogc291cmNlLmtleSwgYm9va1VybDogYWJzb2x1dGVVcmwpOwogICAgICAgIGZpbmFsIG5vdmVsID0gTm92ZWwoCiAgICAgICAgICBpZDogaWQsCiAgICAgICAgICB0aXRsZTogdGl0bGUsCiAgICAgICAgICBhdXRob3I6IGZpZWxkUnVsZS5nZXRTdHJpbmcocnVsZVNlYXJjaC5hdXRob3IsIGRlZmF1bHRWYWx1ZTogJ+S9muWQjScpLAogICAgICAgICAgZ2VucmU6IF9ub3JtYWxpemVHZW5yZShmaWVsZFJ1bGUuZ2V0U3RyaW5nKHJ1bGVTZWFyY2gua2luZCkpLAogICAgICAgICAgc3VtbWFyeTogZmllbGRSdWxlLmdldFN0cmluZyhydWxlU2VhcmNoLmludHJvLCBkZWZhdWx0VmFsdWU6ICfngrnlh7vmn6XnnIvkvZzlk4Hku4vnu43kuI7nm67lvZXjgIInKSwKICAgICAgICAgIGNvbG9yczogX3BhbGV0dGVzW2lkICUgX3BhbGV0dGVzLmxlbmd0aF0sCiAgICAgICAgICBjb3ZlclVybDogX3Jlc29sdmVVcmwoZmllbGRSdWxlLmdldFN0cmluZyhydWxlU2VhcmNoLmNvdmVyVXJsKSwgcmVzcG9uc2UudXJsKSwKICAgICAgICAgIGxhc3RVcGRhdGU6IF9ub25OdWxsKGZpZWxkUnVsZS5nZXRTdHJpbmcocnVsZVNlYXJjaC5sYXN0Q2hhcHRlcikpLAogICAgICAgICAgaXNDb21wbGV0ZTogZmFsc2UsCiAgICAgICAgKTsKICAgICAgICBfa25vd25baWRdID0gbm92ZWw7CiAgICAgICAgcmVzdWx0LmFkZChub3ZlbCk7CiAgICAgIH0KICAgICAgcmV0dXJuIHJlc3VsdDsKICAgIH0gY2F0Y2ggKF8pIHsKICAgICAgcmV0dXJuIGNvbnN0IDxOb3ZlbD5bXTsKICAgIH0KICB9CgogIEBvdmVycmlkZQogIEZ1dHVyZTxOb3ZlbD4gZGV0YWlsKE5vdmVsIG5vdmVsKSBhc3luYyB7CiAgICBpZiAoIWlzQ3VzdG9tU291cmNlQm9vayhub3ZlbC5pZCkpIHJldHVybiBub3ZlbDsKICAgIF9yZXN0b3JlKCk7CiAgICBmaW5hbCBzb3VyY2UgPSBfYm9va1NvdXJjZXNbbm92ZWwuaWRdOwogICAgZmluYWwgdXJsID0gX2Jvb2tVcmxzW25vdmVsLmlkXTsKICAgIGlmIChzb3VyY2UgPT0gbnVsbCB8fCB1cmwgPT0gbnVsbCkgcmV0dXJuIG5vdmVsOwogICAgdHJ5IHsKICAgICAgZmluYWwgcmVzcG9uc2UgPSBhd2FpdCBodHRwLmdldCh1cmwsIHNvdXJjZUtleTogc291cmNlLmtleSk7CiAgICAgIGZpbmFsIHJ1bGUgPSBBbmFseXplUnVsZShqczoganMsIHZhcmlhYmxlczogUnVsZVZhcmlhYmxlcyhjb25zdCB7J2tleSc6ICcnLCAncGFnZSc6IDF9KSkKICAgICAgICAuLnNldENvbnRlbnQocmVzcG9uc2UuYm9keSk7CiAgICAgIGZpbmFsIGluZm8gPSBzb3VyY2UucnVsZUJvb2tJbmZvOwogICAgICBmaW5hbCB0aXRsZSA9IHJ1bGUuZ2V0U3RyaW5nKGluZm8ubmFtZSwgZGVmYXVsdFZhbHVlOiBub3ZlbC50aXRsZSk7CiAgICAgIGZpbmFsIHRvY1VybCA9IHJ1bGUuZ2V0U3RyaW5nKGluZm8udG9jVXJsKTsKICAgICAgaWYgKHRvY1VybC5pc05vdEVtcHR5KSB7CiAgICAgICAgZmluYWwgYWJzb2x1dGVUb2MgPSBfcmVzb2x2ZVVybCh0b2NVcmwsIHJlc3BvbnNlLnVybCk7CiAgICAgICAgX3RvY1VybHNbbm92ZWwuaWRdID0gYWJzb2x1dGVUb2M7CiAgICAgICAgc3RvcmUuc2F2ZUJvb2tSb3V0ZShub3ZlbC5pZCwgdG9jVXJsOiBhYnNvbHV0ZVRvYyk7CiAgICAgIH0KICAgICAgZmluYWwgdXBkYXRlZCA9IE5vdmVsKAogICAgICAgIGlkOiBub3ZlbC5pZCwKICAgICAgICB0aXRsZTogdGl0bGUsCiAgICAgICAgYXV0aG9yOiBfb3IocnVsZS5nZXRTdHJpbmcoaW5mby5hdXRob3IpLCBub3ZlbC5hdXRob3IpLAogICAgICAgIGdlbnJlOiBfb3IoX25vcm1hbGl6ZUdlbnJlKHJ1bGUuZ2V0U3RyaW5nKGluZm8ua2luZCkpLCBub3ZlbC5nZW5yZSksCiAgICAgICAgc3VtbWFyeTogX29yKHJ1bGUuZ2V0U3RyaW5nKGluZm8uaW50cm8pLCBub3ZlbC5zdW1tYXJ5KSwKICAgICAgICBjb2xvcnM6IG5vdmVsLmNvbG9ycywKICAgICAgICBpc0NvbXBsZXRlOiBfcGFyc2VDb21wbGV0ZShydWxlLmdldFN0cmluZyhpbmZvLmlzQ29tcGxldGUpKSwKICAgICAgICBjb3ZlclVybDogX29yKF9yZXNvbHZlVXJsKHJ1bGUuZ2V0U3RyaW5nKGluZm8uY292ZXJVcmwpLCByZXNwb25zZS51cmwpLCBub3ZlbC5jb3ZlclVybCksCiAgICAgICAgbGFzdFVwZGF0ZTogX29yKF9ub25OdWxsKHJ1bGUuZ2V0U3RyaW5nKGluZm8ubGFzdENoYXB0ZXIpKSwgbm92ZWwubGFzdFVwZGF0ZSksCiAgICAgICAgY2hhcHRlckNvdW50OiBub3ZlbC5jaGFwdGVyQ291bnQsCiAgICAgICk7CiAgICAgIF9rbm93bltub3ZlbC5pZF0gPSB1cGRhdGVkOwogICAgICByZXR1cm4gdXBkYXRlZDsKICAgIH0gY2F0Y2ggKF8pIHsKICAgICAgcmV0dXJuIG5vdmVsOwogICAgfQogIH0KCiAgQG92ZXJyaWRlCiAgRnV0dXJlPExpc3Q8Tm92ZWxDaGFwdGVyPj4gY2hhcHRlcnMoaW50IGlkKSBhc3luYyB7CiAgICBfcmVzdG9yZSgpOwogICAgZmluYWwgY2FjaGVkID0gX2NoYXB0ZXJzW2lkXTsKICAgIGlmIChjYWNoZWQgIT0gbnVsbCkgcmV0dXJuIGNhY2hlZDsKICAgIGZpbmFsIHNvdXJjZSA9IF9ib29rU291cmNlc1tpZF07CiAgICBmaW5hbCBib29rVXJsID0gX2Jvb2tVcmxzW2lkXTsKICAgIGlmIChzb3VyY2UgPT0gbnVsbCB8fCBib29rVXJsID09IG51bGwpIHJldHVybiBjb25zdCA8Tm92ZWxDaGFwdGVyPltdOwogICAgdHJ5IHsKICAgICAgZmluYWwgdG9jVXJsID0gX3RvY1VybHNbaWRdID8/IGJvb2tVcmw7CiAgICAgIGZpbmFsIHJlc3BvbnNlID0gYXdhaXQgaHR0cC5nZXQodG9jVXJsLCBzb3VyY2VLZXk6IHNvdXJjZS5rZXkpOwogICAgICBmaW5hbCBydWxlID0gQW5hbHl6ZVJ1bGUoanM6IGpzLCB2YXJpYWJsZXM6IFJ1bGVWYXJpYWJsZXMoY29uc3QgeydrZXknOiAnJywgJ3BhZ2UnOiAxfSkpCiAgICAgICAgLi5zZXRDb250ZW50KHJlc3BvbnNlLmJvZHkpOwogICAgICBmaW5hbCBsaXN0UnVsZSA9IHNvdXJjZS5ydWxlVG9jLmNoYXB0ZXJMaXN0OwogICAgICBpZiAobGlzdFJ1bGUuaXNFbXB0eSkgcmV0dXJuIGNvbnN0IDxOb3ZlbENoYXB0ZXI+W107CiAgICAgIGZpbmFsIGRvY3VtZW50ID0gX3BhcnNlSHRtbChyZXNwb25zZS5ib2R5KTsKICAgICAgaWYgKGRvY3VtZW50ID09IG51bGwpIHJldHVybiBjb25zdCA8Tm92ZWxDaGFwdGVyPltdOwogICAgICBmaW5hbCBlbGVtZW50cyA9IF9zZWxlY3RFbGVtZW50cyhkb2N1bWVudCwgbGlzdFJ1bGUpOwogICAgICBmaW5hbCBjaGFwdGVycyA9IDxOb3ZlbENoYXB0ZXI+W107CiAgICAgIHZhciBpbmRleCA9IDA7CiAgICAgIGZvciAoZmluYWwgZW50cnkgaW4gZWxlbWVudHMuZW50cmllcykgewogICAgICAgIGZpbmFsIGNoYXB0ZXJSdWxlID0gQW5hbHl6ZVJ1bGUoanM6IGpzLCB2YXJpYWJsZXM6IFJ1bGVWYXJpYWJsZXMoY29uc3QgeydrZXknOiAnJywgJ3BhZ2UnOiAxfSkpCiAgICAgICAgICAuLnNldENvbnRlbnQoZW50cnkudmFsdWUpOwogICAgICAgIGZpbmFsIHRpdGxlID0gY2hhcHRlclJ1bGUuZ2V0U3RyaW5nKHNvdXJjZS5ydWxlVG9jLmNoYXB0ZXJOYW1lKTsKICAgICAgICBmaW5hbCB1cmwgPSBjaGFwdGVyUnVsZS5nZXRTdHJpbmcoc291cmNlLnJ1bGVUb2MuY2hhcHRlclVybCk7CiAgICAgICAgaWYgKHRpdGxlLmlzRW1wdHkpIGNvbnRpbnVlOwogICAgICAgIGZpbmFsIGNoYXB0ZXJJZCA9IGluZGV4ICsgMTsKICAgICAgICBjaGFwdGVycy5hZGQoTm92ZWxDaGFwdGVyKAogICAgICAgICAgdGl0bGUsCiAgICAgICAgICAnJywKICAgICAgICAgIGlkOiBjaGFwdGVySWQsCiAgICAgICAgICB2b2x1bWVJZDogMCwKICAgICAgICAgIHZvbHVtZVRpdGxlOiAnJywKICAgICAgICApKTsKICAgICAgICBmaW5hbCBhYnNvbHV0ZUNoYXB0ZXIgPSBfcmVzb2x2ZVVybCh1cmwsIHJlc3BvbnNlLnVybCk7CiAgICAgICAgX2NoYXB0ZXJVcmxzLnB1dElmQWJzZW50KChpZCwgY2hhcHRlcklkKSwgKCkgPT4gYWJzb2x1dGVDaGFwdGVyKTsKICAgICAgICBzdG9yZS5zYXZlQm9va1JvdXRlKGlkLCBleHRyYTogeyd1cmxfJGNoYXB0ZXJJZCc6IGFic29sdXRlQ2hhcHRlcn0pOwogICAgICAgIGluZGV4Kys7CiAgICAgIH0KICAgICAgX2NoYXB0ZXJzW2lkXSA9IExpc3QudW5tb2RpZmlhYmxlKGNoYXB0ZXJzKTsKICAgICAgcmV0dXJuIGNoYXB0ZXJzOwogICAgfSBjYXRjaCAoXykgewogICAgICByZXR1cm4gY29uc3QgPE5vdmVsQ2hhcHRlcj5bXTsKICAgIH0KICB9CgogIEBvdmVycmlkZQogIEZ1dHVyZTxTdHJpbmc+IGNoYXB0ZXJDb250ZW50KGludCBub3ZlbElkLCBOb3ZlbENoYXB0ZXIgY2hhcHRlcikgYXN5bmMgewogICAgX3Jlc3RvcmUoKTsKICAgIGZpbmFsIHNvdXJjZSA9IF9ib29rU291cmNlc1tub3ZlbElkXTsKICAgIGlmIChzb3VyY2UgPT0gbnVsbCkgcmV0dXJuIGNoYXB0ZXIuY29udGVudDsKICAgIHZhciB1cmwgPSBfY2hhcHRlclVybHNbKG5vdmVsSWQsIGNoYXB0ZXIuaWQpXTsKICAgIGlmICh1cmwgPT0gbnVsbCB8fCB1cmwuaXNFbXB0eSkgewogICAgICAvLyBDb2xkIHN0YXJ0OiB0aGUgY2hhcHRlciBVUkwgbWFwIG1heSBiZSBlbXB0eSB3aGlsZSB0aGUgcm91dGUgaXMga25vd24uCiAgICAgIGF3YWl0IGNoYXB0ZXJzKG5vdmVsSWQpOwogICAgICB1cmwgPSBfY2hhcHRlclVybHNbKG5vdmVsSWQsIGNoYXB0ZXIuaWQpXTsKICAgIH0KICAgIGlmICh1cmwgPT0gbnVsbCB8fCB1cmwuaXNFbXB0eSkgcmV0dXJuIGNoYXB0ZXIuY29udGVudDsKICAgIHRyeSB7CiAgICAgIGZpbmFsIHJlc3BvbnNlID0gYXdhaXQgaHR0cC5nZXQodXJsLCBzb3VyY2VLZXk6IHNvdXJjZS5rZXkpOwogICAgICBmaW5hbCBydWxlID0gQW5hbHl6ZVJ1bGUoanM6IGpzLCB2YXJpYWJsZXM6IFJ1bGVWYXJpYWJsZXMoY29uc3QgeydrZXknOiAnJywgJ3BhZ2UnOiAxfSkpCiAgICAgICAgLi5zZXRDb250ZW50KHJlc3BvbnNlLmJvZHkpOwogICAgICB2YXIgY29udGVudCA9IHJ1bGUuZ2V0U3RyaW5nKHNvdXJjZS5ydWxlQ29udGVudC5jb250ZW50KTsKICAgICAgLy8gQ29udmVydCA8YnI+IHRvIG5ld2xpbmVzIGFuZCBzdHJpcCByZW1haW5pbmcgdGFncyBmb3IgdGhlIHJlYWRlci4KICAgICAgY29udGVudCA9IF9jbGVhbkNvbnRlbnQoY29udGVudCk7CiAgICAgIHJldHVybiBjb250ZW50OwogICAgfSBjYXRjaCAoXykgewogICAgICByZXR1cm4gY2hhcHRlci5jb250ZW50OwogICAgfQogIH0KCiAgLy8gLS0tLSBoZWxwZXJzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgogIGRvbS5Eb2N1bWVudD8gX3BhcnNlSHRtbChTdHJpbmcgaHRtbCkgewogICAgdHJ5IHsKICAgICAgcmV0dXJuIGh0bWxfcGFyc2VyLnBhcnNlKGh0bWwpOwogICAgfSBjYXRjaCAoXykgewogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICB9CgogIC8vLyBTZWxlY3QgZWxlbWVudHMgYnkgYSBDU1MvWFBhdGggbGlzdCBydWxlOyByZXR1cm5zIGluZGV4LT5vdXRlckh0bWwgc28gZWFjaAogIC8vLyBlbGVtZW50IGNhbiBiZSBhbmFseXplZCBpbmRlcGVuZGVudGx5LgogIE1hcDxpbnQsIFN0cmluZz4gX3NlbGVjdEVsZW1lbnRzKAogICAgZG9tLkRvY3VtZW50IGRvY3VtZW50LAogICAgU3RyaW5nIGxpc3RSdWxlLAogICkgewogICAgdmFyIHNlbGVjdG9yID0gbGlzdFJ1bGUudHJpbSgpOwogICAgaWYgKHNlbGVjdG9yLnN0YXJ0c1dpdGgoJ0Bjc3M6JykpIHNlbGVjdG9yID0gc2VsZWN0b3Iuc3Vic3RyaW5nKDUpOwogICAgaWYgKHNlbGVjdG9yLnN0YXJ0c1dpdGgoJ0BAJykpIHNlbGVjdG9yID0gc2VsZWN0b3Iuc3Vic3RyaW5nKDIpOwogICAgLy8gU3RyaXAgdHJhaWxpbmcgYXR0cmlidXRlIGlmIHByZXNlbnQgKGxpc3QgcnVsZSBzaG91bGQgc2VsZWN0IGVsZW1lbnRzKS4KICAgIGZpbmFsIGF0ID0gc2VsZWN0b3IubGFzdEluZGV4T2YoJ0AnKTsKICAgIGlmIChhdCA+IDApIHNlbGVjdG9yID0gc2VsZWN0b3Iuc3Vic3RyaW5nKDAsIGF0KTsKCiAgICBmaW5hbCByZXN1bHQgPSA8aW50LCBTdHJpbmc+e307CiAgICB0cnkgewogICAgICBmaW5hbCBlbGVtZW50cyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoc2VsZWN0b3IpOwogICAgICBmb3IgKHZhciBpID0gMDsgaSA8IGVsZW1lbnRzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgcmVzdWx0W2ldID0gZWxlbWVudHNbaV0ub3V0ZXJIdG1sOwogICAgICB9CiAgICB9IGNhdGNoIChfKSB7CiAgICAgIC8vIFRyeSBYUGF0aCB2aWEgdGhlIHN0YW5kYWxvbmUgZW5naW5lLgogICAgICBmaW5hbCBlbmdpbmUgPSBYUGF0aEVuZ2luZShkb2N1bWVudCk7CiAgICAgIGZpbmFsIG5vZGVzID0gZW5naW5lLnNlbGVjdChzZWxlY3Rvcik7CiAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgbm9kZXMubGVuZ3RoOyBpKyspIHsKICAgICAgICByZXN1bHRbaV0gPSBub2Rlc1tpXS50b1N0cmluZygpOwogICAgICB9CiAgICB9CiAgICByZXR1cm4gcmVzdWx0OwogIH0KCiAgc3RhdGljIFN0cmluZyBfcmVzb2x2ZVVybChTdHJpbmcgdXJsLCBTdHJpbmcgYmFzZSkgewogICAgZmluYWwgdmFsdWUgPSB1cmwudHJpbSgpOwogICAgaWYgKHZhbHVlLmlzRW1wdHkpIHJldHVybiAnJzsKICAgIGlmICh2YWx1ZS5zdGFydHNXaXRoKCdodHRwOi8vJykgfHwgdmFsdWUuc3RhcnRzV2l0aCgnaHR0cHM6Ly8nKSkgcmV0dXJuIHZhbHVlOwogICAgZmluYWwgYmFzZVVyaSA9IFVyaS50cnlQYXJzZShiYXNlKTsKICAgIGlmIChiYXNlVXJpID09IG51bGwpIHJldHVybiB2YWx1ZTsKICAgIGlmICh2YWx1ZS5zdGFydHNXaXRoKCcvLycpKSByZXR1cm4gJyR7YmFzZVVyaS5zY2hlbWV9OiR2YWx1ZSc7CiAgICBpZiAodmFsdWUuc3RhcnRzV2l0aCgnLycpKSByZXR1cm4gJyR7YmFzZVVyaS5zY2hlbWV9Oi8vJHtiYXNlVXJpLmF1dGhvcml0eX0kdmFsdWUnOwogICAgcmV0dXJuIGJhc2VVcmkucmVzb2x2ZSh2YWx1ZSkudG9TdHJpbmcoKTsKICB9CgogIHN0YXRpYyBTdHJpbmcgX25vcm1hbGl6ZUdlbnJlKFN0cmluZyByYXcpIHsKICAgIGZpbmFsIHZhbHVlID0gcmF3LnRyaW0oKTsKICAgIGlmICh2YWx1ZS5pc0VtcHR5KSByZXR1cm4gJ+iHquWumuS5ieS5pua6kCc7CiAgICByZXR1cm4gdmFsdWUucmVwbGFjZUFsbChSZWdFeHAocidccysnKSwgJyDCtyAnKTsKICB9CgogIHN0YXRpYyBTdHJpbmcgX2NsZWFuQ29udGVudChTdHJpbmcgcmF3KSB7CiAgICByZXR1cm4gcmF3CiAgICAgICAgLnJlcGxhY2VBbGwoUmVnRXhwKHInPGJyXHMqLz8+JywgY2FzZVNlbnNpdGl2ZTogZmFsc2UpLCAnXG4nKQogICAgICAgIC5yZXBsYWNlQWxsKFJlZ0V4cChyJzwvcFxzKj4nLCBjYXNlU2Vuc2l0aXZlOiBmYWxzZSksICdcblxuJykKICAgICAgICAucmVwbGFjZUFsbChSZWdFeHAocic8W14+XSs+JyksICcnKQogICAgICAgIC5yZXBsYWNlQWxsKCcmbmJzcDsnLCAnICcpCiAgICAgICAgLnJlcGxhY2VBbGwoJyZhbXA7JywgJyYnKQogICAgICAgIC5yZXBsYWNlQWxsKCcmbHQ7JywgJzwnKQogICAgICAgIC5yZXBsYWNlQWxsKCcmZ3Q7JywgJz4nKQogICAgICAgIC5yZXBsYWNlQWxsKFJlZ0V4cChyJ1xuezMsfScpLCAnXG5cbicpCiAgICAgICAgLnRyaW0oKTsKICB9CgogIHN0YXRpYyBib29sIF9wYXJzZUNvbXBsZXRlKFN0cmluZyB2YWx1ZSkgPT4KICAgICAgdmFsdWUuY29udGFpbnMoJ+WujOe7kycpIHx8IHZhbHVlLmNvbnRhaW5zKCflrozmnKwnKSB8fCB2YWx1ZSA9PSAnMSc7CgogIHN0YXRpYyBTdHJpbmcgX29yKFN0cmluZyBmaXJzdCwgU3RyaW5nIGZhbGxiYWNrKSA9PgogICAgICBmaXJzdC5pc0VtcHR5ID8gZmFsbGJhY2sgOiBmaXJzdDsKICBzdGF0aWMgU3RyaW5nPyBfbm9uTnVsbChTdHJpbmcgdmFsdWUpID0+IHZhbHVlLmlzRW1wdHkgPyBudWxsIDogdmFsdWU7Cn0K
+/// A NovelRepository backed by user-imported Legado book sources.
+///
+/// It maps scraped results into the app's source-neutral [Novel] model so that
+/// every shelf/detail/reader widget works unchanged. Books get IDs in the
+/// reserved custom range (0x50000000..), kept stable by [BookSourceStore].
+library;
+
+import 'dart:async';
+
+import 'package:flutter/material.dart' show Color;
+import 'package:html/dom.dart' as dom;
+import 'package:html/parser.dart' as html_parser;
+
+import '../catalog.dart';
+import 'analyze_rule.dart';
+import 'book_source_model.dart';
+import 'book_source_store.dart';
+import 'js_runtime.dart';
+import 'source_http.dart';
+import 'xpath_engine.dart';
+
+class CustomSourceRepository extends NovelRepository {
+  CustomSourceRepository({
+    required this.store,
+    required this.http,
+    JsRuntime? js,
+  }) : js = js ?? JsRuntime();
+
+  final BookSourceStore store;
+  final SourceHttpClient http;
+  final JsRuntime js;
+
+  final Map<int, Novel> _known = <int, Novel>{};
+  final Map<int, BookSource> _bookSources = <int, BookSource>{};
+  final Map<int, String> _bookUrls = <int, String>{};
+  final Map<int, List<NovelChapter>> _chapters = <int, List<NovelChapter>>{};
+  final Map<int, String> _tocUrls = <int, String>{};
+  final Map<String, Future<NovelPage>> _searchPages = <String, Future<NovelPage>>{};
+  final Map<(int, int), String> _chapterUrls = <(int, int), String>{};
+  bool _restored = false;
+
+  /// Restore persisted book->source routing so shelf books work after restart.
+  void _restore() {
+    if (_restored) return;
+    _restored = true;
+    store.bookRoutes.forEach((id, route) {
+      final sourceKey = route['source'];
+      final bookUrl = route['url'];
+      if (sourceKey == null || bookUrl == null) return;
+      final source = store.source(sourceKey);
+      if (source == null) return;
+      _bookSources[id] = source;
+      _bookUrls[id] = bookUrl;
+      final toc = route['toc'];
+      if (toc != null) _tocUrls[id] = toc;
+      // Chapter URLs are stored as url_1, url_2, ...
+      for (final entry in route.entries) {
+        final m = RegExp(r'^url_(\d+)$').firstMatch(entry.key);
+        if (m != null) {
+          final cid = int.tryParse(m.group(1)!);
+          if (cid != null) _chapterUrls[(id, cid)] = entry.value;
+        }
+      }
+    });
+  }
+
+  /// Expose which source a book belongs to (for the source badge in UI).
+  /// Fetch a remote subscription URL and return its raw JSON text.
+  Future<String> fetchSourceSubscription(String url) async {
+    final response = await http.get(url);
+    return response.body;
+  }
+
+  /// Test a source by issuing a search for a common term and reporting the
+  /// number of results found.
+  Future<String> testSource(BookSource source) async {
+    if (source.searchUrl.isEmpty) return '该书源未配置搜索地址';
+    try {
+      final variables = <String, dynamic>{
+        'key': '测试',
+        'keyRaw': '测试',
+        'page': 1,
+      };
+      final response = await http.get(
+        source.searchUrl,
+        variables: variables,
+        sourceKey: source.key,
+      );
+      final ruleSearch = source.ruleSearch;
+      if (ruleSearch.bookList.isEmpty) {
+        return '连接成功，但未配置书籍列表规则';
+      }
+      final document = _parseHtml(response.body);
+      if (document == null) return '连接成功，但返回内容无法解析';
+      final elements = _selectElements(document, ruleSearch.bookList);
+      return '测试成功，匹配到 ${elements.length} 个结果';
+    } catch (e) {
+      return '测试失败: $e';
+    }
+  }
+
+  BookSource? sourceOf(int novelId) {
+    _restore();
+    return _bookSources[novelId];
+  }
+
+  bool handles(int novelId) {
+    _restore();
+    return isCustomSourceBook(novelId) && _bookSources.containsKey(novelId);
+  }
+
+  static const _palettes = <List<Color>>[
+    [Color(0xFF5E87B8), Color(0xFF222C5B)],
+    [Color(0xFF66C9BC), Color(0xFF276A8F)],
+    [Color(0xFFE6A5B7), Color(0xFF8F658E)],
+    [Color(0xFFE9B277), Color(0xFFB76E6E)],
+  ];
+
+  @override
+  Future<List<Novel>> list() async {
+    // Custom sources have no global catalogue; books only appear once found
+    // via search and saved. Return what is known this session.
+    return List.unmodifiable(_known.values);
+  }
+
+  @override
+  Future<Novel?> find(int id) async {
+    _restore();
+    final known = _known[id];
+    if (known != null) return known;
+    // Cold start: rebuild a minimal Novel from the shelf's persisted snapshot.
+    final route = store.bookRoute(id);
+    if (route == null) return null;
+    final snapshot = store.readNovelSnapshot(id);
+    if (snapshot == null) return null;
+    try {
+      final novel = Novel.fromSnapshot(snapshot);
+      _known[id] = novel;
+      return novel;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  @override
+  Future<List<Novel>> search(String query) async =>
+      (await searchPage(query)).items;
+
+  @override
+  Future<NovelPage> searchPage(
+    String query, {
+    int page = 1,
+    bool refresh = false,
+  }) async {
+    final term = query.trim();
+    if (term.isEmpty) return NovelPage.fromItems(const <Novel>[], page);
+    final key = 'all:$term:$page:${refresh ? DateTime.now().millisecondsSinceEpoch : 0}';
+    if (!refresh) {
+      final pending = _searchPages[key];
+      if (pending != null) return pending;
+    }
+    final request = _doSearch(term, page);
+    _searchPages[key] = request;
+    try {
+      return await request;
+    } finally {
+      _searchPages.remove(key);
+    }
+  }
+
+  Future<NovelPage> _doSearch(String term, int page) async {
+    final books = <Novel>[];
+    final futures = <Future<List<Novel>>>[];
+    for (final source in store.enabledSources) {
+      if (!source.enabledSearch || source.searchUrl.isEmpty) continue;
+      futures.add(_searchInSource(source, term, page));
+    }
+    final results = await Future.wait(futures, eagerError: false);
+    for (final batch in results) {
+      books.addAll(batch);
+    }
+    // De-duplicate by title+author.
+    final seen = <String>{};
+    final unique = books.where((b) {
+      final k = '${b.title}|${b.author}';
+      return seen.add(k);
+    }).toList();
+    return NovelPage(items: List.unmodifiable(unique), page: page);
+  }
+
+  Future<List<Novel>> _searchInSource(BookSource source, String term, int page) async {
+    try {
+      final url = source.searchUrl;
+      final variables = <String, dynamic>{
+        'key': term,
+        'keyRaw': term,
+        'page': page,
+      };
+      final FetchResult response;
+      if (url.contains('POST:') || source.extras['searchMethod'] == 'POST') {
+        final clean = url.replaceFirst('POST:', '');
+        response = await http.post(
+          clean,
+          body: {'keyword': term, 'page': '$page'},
+          variables: variables,
+          sourceKey: source.key,
+        );
+      } else {
+        response = await http.get(url, variables: variables, sourceKey: source.key);
+      }
+
+      final ruleSearch = source.ruleSearch;
+      if (ruleSearch.bookList.isEmpty) return const <Novel>[];
+
+      // Select each book element by re-parsing the raw HTML with the list rule,
+      // then evaluate per-field rules with that element as the content root.
+      final document = _parseHtml(response.body);
+      if (document == null) return const <Novel>[];
+      final bookElements = _selectElements(document, ruleSearch.bookList);
+      final result = <Novel>[];
+      for (final element in bookElements.entries) {
+        final html = element.value;
+        final fieldRule = AnalyzeRule(js: js, variables: RuleVariables.search(term, page))
+          ..setContent(html);
+        final bookUrl = fieldRule.getString(ruleSearch.bookUrl);
+        final title = fieldRule.getString(ruleSearch.name);
+        if (title.isEmpty || bookUrl.isEmpty) continue;
+        final absoluteUrl = _resolveUrl(bookUrl, response.url);
+        final id = store.idFor(source.key, absoluteUrl);
+        _bookSources[id] = source;
+        _bookUrls[id] = absoluteUrl;
+        store.saveBookRoute(id, sourceKey: source.key, bookUrl: absoluteUrl);
+        final novel = Novel(
+          id: id,
+          title: title,
+          author: fieldRule.getString(ruleSearch.author, defaultValue: '佚名'),
+          genre: _normalizeGenre(fieldRule.getString(ruleSearch.kind)),
+          summary: fieldRule.getString(ruleSearch.intro, defaultValue: '点击查看作品介绍与目录。'),
+          colors: _palettes[id % _palettes.length],
+          coverUrl: _resolveUrl(fieldRule.getString(ruleSearch.coverUrl), response.url),
+          lastUpdate: _nonNull(fieldRule.getString(ruleSearch.lastChapter)),
+          isComplete: false,
+        );
+        _known[id] = novel;
+        result.add(novel);
+      }
+      return result;
+    } catch (_) {
+      return const <Novel>[];
+    }
+  }
+
+  @override
+  Future<Novel> detail(Novel novel) async {
+    if (!isCustomSourceBook(novel.id)) return novel;
+    _restore();
+    final source = _bookSources[novel.id];
+    final url = _bookUrls[novel.id];
+    if (source == null || url == null) return novel;
+    try {
+      final response = await http.get(url, sourceKey: source.key);
+      final rule = AnalyzeRule(js: js, variables: RuleVariables(const {'key': '', 'page': 1}))
+        ..setContent(response.body);
+      final info = source.ruleBookInfo;
+      final title = rule.getString(info.name, defaultValue: novel.title);
+      final tocUrl = rule.getString(info.tocUrl);
+      if (tocUrl.isNotEmpty) {
+        final absoluteToc = _resolveUrl(tocUrl, response.url);
+        _tocUrls[novel.id] = absoluteToc;
+        store.saveBookRoute(novel.id, tocUrl: absoluteToc);
+      }
+      final updated = Novel(
+        id: novel.id,
+        title: title,
+        author: _or(rule.getString(info.author), novel.author),
+        genre: _or(_normalizeGenre(rule.getString(info.kind)), novel.genre),
+        summary: _or(rule.getString(info.intro), novel.summary),
+        colors: novel.colors,
+        isComplete: _parseComplete(rule.getString(info.isComplete)),
+        coverUrl: _or(_resolveUrl(rule.getString(info.coverUrl), response.url), novel.coverUrl),
+        lastUpdate: _or(_nonNull(rule.getString(info.lastChapter)), novel.lastUpdate),
+        chapterCount: novel.chapterCount,
+      );
+      _known[novel.id] = updated;
+      return updated;
+    } catch (_) {
+      return novel;
+    }
+  }
+
+  @override
+  Future<List<NovelChapter>> chapters(int id) async {
+    _restore();
+    final cached = _chapters[id];
+    if (cached != null) return cached;
+    final source = _bookSources[id];
+    final bookUrl = _bookUrls[id];
+    if (source == null || bookUrl == null) return const <NovelChapter>[];
+    try {
+      final tocUrl = _tocUrls[id] ?? bookUrl;
+      final response = await http.get(tocUrl, sourceKey: source.key);
+      final rule = AnalyzeRule(js: js, variables: RuleVariables(const {'key': '', 'page': 1}))
+        ..setContent(response.body);
+      final listRule = source.ruleToc.chapterList;
+      if (listRule.isEmpty) return const <NovelChapter>[];
+      final document = _parseHtml(response.body);
+      if (document == null) return const <NovelChapter>[];
+      final elements = _selectElements(document, listRule);
+      final chapters = <NovelChapter>[];
+      var index = 0;
+      for (final entry in elements.entries) {
+        final chapterRule = AnalyzeRule(js: js, variables: RuleVariables(const {'key': '', 'page': 1}))
+          ..setContent(entry.value);
+        final title = chapterRule.getString(source.ruleToc.chapterName);
+        final url = chapterRule.getString(source.ruleToc.chapterUrl);
+        if (title.isEmpty) continue;
+        final chapterId = index + 1;
+        chapters.add(NovelChapter(
+          title,
+          '',
+          id: chapterId,
+          volumeId: 0,
+          volumeTitle: '',
+        ));
+        final absoluteChapter = _resolveUrl(url, response.url);
+        _chapterUrls.putIfAbsent((id, chapterId), () => absoluteChapter);
+        store.saveBookRoute(id, extra: {'url_$chapterId': absoluteChapter});
+        index++;
+      }
+      _chapters[id] = List.unmodifiable(chapters);
+      return chapters;
+    } catch (_) {
+      return const <NovelChapter>[];
+    }
+  }
+
+  @override
+  Future<String> chapterContent(int novelId, NovelChapter chapter) async {
+    _restore();
+    final source = _bookSources[novelId];
+    if (source == null) return chapter.content;
+    var url = _chapterUrls[(novelId, chapter.id)];
+    if (url == null || url.isEmpty) {
+      // Cold start: the chapter URL map may be empty while the route is known.
+      await chapters(novelId);
+      url = _chapterUrls[(novelId, chapter.id)];
+    }
+    if (url == null || url.isEmpty) return chapter.content;
+    try {
+      final response = await http.get(url, sourceKey: source.key);
+      final rule = AnalyzeRule(js: js, variables: RuleVariables(const {'key': '', 'page': 1}))
+        ..setContent(response.body);
+      var content = rule.getString(source.ruleContent.content);
+      // Convert <br> to newlines and strip remaining tags for the reader.
+      content = _cleanContent(content);
+      return content;
+    } catch (_) {
+      return chapter.content;
+    }
+  }
+
+  // ---- helpers -----------------------------------------------------------
+
+  dom.Document? _parseHtml(String html) {
+    try {
+      return html_parser.parse(html);
+    } catch (_) {
+      return null;
+    }
+  }
+
+  /// Select elements by a CSS/XPath list rule; returns index->outerHtml so each
+  /// element can be analyzed independently.
+  Map<int, String> _selectElements(
+    dom.Document document,
+    String listRule,
+  ) {
+    var selector = listRule.trim();
+    if (selector.startsWith('@css:')) selector = selector.substring(5);
+    if (selector.startsWith('@@')) selector = selector.substring(2);
+    // Strip trailing attribute if present (list rule should select elements).
+    final at = selector.lastIndexOf('@');
+    if (at > 0) selector = selector.substring(0, at);
+
+    final result = <int, String>{};
+    try {
+      final elements = document.querySelectorAll(selector);
+      for (var i = 0; i < elements.length; i++) {
+        result[i] = elements[i].outerHtml;
+      }
+    } catch (_) {
+      // Try XPath via the standalone engine.
+      final engine = XPathEngine(document);
+      final nodes = engine.select(selector);
+      for (var i = 0; i < nodes.length; i++) {
+        result[i] = nodes[i].toString();
+      }
+    }
+    return result;
+  }
+
+  static String _resolveUrl(String url, String base) {
+    final value = url.trim();
+    if (value.isEmpty) return '';
+    if (value.startsWith('http://') || value.startsWith('https://')) return value;
+    final baseUri = Uri.tryParse(base);
+    if (baseUri == null) return value;
+    if (value.startsWith('//')) return '${baseUri.scheme}:$value';
+    if (value.startsWith('/')) return '${baseUri.scheme}://${baseUri.authority}$value';
+    return baseUri.resolve(value).toString();
+  }
+
+  static String _normalizeGenre(String raw) {
+    final value = raw.trim();
+    if (value.isEmpty) return '自定义书源';
+    return value.replaceAll(RegExp(r'\s+'), ' · ');
+  }
+
+  static String _cleanContent(String raw) {
+    return raw
+        .replaceAll(RegExp(r'<br\s*/?>', caseSensitive: false), '\n')
+        .replaceAll(RegExp(r'</p\s*>', caseSensitive: false), '\n\n')
+        .replaceAll(RegExp(r'<[^>]+>'), '')
+        .replaceAll('&nbsp;', ' ')
+        .replaceAll('&amp;', '&')
+        .replaceAll('&lt;', '<')
+        .replaceAll('&gt;', '>')
+        .replaceAll(RegExp(r'\n{3,}'), '\n\n')
+        .trim();
+  }
+
+  static bool _parseComplete(String value) =>
+      value.contains('完结') || value.contains('完本') || value == '1';
+
+  static String _or(String first, String fallback) =>
+      first.isEmpty ? fallback : first;
+  static String? _nonNull(String value) => value.isEmpty ? null : value;
+}

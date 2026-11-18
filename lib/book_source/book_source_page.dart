@@ -1,1 +1,306 @@
-Ly8vIEJvb2sgc291cmNlIG1hbmFnZW1lbnQgcGFnZS4KbGlicmFyeTsKCmltcG9ydCAncGFja2FnZTpmbHV0dGVyL21hdGVyaWFsLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlci9zZXJ2aWNlcy5kYXJ0JzsKCmltcG9ydCAnLi4vYXBwX3VpLmRhcnQnOwppbXBvcnQgJy4uL2ZlYXR1cmVfcGFnZXMuZGFydCcgc2hvdyBBcmNoaXZlRmVhdHVyZVBhZ2UsIEZlYXR1cmVFbnRyeSwgZmVhdHVyZVBhZGRpbmc7CmltcG9ydCAnYm9va19zb3VyY2VfbW9kZWwuZGFydCc7CmltcG9ydCAnYm9va19zb3VyY2Vfc3RvcmUuZGFydCc7CmltcG9ydCAnY3VzdG9tX3NvdXJjZV9yZXBvc2l0b3J5LmRhcnQnOwoKY2xhc3MgQm9va1NvdXJjZVBhZ2UgZXh0ZW5kcyBTdGF0ZWZ1bFdpZGdldCB7CiAgY29uc3QgQm9va1NvdXJjZVBhZ2UoewogICAgc3VwZXIua2V5LAogICAgcmVxdWlyZWQgdGhpcy5zdG9yZSwKICAgIHRoaXMucmVwb3NpdG9yeSwKICB9KTsKCiAgZmluYWwgQm9va1NvdXJjZVN0b3JlIHN0b3JlOwogIGZpbmFsIEN1c3RvbVNvdXJjZVJlcG9zaXRvcnk/IHJlcG9zaXRvcnk7CgogIEBvdmVycmlkZQogIFN0YXRlPEJvb2tTb3VyY2VQYWdlPiBjcmVhdGVTdGF0ZSgpID0+IF9Cb29rU291cmNlUGFnZVN0YXRlKCk7Cn0KCmNsYXNzIF9Cb29rU291cmNlUGFnZVN0YXRlIGV4dGVuZHMgU3RhdGU8Qm9va1NvdXJjZVBhZ2U+IHsKICBMaXN0PEJvb2tTb3VyY2U+IF9zb3VyY2VzID0gY29uc3QgW107CiAgYm9vbCBfYnVzeSA9IGZhbHNlOwogIFN0cmluZyBfbWVzc2FnZSA9ICcnOwoKICBAb3ZlcnJpZGUKICB2b2lkIGluaXRTdGF0ZSgpIHsKICAgIHN1cGVyLmluaXRTdGF0ZSgpOwogICAgX3JlbG9hZCgpOwogIH0KCiAgdm9pZCBfcmVsb2FkKCkgPT4gc2V0U3RhdGUoKCkgPT4gX3NvdXJjZXMgPSB3aWRnZXQuc3RvcmUuc291cmNlcyk7CgogIEZ1dHVyZTx2b2lkPiBfaW1wb3J0RnJvbUNsaXBib2FyZCgpIGFzeW5jIHsKICAgIHNldFN0YXRlKCgpID0+IF9idXN5ID0gdHJ1ZSk7CiAgICB0cnkgewogICAgICBmaW5hbCBkYXRhID0gYXdhaXQgQ2xpcGJvYXJkLmdldERhdGEoQ2xpcGJvYXJkLmtUZXh0UGxhaW4pOwogICAgICBmaW5hbCB0ZXh0ID0gZGF0YT8udGV4dCA/PyAnJzsKICAgICAgaWYgKHRleHQudHJpbSgpLmlzRW1wdHkpIHsKICAgICAgICBfc2hvdygn5Ymq6LS05p2/5Li656m677yM6K+35YWI5aSN5Yi25Lmm5rqQIEpTT04nKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgZmluYWwgY291bnQgPSBhd2FpdCB3aWRnZXQuc3RvcmUuaW1wb3J0SnNvbih0ZXh0KTsKICAgICAgX3JlbG9hZCgpOwogICAgICBfc2hvdyhjb3VudCA+IDAgPyAn5oiQ5Yqf5a+85YWlICRjb3VudCDkuKrkuabmupAnIDogJ+acquivhuWIq+WIsOacieaViOS5pua6kO+8jOivt+ajgOafpSBKU09OIOagvOW8jycpOwogICAgfSBjYXRjaCAoZSkgewogICAgICBfc2hvdygn5a+85YWl5aSx6LSlOiAkZScpOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0U3RhdGUoKCkgPT4gX2J1c3kgPSBmYWxzZSk7CiAgICB9CiAgfQoKICBGdXR1cmU8dm9pZD4gX2ltcG9ydEZyb21VcmwoKSBhc3luYyB7CiAgICBmaW5hbCBjb250cm9sbGVyID0gVGV4dEVkaXRpbmdDb250cm9sbGVyKCk7CiAgICBmaW5hbCBvayA9IGF3YWl0IHNob3dEaWFsb2c8Ym9vbD4oCiAgICAgIGNvbnRleHQ6IGNvbnRleHQsCiAgICAgIGJ1aWxkZXI6IChjdHgpID0+IEFsZXJ0RGlhbG9nKAogICAgICAgIHRpdGxlOiBjb25zdCBUZXh0KCfku47nvZHnu5zlr7zlhaXkuabmupAnKSwKICAgICAgICBjb250ZW50OiBUZXh0RmllbGQoCiAgICAgICAgICBjb250cm9sbGVyOiBjb250cm9sbGVyLAogICAgICAgICAgYXV0b2ZvY3VzOiB0cnVlLAogICAgICAgICAgZGVjb3JhdGlvbjogY29uc3QgSW5wdXREZWNvcmF0aW9uKAogICAgICAgICAgICBoaW50VGV4dDogJ+S5pua6kOiuoumYheWcsOWdgCAo6L+U5ZueIExlZ2FkbyBKU09OKScsCiAgICAgICAgICApLAogICAgICAgICksCiAgICAgICAgYWN0aW9uczogWwogICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgb25QcmVzc2VkOiAoKSA9PiBOYXZpZ2F0b3IucG9wKGN0eCwgZmFsc2UpLAogICAgICAgICAgICBjaGlsZDogY29uc3QgVGV4dCgn5Y+W5raIJyksCiAgICAgICAgICApLAogICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgb25QcmVzc2VkOiAoKSA9PiBOYXZpZ2F0b3IucG9wKGN0eCwgdHJ1ZSksCiAgICAgICAgICAgIGNoaWxkOiBjb25zdCBUZXh0KCflr7zlhaUnKSwKICAgICAgICAgICksCiAgICAgICAgXSwKICAgICAgKSwKICAgICk7CiAgICBpZiAob2sgIT0gdHJ1ZSB8fCBjb250cm9sbGVyLnRleHQudHJpbSgpLmlzRW1wdHkpIHJldHVybjsKICAgIHNldFN0YXRlKCgpID0+IF9idXN5ID0gdHJ1ZSk7CiAgICB0cnkgewogICAgICBmaW5hbCByZXBvID0gd2lkZ2V0LnJlcG9zaXRvcnk7CiAgICAgIGlmIChyZXBvID09IG51bGwpIHsKICAgICAgICBfc2hvdygn572R57uc5a+85YWl5pqC5LiN5Y+v55SoJyk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGZpbmFsIHJlc3VsdCA9IGF3YWl0IHJlcG8uZmV0Y2hTb3VyY2VTdWJzY3JpcHRpb24oY29udHJvbGxlci50ZXh0LnRyaW0oKSk7CiAgICAgIGZpbmFsIGNvdW50ID0gYXdhaXQgd2lkZ2V0LnN0b3JlLmltcG9ydEpzb24ocmVzdWx0KTsKICAgICAgX3JlbG9hZCgpOwogICAgICBfc2hvdyhjb3VudCA+IDAgPyAn5oiQ5Yqf5a+85YWlICRjb3VudCDkuKrkuabmupAnIDogJ+iuoumYheWcsOWdgOacqui/lOWbnuacieaViOS5pua6kCcpOwogICAgfSBjYXRjaCAoZSkgewogICAgICBfc2hvdygn5a+85YWl5aSx6LSlOiAkZScpOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0U3RhdGUoKCkgPT4gX2J1c3kgPSBmYWxzZSk7CiAgICB9CiAgfQoKICB2b2lkIF9zaG93KFN0cmluZyBtZXNzYWdlKSB7CiAgICBpZiAoIW1vdW50ZWQpIHJldHVybjsKICAgIHNldFN0YXRlKCgpID0+IF9tZXNzYWdlID0gbWVzc2FnZSk7CiAgICBTY2FmZm9sZE1lc3Nlbmdlci5tYXliZU9mKGNvbnRleHQpPy5zaG93U25hY2tCYXIoCiAgICAgIFNuYWNrQmFyKGNvbnRlbnQ6IFRleHQobWVzc2FnZSksIGR1cmF0aW9uOiBjb25zdCBEdXJhdGlvbihzZWNvbmRzOiAzKSksCiAgICApOwogIH0KCiAgRnV0dXJlPHZvaWQ+IF90b2dnbGUoQm9va1NvdXJjZSBzb3VyY2UsIGJvb2wgZW5hYmxlZCkgYXN5bmMgewogICAgYXdhaXQgd2lkZ2V0LnN0b3JlLnNldEVuYWJsZWQoc291cmNlLmtleSwgZW5hYmxlZCk7CiAgICBfcmVsb2FkKCk7CiAgfQoKICBGdXR1cmU8dm9pZD4gX2RlbGV0ZShCb29rU291cmNlIHNvdXJjZSkgYXN5bmMgewogICAgZmluYWwgb2sgPSBhd2FpdCBzaG93RGlhbG9nPGJvb2w+KAogICAgICBjb250ZXh0OiBjb250ZXh0LAogICAgICBidWlsZGVyOiAoY3R4KSA9PiBBbGVydERpYWxvZygKICAgICAgICB0aXRsZTogY29uc3QgVGV4dCgn5Yig6Zmk5Lmm5rqQJyksCiAgICAgICAgY29udGVudDogVGV4dCgn56Gu5a6a5Yig6Zmk44CMJHtzb3VyY2UuYm9va1NvdXJjZU5hbWV944CN77yfJyksCiAgICAgICAgYWN0aW9uczogWwogICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgb25QcmVzc2VkOiAoKSA9PiBOYXZpZ2F0b3IucG9wKGN0eCwgZmFsc2UpLAogICAgICAgICAgICBjaGlsZDogY29uc3QgVGV4dCgn5Y+W5raIJyksCiAgICAgICAgICApLAogICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgb25QcmVzc2VkOiAoKSA9PiBOYXZpZ2F0b3IucG9wKGN0eCwgdHJ1ZSksCiAgICAgICAgICAgIGNoaWxkOiBjb25zdCBUZXh0KCfliKDpmaQnKSwKICAgICAgICAgICksCiAgICAgICAgXSwKICAgICAgKSwKICAgICk7CiAgICBpZiAob2sgIT0gdHJ1ZSkgcmV0dXJuOwogICAgYXdhaXQgd2lkZ2V0LnN0b3JlLnJlbW92ZShzb3VyY2Uua2V5KTsKICAgIF9yZWxvYWQoKTsKICB9CgogIEZ1dHVyZTx2b2lkPiBfdGVzdChCb29rU291cmNlIHNvdXJjZSkgYXN5bmMgewogICAgZmluYWwgcmVwbyA9IHdpZGdldC5yZXBvc2l0b3J5OwogICAgaWYgKHJlcG8gPT0gbnVsbCkgewogICAgICBfc2hvdygn5rWL6K+V5Yqf6IO95pqC5LiN5Y+v55SoJyk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldFN0YXRlKCgpID0+IF9idXN5ID0gdHJ1ZSk7CiAgICB0cnkgewogICAgICBmaW5hbCByZXN1bHQgPSBhd2FpdCByZXBvLnRlc3RTb3VyY2Uoc291cmNlKTsKICAgICAgX3Nob3cocmVzdWx0KTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgX3Nob3coJ+a1i+ivleWksei0pTogJGUnKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldFN0YXRlKCgpID0+IF9idXN5ID0gZmFsc2UpOwogICAgfQogIH0KCiAgQG92ZXJyaWRlCiAgV2lkZ2V0IGJ1aWxkKEJ1aWxkQ29udGV4dCBjb250ZXh0KSA9PiBBcmNoaXZlRmVhdHVyZVBhZ2UoCiAgICB0aXRsZTogJ+S5pua6kOeuoeeQhicsCiAgICBjb2RlOiAnU1JDJywKICAgIGFjdGlvbnM6IFsKICAgICAgSWNvbkJ1dHRvbigKICAgICAgICBpY29uOiBjb25zdCBJY29uKEljb25zLmxpbmspLAogICAgICAgIHRvb2x0aXA6ICfku47nvZHnu5zlr7zlhaUnLAogICAgICAgIG9uUHJlc3NlZDogX2J1c3kgPyBudWxsIDogX2ltcG9ydEZyb21VcmwsCiAgICAgICksCiAgICAgIEljb25CdXR0b24oCiAgICAgICAgaWNvbjogY29uc3QgSWNvbihJY29ucy5jb250ZW50X3Bhc3RlKSwKICAgICAgICB0b29sdGlwOiAn5LuO5Ymq6LS05p2/5a+85YWlJywKICAgICAgICBvblByZXNzZWQ6IF9idXN5ID8gbnVsbCA6IF9pbXBvcnRGcm9tQ2xpcGJvYXJkLAogICAgICApLAogICAgXSwKICAgIGNoaWxkOiBMaXN0VmlldygKICAgICAgcGFkZGluZzogZmVhdHVyZVBhZGRpbmcoY29udGV4dCksCiAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgX2J1aWxkSW50cm8oKSwKICAgICAgICBpZiAoX2J1c3kpIGNvbnN0IFBhZGRpbmcoCiAgICAgICAgICBwYWRkaW5nOiBFZGdlSW5zZXRzLmFsbCgxNiksCiAgICAgICAgICBjaGlsZDogQ2VudGVyKGNoaWxkOiBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKCkpLAogICAgICAgICksCiAgICAgICAgaWYgKF9tZXNzYWdlLmlzTm90RW1wdHkpCiAgICAgICAgICBQYWRkaW5nKAogICAgICAgICAgICBwYWRkaW5nOiBjb25zdCBFZGdlSW5zZXRzLm9ubHkoYm90dG9tOiAxMiksCiAgICAgICAgICAgIGNoaWxkOiBBcHBUZXh0KF9tZXNzYWdlLAogICAgICAgICAgICAgICAgc3R5bGU6IGNvbnN0IFRleHRTdHlsZShmb250U2l6ZTogMTIpKSwKICAgICAgICAgICksCiAgICAgICAgaWYgKF9zb3VyY2VzLmlzRW1wdHkpCiAgICAgICAgICBfYnVpbGRFbXB0eSgpCiAgICAgICAgZWxzZQogICAgICAgICAgLi4uX3NvdXJjZXMubWFwKF9idWlsZFNvdXJjZVRpbGUpLAogICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogMjQpLAogICAgICAgIF9idWlsZEZvcm1hdEhpbnQoKSwKICAgICAgXSwKICAgICksCiAgKTsKCiAgV2lkZ2V0IF9idWlsZEludHJvKCkgPT4gUGFkZGluZygKICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMub25seShib3R0b206IDE4KSwKICAgIGNoaWxkOiBBcHBUZXh0KAogICAgICAn5a+85YWlIOmYheivuy9MZWdhZG8g5qC85byP5Lmm5rqQ5ZCO77yM5Y2z5Y+v5Zyo5pCc57Si5Lit5Y+R546w572R57uc5Lmm57GN44CC5Yqg5YWl5Lmm5p625ZCO5LiO5Y6f5Lmm5p625Lmm57GN5L2/55So5a6M5YWo5LiA6Ie055qE55WM6Z2i44CCJywKICAgICAgc3R5bGU6IFRleHRTdHlsZSgKICAgICAgICBmb250U2l6ZTogMTMsCiAgICAgICAgY29sb3I6IFRoZW1lLm9mKGNvbnRleHQpLmNvbG9yU2NoZW1lLm9uU3VyZmFjZS53aXRoVmFsdWVzKGFscGhhOiAuNyksCiAgICAgICAgaGVpZ2h0OiAxLjUsCiAgICAgICksCiAgICApLAogICk7CgogIFdpZGdldCBfYnVpbGRFbXB0eSgpID0+IFBhZGRpbmcoCiAgICBwYWRkaW5nOiBjb25zdCBFZGdlSW5zZXRzLnN5bW1ldHJpYyh2ZXJ0aWNhbDogNDgpLAogICAgY2hpbGQ6IENlbnRlcigKICAgICAgY2hpbGQ6IENvbHVtbigKICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgSWNvbihJY29ucy5zb3VyY2UsIHNpemU6IDQ4LAogICAgICAgICAgICAgIGNvbG9yOiBUaGVtZS5vZihjb250ZXh0KS5jb2xvclNjaGVtZS5vblN1cmZhY2Uud2l0aFZhbHVlcyhhbHBoYTogLjMpKSwKICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogMTYpLAogICAgICAgICAgY29uc3QgQXBwVGV4dCgn6L+Y5rKh5pyJ5Lmm5rqQJyksCiAgICAgICAgICBjb25zdCBTaXplZEJveChoZWlnaHQ6IDgpLAogICAgICAgICAgQXBwVGV4dCgKICAgICAgICAgICAgJ+eCueWHu+WPs+S4iuinkuWbvuagh++8jOS7juWJqui0tOadv+aIlue9kee7nOWvvOWFpeS5pua6kCcsCiAgICAgICAgICAgIHN0eWxlOiBUZXh0U3R5bGUoCiAgICAgICAgICAgICAgZm9udFNpemU6IDEyLAogICAgICAgICAgICAgIGNvbG9yOiBUaGVtZS5vZihjb250ZXh0KS5jb2xvclNjaGVtZS5vblN1cmZhY2Uud2l0aFZhbHVlcyhhbHBoYTogLjYpLAogICAgICAgICAgICApLAogICAgICAgICAgKSwKICAgICAgICBdLAogICAgICApLAogICAgKSwKICApOwoKICBXaWRnZXQgX2J1aWxkU291cmNlVGlsZShCb29rU291cmNlIHNvdXJjZSkgPT4gQ2FyZCgKICAgIG1hcmdpbjogY29uc3QgRWRnZUluc2V0cy5vbmx5KGJvdHRvbTogMTApLAogICAgY2hpbGQ6IFBhZGRpbmcoCiAgICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMuc3ltbWV0cmljKGhvcml6b250YWw6IDEyLCB2ZXJ0aWNhbDogOCksCiAgICAgIGNoaWxkOiBDb2x1bW4oCiAgICAgICAgY3Jvc3NBeGlzQWxpZ25tZW50OiBDcm9zc0F4aXNBbGlnbm1lbnQuc3RhcnQsCiAgICAgICAgY2hpbGRyZW46IFsKICAgICAgICAgIFJvdygKICAgICAgICAgICAgY2hpbGRyZW46IFsKICAgICAgICAgICAgICBFeHBhbmRlZCgKICAgICAgICAgICAgICAgIGNoaWxkOiBDb2x1bW4oCiAgICAgICAgICAgICAgICAgIGNyb3NzQXhpc0FsaWdubWVudDogQ3Jvc3NBeGlzQWxpZ25tZW50LnN0YXJ0LAogICAgICAgICAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICAgICAgICAgIEFwcFRleHQoCiAgICAgICAgICAgICAgICAgICAgICBzb3VyY2UuYm9va1NvdXJjZU5hbWUsCiAgICAgICAgICAgICAgICAgICAgICBzdHlsZTogY29uc3QgVGV4dFN0eWxlKGZvbnRXZWlnaHQ6IEZvbnRXZWlnaHQudzYwMCksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBjb25zdCBTaXplZEJveChoZWlnaHQ6IDMpLAogICAgICAgICAgICAgICAgICAgIEFwcFRleHQoCiAgICAgICAgICAgICAgICAgICAgICBzb3VyY2UuYm9va1NvdXJjZVVybCwKICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiBUZXh0U3R5bGUoCiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxMSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IFRoZW1lLm9mKGNvbnRleHQpLmNvbG9yU2NoZW1lLm9uU3VyZmFjZS53aXRoVmFsdWVzKGFscGhhOiAuNTUpLAogICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgIG1heExpbmVzOiAxLAogICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3c6IFRleHRPdmVyZmxvdy5lbGxpcHNpcywKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICApLAogICAgICAgICAgICAgIFN3aXRjaCgKICAgICAgICAgICAgICAgIHZhbHVlOiBzb3VyY2UuZW5hYmxlZCwKICAgICAgICAgICAgICAgIG9uQ2hhbmdlZDogKHYpID0+IF90b2dnbGUoc291cmNlLCB2KSwKICAgICAgICAgICAgICApLAogICAgICAgICAgICBdLAogICAgICAgICAgKSwKICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogNiksCiAgICAgICAgICBSb3coCiAgICAgICAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgICAgICAgaWYgKHNvdXJjZS5ib29rU291cmNlR3JvdXAuaXNOb3RFbXB0eSkKICAgICAgICAgICAgICAgIFBhZGRpbmcoCiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMub25seShyaWdodDogOCksCiAgICAgICAgICAgICAgICAgIGNoaWxkOiBDaGlwKAogICAgICAgICAgICAgICAgICAgIGxhYmVsOiBBcHBUZXh0KHNvdXJjZS5ib29rU291cmNlR3JvdXAsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiBjb25zdCBUZXh0U3R5bGUoZm9udFNpemU6IDExKSksCiAgICAgICAgICAgICAgICAgICAgdmlzdWFsRGVuc2l0eTogVmlzdWFsRGVuc2l0eS5jb21wYWN0LAogICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICBjb25zdCBTcGFjZXIoKSwKICAgICAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICAgICAgb25QcmVzc2VkOiBfYnVzeSA/IG51bGwgOiAoKSA9PiBfdGVzdChzb3VyY2UpLAogICAgICAgICAgICAgICAgY2hpbGQ6IGNvbnN0IEFwcFRleHQoJ+a1i+ivlScsIHN0eWxlOiBUZXh0U3R5bGUoZm9udFNpemU6IDEyKSksCiAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICBJY29uQnV0dG9uKAogICAgICAgICAgICAgICAgaWNvbjogY29uc3QgSWNvbihJY29ucy5kZWxldGVfb3V0bGluZSwgc2l6ZTogMjApLAogICAgICAgICAgICAgICAgdG9vbHRpcDogJ+WIoOmZpCcsCiAgICAgICAgICAgICAgICBvblByZXNzZWQ6ICgpID0+IF9kZWxldGUoc291cmNlKSwKICAgICAgICAgICAgICApLAogICAgICAgICAgICBdLAogICAgICAgICAgKSwKICAgICAgICBdLAogICAgICApLAogICAgKSwKICApOwoKICBXaWRnZXQgX2J1aWxkRm9ybWF0SGludCgpID0+IFBhZGRpbmcoCiAgICBwYWRkaW5nOiBjb25zdCBFZGdlSW5zZXRzLmFsbCgxNCksCiAgICBjaGlsZDogQXBwVGV4dCgKICAgICAgJ+aUr+aMgeWNleS4quS5pua6kCBKU09O44CB5Lmm5rqQ5pWw57uE77yM5oiWIOmYheivuy9MZWdhZG8g5a+85Ye655qE5Lmm5rqQ6K6i6ZiF5paH5Lu244CC5Lmm5rqQ6KeE5YiZ5pSv5oyBIENTUyDpgInmi6nlmajjgIFYUGF0aOOAgUpTT05QYXRo44CB5q2j5YiZ5pu/5o2i5LiOIEBqczog6ISa5pys44CCJywKICAgICAgc3R5bGU6IFRleHRTdHlsZSgKICAgICAgICBmb250U2l6ZTogMTEsCiAgICAgICAgY29sb3I6IFRoZW1lLm9mKGNvbnRleHQpLmNvbG9yU2NoZW1lLm9uU3VyZmFjZS53aXRoVmFsdWVzKGFscGhhOiAuNSksCiAgICAgICAgaGVpZ2h0OiAxLjUsCiAgICAgICksCiAgICApLAogICk7Cn0K
+/// Book source management page.
+library;
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
+import '../app_ui.dart';
+import '../feature_pages.dart' show ArchiveFeaturePage, FeatureEntry, featurePadding;
+import 'book_source_model.dart';
+import 'book_source_store.dart';
+import 'custom_source_repository.dart';
+
+class BookSourcePage extends StatefulWidget {
+  const BookSourcePage({
+    super.key,
+    required this.store,
+    this.repository,
+  });
+
+  final BookSourceStore store;
+  final CustomSourceRepository? repository;
+
+  @override
+  State<BookSourcePage> createState() => _BookSourcePageState();
+}
+
+class _BookSourcePageState extends State<BookSourcePage> {
+  List<BookSource> _sources = const [];
+  bool _busy = false;
+  String _message = '';
+
+  @override
+  void initState() {
+    super.initState();
+    _reload();
+  }
+
+  void _reload() => setState(() => _sources = widget.store.sources);
+
+  Future<void> _importFromClipboard() async {
+    setState(() => _busy = true);
+    try {
+      final data = await Clipboard.getData(Clipboard.kTextPlain);
+      final text = data?.text ?? '';
+      if (text.trim().isEmpty) {
+        _show('剪贴板为空，请先复制书源 JSON');
+        return;
+      }
+      final count = await widget.store.importJson(text);
+      _reload();
+      _show(count > 0 ? '成功导入 $count 个书源' : '未识别到有效书源，请检查 JSON 格式');
+    } catch (e) {
+      _show('导入失败: $e');
+    } finally {
+      setState(() => _busy = false);
+    }
+  }
+
+  Future<void> _importFromUrl() async {
+    final controller = TextEditingController();
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('从网络导入书源'),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          decoration: const InputDecoration(
+            hintText: '书源订阅地址 (返回 Legado JSON)',
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            child: const Text('导入'),
+          ),
+        ],
+      ),
+    );
+    if (ok != true || controller.text.trim().isEmpty) return;
+    setState(() => _busy = true);
+    try {
+      final repo = widget.repository;
+      if (repo == null) {
+        _show('网络导入暂不可用');
+        return;
+      }
+      final result = await repo.fetchSourceSubscription(controller.text.trim());
+      final count = await widget.store.importJson(result);
+      _reload();
+      _show(count > 0 ? '成功导入 $count 个书源' : '订阅地址未返回有效书源');
+    } catch (e) {
+      _show('导入失败: $e');
+    } finally {
+      setState(() => _busy = false);
+    }
+  }
+
+  void _show(String message) {
+    if (!mounted) return;
+    setState(() => _message = message);
+    ScaffoldMessenger.maybeOf(context)?.showSnackBar(
+      SnackBar(content: Text(message), duration: const Duration(seconds: 3)),
+    );
+  }
+
+  Future<void> _toggle(BookSource source, bool enabled) async {
+    await widget.store.setEnabled(source.key, enabled);
+    _reload();
+  }
+
+  Future<void> _delete(BookSource source) async {
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('删除书源'),
+        content: Text('确定删除「${source.bookSourceName}」？'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            child: const Text('删除'),
+          ),
+        ],
+      ),
+    );
+    if (ok != true) return;
+    await widget.store.remove(source.key);
+    _reload();
+  }
+
+  Future<void> _test(BookSource source) async {
+    final repo = widget.repository;
+    if (repo == null) {
+      _show('测试功能暂不可用');
+      return;
+    }
+    setState(() => _busy = true);
+    try {
+      final result = await repo.testSource(source);
+      _show(result);
+    } catch (e) {
+      _show('测试失败: $e');
+    } finally {
+      setState(() => _busy = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) => ArchiveFeaturePage(
+    title: '书源管理',
+    code: 'SRC',
+    actions: [
+      IconButton(
+        icon: const Icon(Icons.link),
+        tooltip: '从网络导入',
+        onPressed: _busy ? null : _importFromUrl,
+      ),
+      IconButton(
+        icon: const Icon(Icons.content_paste),
+        tooltip: '从剪贴板导入',
+        onPressed: _busy ? null : _importFromClipboard,
+      ),
+    ],
+    child: ListView(
+      padding: featurePadding(context),
+      children: [
+        _buildIntro(),
+        if (_busy) const Padding(
+          padding: EdgeInsets.all(16),
+          child: Center(child: CircularProgressIndicator()),
+        ),
+        if (_message.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: AppText(_message,
+                style: const TextStyle(fontSize: 12)),
+          ),
+        if (_sources.isEmpty)
+          _buildEmpty()
+        else
+          ..._sources.map(_buildSourceTile),
+        const SizedBox(height: 24),
+        _buildFormatHint(),
+      ],
+    ),
+  );
+
+  Widget _buildIntro() => Padding(
+    padding: const EdgeInsets.only(bottom: 18),
+    child: AppText(
+      '导入 阅读/Legado 格式书源后，即可在搜索中发现网络书籍。加入书架后与原书架书籍使用完全一致的界面。',
+      style: TextStyle(
+        fontSize: 13,
+        color: Theme.of(context).colorScheme.onSurface.withValues(alpha: .7),
+        height: 1.5,
+      ),
+    ),
+  );
+
+  Widget _buildEmpty() => Padding(
+    padding: const EdgeInsets.symmetric(vertical: 48),
+    child: Center(
+      child: Column(
+        children: [
+          Icon(Icons.source, size: 48,
+              color: Theme.of(context).colorScheme.onSurface.withValues(alpha: .3)),
+          const SizedBox(height: 16),
+          const AppText('还没有书源'),
+          const SizedBox(height: 8),
+          AppText(
+            '点击右上角图标，从剪贴板或网络导入书源',
+            style: TextStyle(
+              fontSize: 12,
+              color: Theme.of(context).colorScheme.onSurface.withValues(alpha: .6),
+            ),
+          ),
+        ],
+      ),
+    ),
+  );
+
+  Widget _buildSourceTile(BookSource source) => Card(
+    margin: const EdgeInsets.only(bottom: 10),
+    child: Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    AppText(
+                      source.bookSourceName,
+                      style: const TextStyle(fontWeight: FontWeight.w600),
+                    ),
+                    const SizedBox(height: 3),
+                    AppText(
+                      source.bookSourceUrl,
+                      style: TextStyle(
+                        fontSize: 11,
+                        color: Theme.of(context).colorScheme.onSurface.withValues(alpha: .55),
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
+                ),
+              ),
+              Switch(
+                value: source.enabled,
+                onChanged: (v) => _toggle(source, v),
+              ),
+            ],
+          ),
+          const SizedBox(height: 6),
+          Row(
+            children: [
+              if (source.bookSourceGroup.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.only(right: 8),
+                  child: Chip(
+                    label: AppText(source.bookSourceGroup,
+                        style: const TextStyle(fontSize: 11)),
+                    visualDensity: VisualDensity.compact,
+                  ),
+                ),
+              const Spacer(),
+              TextButton(
+                onPressed: _busy ? null : () => _test(source),
+                child: const AppText('测试', style: TextStyle(fontSize: 12)),
+              ),
+              IconButton(
+                icon: const Icon(Icons.delete_outline, size: 20),
+                tooltip: '删除',
+                onPressed: () => _delete(source),
+              ),
+            ],
+          ),
+        ],
+      ),
+    ),
+  );
+
+  Widget _buildFormatHint() => Padding(
+    padding: const EdgeInsets.all(14),
+    child: AppText(
+      '支持单个书源 JSON、书源数组，或 阅读/Legado 导出的书源订阅文件。书源规则支持 CSS 选择器、XPath、JSONPath、正则替换与 @js: 脚本。',
+      style: TextStyle(
+        fontSize: 11,
+        color: Theme.of(context).colorScheme.onSurface.withValues(alpha: .5),
+        height: 1.5,
+      ),
+    ),
+  );
+}

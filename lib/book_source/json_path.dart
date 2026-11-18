@@ -63,7 +63,7 @@ class JsonPath {
           tokens.add(_Token(_TokenType.child, inner.substring(1, inner.length - 1)));
         } else {
           final idx = int.tryParse(inner);
-          if (idx != null) tokens.add(_Token(_TokenType.index, '', index: idx));
+          if (idx != null) tokens.add(_Token(_TokenType.idx, '', index: idx));
         }
       } else if (expr[i] == '*') {
         tokens.add(const _Token(_TokenType.wildcard, ''));
@@ -96,7 +96,7 @@ class JsonPath {
       case _TokenType.child:
         if (value is Map && value.containsKey(token.name)) return <dynamic>[value[token.name]];
         return const <dynamic>[];
-      case _TokenType.index:
+      case _TokenType.idx:
         if (value is List) {
           final idx = token.index!;
           final real = idx < 0 ? value.length + idx : idx;
@@ -142,7 +142,7 @@ class JsonPath {
   }
 }
 
-enum _TokenType { child, index, slice, wildcard, recursive }
+enum _TokenType { child, idx, slice, wildcard, recursive }
 
 class _Token {
   const _Token(this.type, this.name, {this.index, this.start, this.end});

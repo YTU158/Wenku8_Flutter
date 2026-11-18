@@ -77,9 +77,9 @@ class BookSourceStore {
   }
 
   Future<void> setEnabled(String key, bool enabled) async {
-    final source = source(key);
-    if (source == null) return;
-    await upsert(source.copyWith(enabled: enabled));
+    final existing = source(key);
+    if (existing == null) return;
+    await upsert(existing.copyWith(enabled: enabled));
   }
 
   /// Import a Legado export: a single object, a JSON array, or a JSON-encoded
@@ -176,8 +176,8 @@ class BookSourceStore {
 
   /// Allocate (or reuse) a stable integer ID for a source book URL.
   int idFor(String sourceKey, String bookUrl) {
-    final identities = identities;
-    for (final entry in identities.entries) {
+    final map = identities;
+    for (final entry in map.entries) {
       if (entry.value.sourceKey == sourceKey && entry.value.bookUrl == bookUrl) {
         return entry.key;
       }
@@ -187,13 +187,13 @@ class BookSourceStore {
             (customBookIdEnd - customBookIdStart);
     // Resolve collisions deterministically.
     var candidate = id;
-    while (identities.containsKey(candidate) &&
-        !(identities[candidate]!.sourceKey == sourceKey &&
-            identities[candidate]!.bookUrl == bookUrl)) {
+    while (map.containsKey(candidate) &&
+        !(map[candidate]!.sourceKey == sourceKey &&
+            map[candidate]!.bookUrl == bookUrl)) {
       candidate++;
       if (candidate >= customBookIdEnd) candidate = customBookIdStart;
     }
-    identities[candidate] = _Identity(sourceKey, bookUrl);
+    map[candidate] = _Identity(sourceKey: sourceKey, bookUrl: bookUrl);
     unawaited(_persistIdentities());
     return candidate;
   }
@@ -285,5 +285,5 @@ class _Identity {
 
 // Avoid importing dart:async just for unawaited in a hot path.
 void unawaited<T>(Future<T> future) {
-  future.catchError((Object _) {});
+  future.ignore();
 }

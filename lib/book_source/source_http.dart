@@ -167,7 +167,7 @@ class SourceHttpClient {
   static String decodeBody(List<int> bytes, String? contentType) {
     String? charset;
     if (contentType != null) {
-      final match = RegExp(r'charset\s*=\s*["\']?([\w\-]+)', caseSensitive: false)
+      final match = RegExp(r"""charset\s*=\s*["']?([\w-]+)""", caseSensitive: false)
           .firstMatch(contentType);
       if (match != null) charset = match.group(1);
     }
@@ -175,7 +175,7 @@ class SourceHttpClient {
       // Peek at the first bytes for a meta charset declaration.
       final ascii = _safeAscii(bytes.take(2048).toList());
       final meta = RegExp(
-        r'charset\s*=\s*["\']?([\w\-]+)',
+        r"""charset\s*=\s*["']?([\w-]+)""",
         caseSensitive: false,
       ).firstMatch(ascii);
       if (meta != null) charset = meta.group(1);

@@ -277,8 +277,8 @@ class CustomSourceRepository extends NovelRepository {
         summary: _or(rule.getString(info.intro), novel.summary),
         colors: novel.colors,
         isComplete: _parseComplete(rule.getString(info.isComplete)),
-        coverUrl: _or(_resolveUrl(rule.getString(info.coverUrl), response.url), novel.coverUrl),
-        lastUpdate: _or(_nonNull(rule.getString(info.lastChapter)), novel.lastUpdate),
+        coverUrl: _orNullable(_resolveUrl(rule.getString(info.coverUrl), response.url), novel.coverUrl),
+        lastUpdate: _orNullable(rule.getString(info.lastChapter), novel.lastUpdate),
         chapterCount: novel.chapterCount,
       );
       _known[novel.id] = updated;
@@ -433,6 +433,8 @@ class CustomSourceRepository extends NovelRepository {
       value.contains('完结') || value.contains('完本') || value == '1';
 
   static String _or(String first, String fallback) =>
+      first.isEmpty ? fallback : first;
+  static String? _orNullable(String first, String? fallback) =>
       first.isEmpty ? fallback : first;
   static String? _nonNull(String value) => value.isEmpty ? null : value;
 }

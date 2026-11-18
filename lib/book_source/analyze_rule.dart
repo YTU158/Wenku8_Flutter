@@ -42,7 +42,7 @@ class RuleVariables {
 class AnalyzeRule {
   AnalyzeRule({
     required this.js,
-    this.variables,
+    RuleVariables? variables,
   }) : variables = variables ?? RuleVariables(const <String, dynamic>{});
 
   final JsRuntime js;
@@ -157,8 +157,8 @@ class AnalyzeRule {
         final re = RegExp(replacePattern, multiLine: true, dotAll: false);
         values = values.map((value) {
           return firstOnly
-              ? value.replaceFirstMapped(re, (m) => _expandGroups(replacement!, m))
-              : value.replaceAllMapped(re, (m) => _expandGroups(replacement!, m));
+              ? value.replaceFirstMapped(re, (m) => _expandGroups(replacement!, m as RegExpMatch))
+              : value.replaceAllMapped(re, (m) => _expandGroups(replacement!, m as RegExpMatch));
         }).toList();
       } catch (_) {
         // Invalid regex: keep original values.
@@ -249,10 +249,11 @@ class AnalyzeRule {
     if (attr == 'innerHtml' || attr == 'innerHTML') {
       return elements.map((e) => e.innerHtml).toList();
     }
+    final wantedAttr = attr ?? '';
     return elements
         .map((e) {
           final key = e.attributes.keys.firstWhere(
-            (k) => k.toLowerCase() == attr!.toLowerCase(),
+            (k) => k.toLowerCase() == wantedAttr.toLowerCase(),
             orElse: () => '',
           );
           return key.isEmpty ? '' : (e.attributes[key] ?? '');

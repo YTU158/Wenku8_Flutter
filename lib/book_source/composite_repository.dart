@@ -5,6 +5,7 @@
 library;
 
 import '../catalog.dart';
+import '../book_search.dart';
 import 'book_source_store.dart';
 import 'custom_source_repository.dart';
 

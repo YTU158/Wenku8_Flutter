@@ -55,7 +55,7 @@ class XPathEngine {
 
   String selectString(String expression) => evaluate(expression).stringValue.trim();
 
-  List<_Step> _evalSteps(List<_Step> steps, List<dom.Node> initial) {
+  List<dom.Node> _evalSteps(List<_Step> steps, List<dom.Node> initial) {
     var current = initial;
     for (var i = 0; i < steps.length; i++) {
       final step = steps[i];

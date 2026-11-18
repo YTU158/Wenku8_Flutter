@@ -249,14 +249,19 @@ class AnalyzeRule {
     if (attr == 'innerHtml' || attr == 'innerHTML') {
       return elements.map((e) => e.innerHtml).toList();
     }
-    final wantedAttr = attr ?? '';
+    final wantedAttr = (attr ?? '').toLowerCase();
     return elements
         .map((e) {
-          final key = e.attributes.keys.firstWhere(
-            (k) => k.toLowerCase() == wantedAttr.toLowerCase(),
-            orElse: () => '',
-          );
-          return key.isEmpty ? '' : (e.attributes[key] ?? '');
+          final attrs = e.attributes;
+          String? found;
+          for (final k in attrs.keys) {
+            final keyName = k.toString();
+            if (keyName.toLowerCase() == wantedAttr) {
+              found = keyName;
+              break;
+            }
+          }
+          return found == null ? '' : (attrs[found] ?? '');
         })
         .where((s) => s.isNotEmpty)
         .toList();

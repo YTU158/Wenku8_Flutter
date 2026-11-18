@@ -88,7 +88,7 @@ class XPathEngine {
   List<dom.Node> _children(dom.Node node, _Step step) {
     final out = <dom.Node>[];
     for (final child in node.nodes) {
-      if (child is dom.Element && _nameMatches(child.localName, step.name)) {
+      if (child is dom.Element && _nameMatches(child.localName ?? '', step.name)) {
         out.add(child);
       }
     }
@@ -100,7 +100,7 @@ class XPathEngine {
     void walk(dom.Node n) {
       for (final child in n.nodes) {
         if (child is dom.Element) {
-          if (step.name == '*' || _nameMatches(child.localName, step.name)) {
+          if (step.name == '*' || _nameMatches(child.localName ?? '', step.name)) {
             out.add(child);
           }
           walk(child);
@@ -114,7 +114,7 @@ class XPathEngine {
   bool _matchesPredicates(dom.Node node, List<_Predicate> predicates) {
     for (final p in predicates) {
       switch (p.kind) {
-        case _PredicateKind.index:
+        case _PredicateKind.idx:
           if (p.index == null || p.index! < 0) return false;
           final siblings = _siblingsMatching(node, p.siblingName);
           final target = p.fromLast ? siblings.length - 1 - p.index! : p.index!;
@@ -145,7 +145,7 @@ class XPathEngine {
     final parent = node.parent;
     if (parent == null) return <dom.Node>[node];
     return parent.nodes
-        .where((n) => n is dom.Element && (name == null || _nameMatches(n.localName, name)))
+        .where((n) => n is dom.Element && (name == null || _nameMatches(n.localName ?? '', name)))
         .toList();
   }
 
@@ -156,8 +156,10 @@ class XPathEngine {
     if (node is dom.Element) {
       final direct = node.attributes[name];
       if (direct != null) return direct;
-      for (final key in node.attributes.keys) {
-        if (key.toLowerCase() == name.toLowerCase()) return node.attributes[key];
+      final attrs = node.attributes;
+      for (final key in attrs.keys) {
+        final keyName = key.toString();
+        if (keyName.toLowerCase() == name.toLowerCase()) return attrs[key];
       }
     }
     return null;
@@ -190,7 +192,7 @@ class _Step {
   final List<_Predicate> predicates;
 }
 
-enum _PredicateKind { index, attrEquals, attrContains, hasAttr, textContains }
+enum _PredicateKind { idx, attrEquals, attrContains, hasAttr, textContains }
 
 class _Predicate {
   _Predicate(this.kind, {this.index, this.name, this.value, this.fromLast = false, this.siblingName});
@@ -275,19 +277,19 @@ class _Parser {
   _Predicate _parsePredicate(String expr) {
     final lastRe = RegExp(r'^last\(\)\s*-\s*(\d+)$').firstMatch(expr);
     if (lastRe != null) {
-      return _Predicate(_PredicateKind.index,
+      return _Predicate(_PredicateKind.idx,
           index: int.tryParse(lastRe.group(1) ?? '0') ?? 0, fromLast: true);
     }
     if (expr == 'last()') {
-      return _Predicate(_PredicateKind.index, index: 0, fromLast: true);
+      return _Predicate(_PredicateKind.idx, index: 0, fromLast: true);
     }
     final indexRe = RegExp(r'^(\d+)$').firstMatch(expr);
     if (indexRe != null) {
-      return _Predicate(_PredicateKind.index,
+      return _Predicate(_PredicateKind.idx,
           index: (int.tryParse(indexRe.group(1) ?? '1') ?? 1) - 1);
     }
     final containsRe = RegExp(
-      r"contains\(\s*@([\w\-:]+)\s*,\s*['\"](.*)['\"]\s*\)",
+      r"""contains\(\s*@([\w\-:]+)\s*,\s*['"](.*)['"]\s*\)""",
       dotAll: true,
     ).firstMatch(expr);
     if (containsRe != null) {
@@ -295,14 +297,14 @@ class _Parser {
           name: containsRe.group(1), value: containsRe.group(2));
     }
     final textContainsRe = RegExp(
-      r"contains\(\s*text\(\)\s*,\s*['\"](.*)['\"]\s*\)",
+      r"""contains\(\s*text\(\)\s*,\s*['"](.*)['"]\s*\)""",
       dotAll: true,
     ).firstMatch(expr);
     if (textContainsRe != null) {
       return _Predicate(_PredicateKind.textContains, value: textContainsRe.group(1));
     }
     final eqRe = RegExp(
-      r"^@([\w\-:]+)\s*=\s*['\"](.*)['\"]$",
+      r"""^@([\w\-:]+)\s*=\s*['"](.*)['"]$""",
       dotAll: true,
     ).firstMatch(expr);
     if (eqRe != null) {
@@ -313,7 +315,7 @@ class _Parser {
     if (hasRe != null) {
       return _Predicate(_PredicateKind.hasAttr, name: hasRe.group(1));
     }
-    return _Predicate(_PredicateKind.index, index: -1);
+    return _Predicate(_PredicateKind.idx, index: -1);
   }
 
   String _readUntil(String ch) {
